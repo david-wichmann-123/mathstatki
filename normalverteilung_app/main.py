@@ -19,7 +19,7 @@ title_fontsize = 24
 # Global font size for widget text (input fields, labels, etc.)
 widget_text_size = 18
 # Global font size for LaTeX rendered text
-latex_fontsize = 15
+latex_fontsize = 12
 
 
 def latex_to_pixmap(latex_str, fontsize=10):
@@ -476,6 +476,7 @@ class CombinedPlot(QWidget):
         self.x_min = -5.0
         self.x_max = 5.0
         self.confidence_level = 95.0
+        self.sigma_known = False  # Track if sigma is known
         # Store list of estimated distributions: [(mean1, std1), (mean2, std2), ...]
         self.estimated_distributions = []
         # Store list of confidence intervals: [(mean, ci_lower, ci_upper, n, confidence_level), ...]
@@ -549,11 +550,15 @@ class CombinedPlot(QWidget):
             
             # Plot confidence intervals as horizontal bars (limit legend to max 10 entries)
             max_legend_entries = 10
+            sigma_text = "σ bekannt" if self.sigma_known else "σ unbekannt"
             for i, (mean, ci_lower, ci_upper, n, ci_level) in enumerate(self.confidence_intervals):
                 color = colors[i % len(colors)]
                 y_pos = len(self.confidence_intervals) - i - 1  # Position from top
                 # Only add label if we haven't exceeded max legend entries (1 for true mean + CIs)
-                label = f'KI #{i+1} ({ci_level:.1f}%): [{ci_lower:.3f}, {ci_upper:.3f}]' if i < max_legend_entries - 1 else None
+                if i < max_legend_entries - 1:
+                    label = f'KI #{i+1} ({ci_level:.1f}%, {sigma_text}): [{ci_lower:.3f}, {ci_upper:.3f}]'
+                else:
+                    label = None
                 # Draw horizontal line for CI
                 self.ax2.plot([ci_lower, ci_upper], [y_pos, y_pos], color=color, 
                             linewidth=3, alpha=0.7, label=label)
@@ -569,7 +574,7 @@ class CombinedPlot(QWidget):
             # Labels and title
             self.ax2.set_xlabel('x', fontsize=12)
             self.ax2.set_ylabel('Konfidenzintervall', fontsize=12)
-            self.ax2.set_title(f'Konfidenzintervalle für μ (σ unbekannt)', fontsize=14, fontweight='bold', pad=10)
+            self.ax2.set_title(f'Konfidenzintervalle für μ', fontsize=14, fontweight='bold', pad=10)
             self.ax2.grid(True, alpha=0.3, axis='x')
             if self.confidence_intervals:
                 self.ax2.legend(loc='upper right', fontsize=8)
@@ -656,19 +661,40 @@ class CombinedPlot(QWidget):
         self.confidence_level = confidence_level
         self.update_plots()
     
-    def add_confidence_interval(self, sample_mean, sample_std, n, confidence_level=None):
+    def set_sigma_known(self, sigma_known):
+        """Set whether sigma is known"""
+        self.sigma_known = sigma_known
+        self.update_plots()
+    
+    def add_confidence_interval(self, sample_mean, sample_std, n, confidence_level=None, sigma_known=None, true_sigma=None):
         """Add a confidence interval for the mean"""
         if confidence_level is None:
             confidence_level = self.confidence_level
+        if sigma_known is None:
+            sigma_known = self.sigma_known
         
-        if n > 1 and sample_std is not None:
-            # Calculate z-score for the given confidence level
-            alpha = confidence_level / 100.0
+        alpha = confidence_level / 100.0
+        
+        if sigma_known and true_sigma is not None:
+            # Use z-distribution (standard normal) when sigma is known
+            # n >= 1 is allowed when sigma is known
+            if n < 1:
+                return
             z_score = stats.norm.ppf((1 + alpha) / 2)
-            
-            # Calculate confidence interval: mean ± z * std_error
-            std_error = sample_std / np.sqrt(n)
+            std_error = true_sigma / np.sqrt(n)
             margin = z_score * std_error
+            ci_lower = sample_mean - margin
+            ci_upper = sample_mean + margin
+            self.confidence_intervals.append((sample_mean, ci_lower, ci_upper, n, confidence_level))
+            self.update_plots()
+        else:
+            # Use t-distribution when sigma is unknown
+            # n > 1 is required for t-distribution (need at least 2 samples for sample_std)
+            if n <= 1 or sample_std is None:
+                return
+            t_score = stats.t.ppf((1 + alpha) / 2, df=n-1)
+            std_error = sample_std / np.sqrt(n)
+            margin = t_score * std_error
             ci_lower = sample_mean - margin
             ci_upper = sample_mean + margin
             self.confidence_intervals.append((sample_mean, ci_lower, ci_upper, n, confidence_level))
@@ -819,6 +845,9 @@ def create_sigma_icon():
 
 def save_icon_to_file(icon_path="app_icon.ico"):
     """Save the icon as .ico file for use with PyInstaller"""
+    # Create QApplication first (required for QPixmap)
+    app = QApplication(sys.argv)
+    
     icon = create_sigma_icon()
     # Create multiple sizes for .ico file (Windows requires multiple sizes)
     sizes = [16, 32, 48, 64, 128, 256]
@@ -829,16 +858,17 @@ def save_icon_to_file(icon_path="app_icon.ico"):
         pixmaps.append(pixmap)
     
     # Save as PNG (PyInstaller can use PNG as icon)
-    pixmaps[-1].save(icon_path.replace('.ico', '.png'), 'PNG')
-    print(f"Icon saved to {icon_path.replace('.ico', '.png')}")
-    print(f"To use with PyInstaller, run: pyinstaller --icon={icon_path.replace('.ico', '.png')} --onefile --windowed main.py")
+    output_path = icon_path.replace('.ico', '.png')
+    pixmaps[-1].save(output_path, 'PNG')
+    print(f"Icon saved to {output_path}")
+    print(f"To use with PyInstaller, run: pyinstaller --icon={output_path} --onefile --windowed main.py")
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Statistik Rechner")
-        self.setGeometry(100, 100, 1400, 800)
+        self.setGeometry(0, 0, 2320, 1080)
         # Set window icon with Sigma symbol
         icon = create_sigma_icon()
         self.setWindowIcon(icon)
@@ -884,11 +914,13 @@ class MainWindow(QMainWindow):
         # LEFT COLUMN: Controls
         left_column = QWidget()
         left_layout = QVBoxLayout()
+        left_layout.setSpacing(5)  # Reduce spacing between sections
         left_column.setLayout(left_layout)
         
         # Section 1: Parameters of True distribution
         params_section = QWidget()
         params_layout = QVBoxLayout()
+        params_layout.setContentsMargins(0, 0, 0, 0)  # Remove margins
         params_section.setLayout(params_layout)
         
         params_label = QLabel("Parameter der wahren Verteilung")
@@ -932,6 +964,7 @@ class MainWindow(QMainWindow):
         # Section 2: Draw samples
         draw_samples_section = QWidget()
         draw_samples_layout = QVBoxLayout()
+        draw_samples_layout.setContentsMargins(0, 0, 0, 0)  # Remove margins
         draw_samples_section.setLayout(draw_samples_layout)
         
         draw_samples_label = QLabel("Stichproben")
@@ -977,7 +1010,7 @@ class MainWindow(QMainWindow):
         self.sample_std_label = QLabel()
         self.sample_std_label.setStyleSheet("padding: 5px;")
         # Initialize with placeholder
-        self.update_statistics_labels(0.0, 0.0)
+        self.update_statistics_labels(0.0, 0.0, 1)
         
         stats_layout.addWidget(self.sample_mean_label)
         stats_layout.addWidget(self.sample_std_label)
@@ -1008,12 +1041,19 @@ class MainWindow(QMainWindow):
         ci_label.setStyleSheet(f"font-weight: bold; font-size: {title_fontsize}px; padding: 5px;")
         ci_layout.addWidget(ci_label)
         
+        # Checkbox for sigma known
+        self.sigma_known_checkbox = QCheckBox("σ bekannt")
+        self.sigma_known_checkbox.setChecked(False)
+        self.sigma_known_checkbox.setStyleSheet(f"font-size: {widget_text_size}px;")
+        self.sigma_known_checkbox.stateChanged.connect(self.on_sigma_known_changed)
+        ci_layout.addWidget(self.sigma_known_checkbox)
+        
         # Confidence level input
         ci_input_widget = QWidget()
         ci_input_layout = QHBoxLayout()
         ci_input_widget.setLayout(ci_input_layout)
         
-        ci_level_label = QLabel("Konfidenzniveau (%):")
+        ci_level_label = QLabel("Konfidenzniveau γ (%):")
         ci_level_label.setStyleSheet(f"font-size: {widget_text_size}px;")
         self.confidence_level_spinbox = QDoubleSpinBox()
         self.confidence_level_spinbox.setRange(0.1, 99.9)
@@ -1036,7 +1076,7 @@ class MainWindow(QMainWindow):
         plot_layout = QVBoxLayout()
         plot_section.setLayout(plot_layout)
         
-        plot_label = QLabel("Abbildunge")
+        plot_label = QLabel("Abbildungen")
         plot_label.setStyleSheet(f"font-weight: bold; font-size: {title_fontsize}px; padding: 5px;")
         plot_layout.addWidget(plot_label)
         
@@ -1538,6 +1578,11 @@ class MainWindow(QMainWindow):
         confidence_level = self.confidence_level_spinbox.value()
         self.plot_widget.set_confidence_level(confidence_level)
     
+    def on_sigma_known_changed(self, state):
+        """Handle sigma known checkbox changes"""
+        sigma_known = (state == Qt.Checked)
+        self.plot_widget.set_sigma_known(sigma_known)
+    
     def draw_samples(self):
         """Draw samples from the normal distribution and display in table"""
         n = self.n_samples_spinbox.value()
@@ -1574,7 +1619,7 @@ class MainWindow(QMainWindow):
         self.samples_table.resizeColumnsToContents()
         
         # Update sample statistics labels
-        self.update_statistics_labels(sample_mean, sample_std)
+        self.update_statistics_labels(sample_mean, sample_std, n)
     
     def plot_estimated_distribution(self):
         """Plot the estimated normal distribution using current sample statistics"""
@@ -1594,13 +1639,18 @@ class MainWindow(QMainWindow):
         if self.auto_draw_checkbox.isChecked():
             self.draw_samples()
         
-        if self.current_sample_mean is not None and self.current_sample_std is not None and self.current_n_samples is not None:
+        if self.current_sample_mean is not None and self.current_n_samples is not None:
             confidence_level = self.confidence_level_spinbox.value()
+            sigma_known = self.sigma_known_checkbox.isChecked()
+            true_sigma = self.std_spinbox.value() if sigma_known else None
+            
             self.plot_widget.add_confidence_interval(
                 self.current_sample_mean,
                 self.current_sample_std,
                 self.current_n_samples,
-                confidence_level
+                confidence_level,
+                sigma_known,
+                true_sigma
             )
     
     def clear_estimated_distributions(self):
@@ -1608,11 +1658,16 @@ class MainWindow(QMainWindow):
         self.plot_widget.clear_estimated_distributions()
         self.plot_widget.clear_confidence_intervals()
     
-    def update_statistics_labels(self, sample_mean, sample_std):
+    def update_statistics_labels(self, sample_mean, sample_std, n=1):
         """Update the statistics labels with LaTeX rendering"""
         # Create LaTeX strings with formulas and values
         mean_latex = r"$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i = $" + f"{sample_mean:.6f}"
-        std_latex = r"$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2} = $" + f"{sample_std:.6f}"
+        
+        # For standard deviation: show "-" if n=1 (not defined)
+        if n <= 1:
+            std_latex = r"$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2} = $ -"
+        else:
+            std_latex = r"$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2} = $" + f"{sample_std:.6f}"
         
         # Render and set pixmaps
         mean_pixmap = latex_to_pixmap(mean_latex, fontsize=latex_fontsize)
