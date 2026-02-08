@@ -1019,7 +1019,7 @@ class MainWindow(QMainWindow):
         # Create table
         self.samples_table = QTableWidget()
         self.samples_table.setRowCount(2)
-        self.samples_table.setVerticalHeaderLabels(["Stichprobe", "Wert"])
+        self.samples_table.setVerticalHeaderLabels(["Beobachtung", "Wert"])
         self.samples_table.setAlternatingRowColors(True)
         self.samples_table.horizontalHeader().setVisible(False)
         self.samples_table.verticalHeader().setDefaultSectionSize(30)
