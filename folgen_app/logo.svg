@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Folgen und Reihen">
+  <rect width="512" height="512" rx="96" fill="#002C5C"/>
+  <g fill="#ffffff">
+    <circle cx="112" cy="360" r="28"/>
+    <circle cx="192" cy="312" r="28"/>
+    <circle cx="272" cy="264" r="28"/>
+    <circle cx="352" cy="216" r="28"/>
+    <circle cx="432" cy="168" r="28"/>
+  </g>
+  <path
+    d="M 96 392 L 448 128"
+    stroke="#5B9BD5"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-dasharray="4 18"
+    fill="none"
+    opacity="0.55"
+  />
+  <text
+    x="256"
+    y="448"
+    text-anchor="middle"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="88"
+    font-weight="700"
+    fill="#ffffff"
+  >n</text>
+</svg>
