@@ -175,26 +175,14 @@ with st.sidebar:
             white-space: normal !important;
             line-height: 1.3 !important;
         }
-        section[data-testid="stSidebar"] [data-testid="stSidebarUserContent"] {
-            padding-bottom: 8.5rem !important;
-        }
         section[data-testid="stSidebar"] .grundlagen-sidebar-footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            z-index: 999;
             box-sizing: border-box;
-            width: var(--sidebar-width, 21rem);
-            max-width: 100%;
-            padding: 0.75rem 1rem 1rem;
-            background: #f0f2f6 !important;
-            background-color: #f0f2f6 !important;
+            width: 100%;
+            margin-top: 1.25rem;
+            padding: 0.85rem 0 0.5rem;
             border-top: 1px solid rgba(49, 51, 63, 0.12);
-            box-shadow: 0 -0.35rem 0.75rem rgba(49, 51, 63, 0.06);
         }
         [data-theme="dark"] section[data-testid="stSidebar"] .grundlagen-sidebar-footer {
-            background: #262730 !important;
-            background-color: #262730 !important;
             border-top-color: rgba(250, 250, 250, 0.12);
         }
         [data-testid="column"]:has(div[data-testid="stNumberInput"]) {
@@ -234,6 +222,7 @@ with st.sidebar:
     filtered = filter_tasks(all_tasks, st.session_state.selected_topic)
     st.caption(f"{len(filtered)} Aufgabe(n) in dieser Auswahl.")
 
+    st.markdown("<div style='height:0.75rem;'></div>", unsafe_allow_html=True)
     st.markdown(
         '<div class="grundlagen-sidebar-footer">'
         '<p style="color:#002C5C;font-weight:600;font-size:0.95rem;line-height:1.45;text-align:left;margin:0;">'
