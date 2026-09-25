@@ -117,9 +117,9 @@ Zuerst die Definition `\log_b(x)=e \Leftrightarrow b^e=x` nennen, dann die passe
 ## Prozent, Dreisatz, Gleichungen, Ungleichungen
 
 - Prozent: „von Hundert“ erklären, dann `\frac{p}{100}` mal Grundwert. Die Aufgaben verwenden ganzzahlige Prozentwerte.  
-- Dreisatz: exakten Einheitspreis bestimmen, dann skalieren (Euro/kg); keine versteckte Zwischenrundung.  
-- Lineare Gleichung: zuerst den konstanten Term entfernen, anschließend die sichtbare Division zum Isolieren von `x`; Exponentialgleichung: gleiche Basis herstellen, Exponenten vergleichen und gegebenenfalls dividieren.  
-- Ungleichung: jeden Umformungsschritt nennen; exakte Brüche statt langer Dezimalzahlen. Beim Teilen durch die hier positive Zahl ausdrücklich erklären, warum das Zeichen gleich bleibt.
+- Dreisatz: konkrete Situationen mit benannter Sache (nicht nur „kg kosten Euro“). Proportional: zuerst die Größe für 1 Einheit, dann hochrechnen. Umgekehrt: Gesamtarbeit bleibt gleich, dann auf die neue Anzahl verteilen. Euro-Beträge im Aufgabentext als normaler Text, keine versteckte Rundung.  
+- Lineare Gleichung: zuerst den konstanten Term entfernen, anschließend die sichtbare Division zum Isolieren von `x`. Exponentialgleichung: gleiche Basis herstellen, Exponenten vergleichen und gegebenenfalls dividieren. Wurzelgleichung: Wurzel isolieren, beide Seiten quadrieren und das Ergebnis in der Ausgangsgleichung prüfen.  
+- Ungleichung: etwa die Hälfte mit positivem Koeffizienten vor `x` (Zeichen bleibt beim Teilen gleich), die andere Hälfte mit negativem Koeffizienten wie `-7x` (Zeichen dreht sich um). Das jeweils ausdrücklich begründen. Zuerst konstante Terme beseitigen. Exakte Brüche statt langer Dezimalzahlen.
 
 ---
 

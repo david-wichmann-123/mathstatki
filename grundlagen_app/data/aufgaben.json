@@ -4683,391 +4683,509 @@
     {
       "id": "aufg0361",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(26,00\\ \\text{Euro}\\). Wie viel kosten \\(11\\) kg?",
+      "aufgabe": "Für 4 Stunden Nachhilfe werden 56,00 Euro bezahlt. Wie viel Geld sind es für 3 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[26,00:8=3,25\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(11\\) kg berechnen:",
-        "\\[11\\cdot 3,25=35,75\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Lohn ist proportional zur Arbeitszeit.",
+        "Zuerst die Größe für 1 Stunde bestimmen:",
+        "\\[56{,}00:4=14{,}00\\ \\text{Euro}\\]",
+        "Der Stundenlohn beträgt 14,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[3\\cdot 14{,}00=42{,}00\\ \\text{Euro}\\]",
+        "Für 3 Stunden sind es 42,00 Euro."
       ],
-      "loesung_kurz": "\\[35,75\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[42{,}00\\ \\text{Euro}\\]",
       "nummer": 361
     },
     {
       "id": "aufg0362",
       "topic_id": "dreisatz",
-      "aufgabe": "4 kg kosten \\(9,00\\ \\text{Euro}\\). Wie viel kosten \\(9\\) kg?",
+      "aufgabe": "2 Kinokarten kosten zusammen 24,00 Euro. Wie viel kosten 8 Kinokarten zum selben Stückpreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[9,00:4=2,25\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(9\\) kg berechnen:",
-        "\\[9\\cdot 2,25=20,25\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Jede der Kinokarten hat denselben Preis.",
+        "Zuerst die Größe für 1 Kinokarte bestimmen:",
+        "\\[24{,}00:2=12{,}00\\ \\text{Euro}\\]",
+        "Eine Karte kostet also 12,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 12{,}00=96{,}00\\ \\text{Euro}\\]",
+        "8 Kinokarten kosten 96,00 Euro."
       ],
-      "loesung_kurz": "\\[20,25\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[96{,}00\\ \\text{Euro}\\]",
       "nummer": 362
     },
     {
       "id": "aufg0363",
       "topic_id": "dreisatz",
-      "aufgabe": "7 kg kosten \\(10,50\\ \\text{Euro}\\). Wie viel kosten \\(12\\) kg?",
+      "aufgabe": "Auf dem Wochenmarkt kosten 3 kg Äpfel 4,50 Euro. Wie viel kosten 8 kg Äpfel zum selben Kilopreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[10,50:7=1,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(12\\) kg berechnen:",
-        "\\[12\\cdot 1,50=18,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Hier ist der Preis proportional zur Menge Äpfel.",
+        "Zuerst die Größe für 1 kg Äpfel bestimmen:",
+        "\\[4{,}50:3=1{,}50\\ \\text{Euro}\\]",
+        "1 kg Äpfel kostet also 1,50 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 1{,}50=12{,}00\\ \\text{Euro}\\]",
+        "8 kg Äpfel kosten 12,00 Euro."
       ],
-      "loesung_kurz": "\\[18,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[12{,}00\\ \\text{Euro}\\]",
       "nummer": 363
     },
     {
       "id": "aufg0364",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(14,00\\ \\text{Euro}\\). Wie viel kosten \\(13\\) kg?",
+      "aufgabe": "Für 3 Stunden Korrektur von Übungsblättern werden 60,00 Euro bezahlt. Wie viel Geld sind es für 8 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[14,00:8=1,75\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(13\\) kg berechnen:",
-        "\\[13\\cdot 1,75=22,75\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Lohn ist proportional zur Arbeitszeit.",
+        "Zuerst die Größe für 1 Stunde bestimmen:",
+        "\\[60{,}00:3=20{,}00\\ \\text{Euro}\\]",
+        "Der Stundenlohn beträgt 20,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 20{,}00=160{,}00\\ \\text{Euro}\\]",
+        "Für 8 Stunden sind es 160,00 Euro."
       ],
-      "loesung_kurz": "\\[22,75\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[160{,}00\\ \\text{Euro}\\]",
       "nummer": 364
     },
     {
       "id": "aufg0365",
       "topic_id": "dreisatz",
-      "aufgabe": "7 kg kosten \\(12,25\\ \\text{Euro}\\). Wie viel kosten \\(9\\) kg?",
+      "aufgabe": "Für 2 Portionen Kakao braucht man 240 ml Milch. Wie viel Milch braucht man für 4 Portionen?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[12,25:7=1,75\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(9\\) kg berechnen:",
-        "\\[9\\cdot 1,75=15,75\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Die Zutatmenge ist proportional zur Portionszahl.",
+        "Zuerst die Größe für 1 Portion bestimmen:",
+        "\\[240:2=120\\ \\text{ml}\\]",
+        "Für 1 Portion braucht man 120 ml Milch.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[4\\cdot 120=480\\ \\text{ml}\\]",
+        "Für 4 Portionen braucht man 480 ml Milch."
       ],
-      "loesung_kurz": "\\[15,75\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[480\\ \\text{ml}\\]",
       "nummer": 365
     },
     {
       "id": "aufg0366",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(28,00\\ \\text{Euro}\\). Wie viel kosten \\(14\\) kg?",
+      "aufgabe": "Auf einer Landkarte entsprechen 4 cm einer Strecke von 16 km. Welcher Strecke entsprechen 3 cm im selben Maßstab?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[28,00:8=3,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(14\\) kg berechnen:",
-        "\\[14\\cdot 3,50=49,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Im festen Maßstab ist die wirkliche Strecke proportional zur Kartenlänge.",
+        "Zuerst die Größe für 1 cm auf der Karte bestimmen:",
+        "\\[16:4=4\\ \\text{km}\\]",
+        "1 cm auf der Karte entspricht 4 km.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[3\\cdot 4=12\\ \\text{km}\\]",
+        "3 cm entsprechen 12 km."
       ],
-      "loesung_kurz": "\\[49,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[12\\ \\text{km}\\]",
       "nummer": 366
     },
     {
       "id": "aufg0367",
       "topic_id": "dreisatz",
-      "aufgabe": "7 kg kosten \\(17,50\\ \\text{Euro}\\). Wie viel kosten \\(14\\) kg?",
+      "aufgabe": "Für 2 Portionen Kakao braucht man 80 ml Milch. Wie viel Milch braucht man für 8 Portionen?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[17,50:7=2,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(14\\) kg berechnen:",
-        "\\[14\\cdot 2,50=35,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Die Zutatmenge ist proportional zur Portionszahl.",
+        "Zuerst die Größe für 1 Portion bestimmen:",
+        "\\[80:2=40\\ \\text{ml}\\]",
+        "Für 1 Portion braucht man 40 ml Milch.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 40=320\\ \\text{ml}\\]",
+        "Für 8 Portionen braucht man 320 ml Milch."
       ],
-      "loesung_kurz": "\\[35,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[320\\ \\text{ml}\\]",
       "nummer": 367
     },
     {
       "id": "aufg0368",
       "topic_id": "dreisatz",
-      "aufgabe": "7 kg kosten \\(8,40\\ \\text{Euro}\\). Wie viel kosten \\(14\\) kg?",
+      "aufgabe": "4 Museumstickets kosten zusammen 26,00 Euro. Wie viel kosten 8 Museumstickets zum selben Stückpreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[8,40:7=1,20\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(14\\) kg berechnen:",
-        "\\[14\\cdot 1,20=16,80\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Jede der Museumstickets hat denselben Preis.",
+        "Zuerst die Größe für 1 Stück bestimmen:",
+        "\\[26{,}00:4=6{,}50\\ \\text{Euro}\\]",
+        "Eine Karte kostet also 6,50 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 6{,}50=52{,}00\\ \\text{Euro}\\]",
+        "8 Museumstickets kosten 52,00 Euro."
       ],
-      "loesung_kurz": "\\[16,80\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[52{,}00\\ \\text{Euro}\\]",
       "nummer": 368
     },
     {
       "id": "aufg0369",
       "topic_id": "dreisatz",
-      "aufgabe": "3 kg kosten \\(4,50\\ \\text{Euro}\\). Wie viel kosten \\(4\\) kg?",
+      "aufgabe": "Für 2 Stunden Aushilfe im Labor werden 36,00 Euro bezahlt. Wie viel Geld sind es für 7 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[4,50:3=1,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(4\\) kg berechnen:",
-        "\\[4\\cdot 1,50=6,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Lohn ist proportional zur Arbeitszeit.",
+        "Zuerst die Größe für 1 Stunde bestimmen:",
+        "\\[36{,}00:2=18{,}00\\ \\text{Euro}\\]",
+        "Der Stundenlohn beträgt 18,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[7\\cdot 18{,}00=126{,}00\\ \\text{Euro}\\]",
+        "Für 7 Stunden sind es 126,00 Euro."
       ],
-      "loesung_kurz": "\\[6,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[126{,}00\\ \\text{Euro}\\]",
       "nummer": 369
     },
     {
       "id": "aufg0370",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(28,00\\ \\text{Euro}\\). Wie viel kosten \\(11\\) kg?",
+      "aufgabe": "Für 4 Regalbretter braucht man 200 ml Holzlasur. Wie viel Holzlasur braucht man für 2 Regalbretter?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[28,00:8=3,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(11\\) kg berechnen:",
-        "\\[11\\cdot 3,50=38,50\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Verbrauch an Holzlasur ist proportional zur Anzahl.",
+        "Zuerst die Größe für 1 Regalbrett bestimmen:",
+        "\\[200:4=50\\ \\text{ml}\\]",
+        "Für 1 Regalbrett braucht man 50 ml Holzlasur.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[2\\cdot 50=100\\ \\text{ml}\\]",
+        "Für 2 Regalbretter braucht man 100 ml Holzlasur."
       ],
-      "loesung_kurz": "\\[38,50\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[100\\ \\text{ml}\\]",
       "nummer": 370
     },
     {
       "id": "aufg0371",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(16,00\\ \\text{Euro}\\). Wie viel kosten \\(15\\) kg?",
+      "aufgabe": "Auf dem Wochenmarkt kosten 4 kg Bio-Kartoffeln 4,80 Euro. Wie viel kosten 3 kg Bio-Kartoffeln zum selben Kilopreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[16,00:8=2,00\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(15\\) kg berechnen:",
-        "\\[15\\cdot 2,00=30,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Hier ist der Preis proportional zur Menge Bio-Kartoffeln.",
+        "Zuerst die Größe für 1 kg Bio-Kartoffeln bestimmen:",
+        "\\[4{,}80:4=1{,}20\\ \\text{Euro}\\]",
+        "1 kg Bio-Kartoffeln kostet also 1,20 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[3\\cdot 1{,}20=3{,}60\\ \\text{Euro}\\]",
+        "3 kg Bio-Kartoffeln kosten 3,60 Euro."
       ],
-      "loesung_kurz": "\\[30,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[3{,}60\\ \\text{Euro}\\]",
       "nummer": 371
     },
     {
       "id": "aufg0372",
       "topic_id": "dreisatz",
-      "aufgabe": "7 kg kosten \\(19,25\\ \\text{Euro}\\). Wie viel kosten \\(12\\) kg?",
+      "aufgabe": "Für 4 Beete braucht man 20 Liter Mulch. Wie viel Mulch braucht man für 6 Beete?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[19,25:7=2,75\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(12\\) kg berechnen:",
-        "\\[12\\cdot 2,75=33,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Verbrauch an Mulch ist proportional zur Anzahl.",
+        "Zuerst die Größe für 1 Beet bestimmen:",
+        "\\[20:4=5\\ \\text{Liter}\\]",
+        "Für 1 Beet braucht man 5 Liter Mulch.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[6\\cdot 5=30\\ \\text{Liter}\\]",
+        "Für 6 Beete braucht man 30 Liter Mulch."
       ],
-      "loesung_kurz": "\\[33,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[30\\ \\text{Liter}\\]",
       "nummer": 372
     },
     {
       "id": "aufg0373",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(9,60\\ \\text{Euro}\\). Wie viel kosten \\(12\\) kg?",
+      "aufgabe": "3 Museumstickets kosten zusammen 45,00 Euro. Wie viel kosten 6 Museumstickets zum selben Stückpreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[9,60:8=1,20\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(12\\) kg berechnen:",
-        "\\[12\\cdot 1,20=14,40\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Jede der Museumstickets hat denselben Preis.",
+        "Zuerst die Größe für 1 Stück bestimmen:",
+        "\\[45{,}00:3=15{,}00\\ \\text{Euro}\\]",
+        "Eine Karte kostet also 15,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[6\\cdot 15{,}00=90{,}00\\ \\text{Euro}\\]",
+        "6 Museumstickets kosten 90,00 Euro."
       ],
-      "loesung_kurz": "\\[14,40\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[90{,}00\\ \\text{Euro}\\]",
       "nummer": 373
     },
     {
       "id": "aufg0374",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(18,00\\ \\text{Euro}\\). Wie viel kosten \\(12\\) kg?",
+      "aufgabe": "Auf einer Landkarte entsprechen 2 cm einer Strecke von 6 km. Welcher Strecke entsprechen 10 cm im selben Maßstab?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[18,00:8=2,25\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(12\\) kg berechnen:",
-        "\\[12\\cdot 2,25=27,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Im festen Maßstab ist die wirkliche Strecke proportional zur Kartenlänge.",
+        "Zuerst die Größe für 1 cm auf der Karte bestimmen:",
+        "\\[6:2=3\\ \\text{km}\\]",
+        "1 cm auf der Karte entspricht 3 km.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[10\\cdot 3=30\\ \\text{km}\\]",
+        "10 cm entsprechen 30 km."
       ],
-      "loesung_kurz": "\\[27,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[30\\ \\text{km}\\]",
       "nummer": 374
     },
     {
       "id": "aufg0375",
       "topic_id": "dreisatz",
-      "aufgabe": "4 kg kosten \\(11,00\\ \\text{Euro}\\). Wie viel kosten \\(7\\) kg?",
+      "aufgabe": "Auf einer Landkarte entsprechen 3 cm einer Strecke von 15 km. Welcher Strecke entsprechen 8 cm im selben Maßstab?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[11,00:4=2,75\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(7\\) kg berechnen:",
-        "\\[7\\cdot 2,75=19,25\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Im festen Maßstab ist die wirkliche Strecke proportional zur Kartenlänge.",
+        "Zuerst die Größe für 1 cm auf der Karte bestimmen:",
+        "\\[15:3=5\\ \\text{km}\\]",
+        "1 cm auf der Karte entspricht 5 km.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 5=40\\ \\text{km}\\]",
+        "8 cm entsprechen 40 km."
       ],
-      "loesung_kurz": "\\[19,25\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[40\\ \\text{km}\\]",
       "nummer": 375
     },
     {
       "id": "aufg0376",
       "topic_id": "dreisatz",
-      "aufgabe": "6 kg kosten \\(9,00\\ \\text{Euro}\\). Wie viel kosten \\(12\\) kg?",
+      "aufgabe": "Für 4 Portionen Tomatensoße braucht man 480 g passierte Tomaten. Wie viel passierte Tomaten braucht man für 2 Portionen?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[9,00:6=1,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(12\\) kg berechnen:",
-        "\\[12\\cdot 1,50=18,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Die Zutatmenge ist proportional zur Portionszahl.",
+        "Zuerst die Größe für 1 Portion bestimmen:",
+        "\\[480:4=120\\ \\text{g}\\]",
+        "Für 1 Portion braucht man 120 g passierte Tomaten.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[2\\cdot 120=240\\ \\text{g}\\]",
+        "Für 2 Portionen braucht man 240 g passierte Tomaten."
       ],
-      "loesung_kurz": "\\[18,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[240\\ \\text{g}\\]",
       "nummer": 376
     },
     {
       "id": "aufg0377",
       "topic_id": "dreisatz",
-      "aufgabe": "3 kg kosten \\(5,25\\ \\text{Euro}\\). Wie viel kosten \\(7\\) kg?",
+      "aufgabe": "Für 4 Portionen Pfannkuchen braucht man 300 g Mehl. Wie viel Mehl braucht man für 5 Portionen?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[5,25:3=1,75\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(7\\) kg berechnen:",
-        "\\[7\\cdot 1,75=12,25\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Die Zutatmenge ist proportional zur Portionszahl.",
+        "Zuerst die Größe für 1 Portion bestimmen:",
+        "\\[300:4=75\\ \\text{g}\\]",
+        "Für 1 Portion braucht man 75 g Mehl.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[5\\cdot 75=375\\ \\text{g}\\]",
+        "Für 5 Portionen braucht man 375 g Mehl."
       ],
-      "loesung_kurz": "\\[12,25\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[375\\ \\text{g}\\]",
       "nummer": 377
     },
     {
       "id": "aufg0378",
       "topic_id": "dreisatz",
-      "aufgabe": "6 kg kosten \\(18,00\\ \\text{Euro}\\). Wie viel kosten \\(10\\) kg?",
+      "aufgabe": "4 Schwimmbadkarten kosten zusammen 30,00 Euro. Wie viel kosten 8 Schwimmbadkarten zum selben Stückpreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[18,00:6=3,00\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(10\\) kg berechnen:",
-        "\\[10\\cdot 3,00=30,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Jede der Schwimmbadkarten hat denselben Preis.",
+        "Zuerst die Größe für 1 Schwimmbadkarte bestimmen:",
+        "\\[30{,}00:4=7{,}50\\ \\text{Euro}\\]",
+        "Eine Karte kostet also 7,50 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 7{,}50=60{,}00\\ \\text{Euro}\\]",
+        "8 Schwimmbadkarten kosten 60,00 Euro."
       ],
-      "loesung_kurz": "\\[30,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[60{,}00\\ \\text{Euro}\\]",
       "nummer": 378
     },
     {
       "id": "aufg0379",
       "topic_id": "dreisatz",
-      "aufgabe": "4 kg kosten \\(10,00\\ \\text{Euro}\\). Wie viel kosten \\(9\\) kg?",
+      "aufgabe": "Ein Linienbus fährt in 5 Stunden 75 km, bei gleichbleibendem Tempo. Wie viele Kilometer sind es in 4 Stunden?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[10,00:4=2,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(9\\) kg berechnen:",
-        "\\[9\\cdot 2,50=22,50\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Bei gleichem Tempo ist der Weg proportional zur Zeit.",
+        "Zuerst die Größe für 1 Stunde bestimmen:",
+        "\\[75:5=15\\ \\text{km}\\]",
+        "In 1 Stunde sind es 15 km.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[4\\cdot 15=60\\ \\text{km}\\]",
+        "In 4 Stunden sind es 60 km."
       ],
-      "loesung_kurz": "\\[22,50\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[60\\ \\text{km}\\]",
       "nummer": 379
     },
     {
       "id": "aufg0380",
       "topic_id": "dreisatz",
-      "aufgabe": "4 kg kosten \\(10,00\\ \\text{Euro}\\). Wie viel kosten \\(11\\) kg?",
+      "aufgabe": "4 Schwimmbadkarten kosten zusammen 60,00 Euro. Wie viel kosten 8 Schwimmbadkarten zum selben Stückpreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[10,00:4=2,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(11\\) kg berechnen:",
-        "\\[11\\cdot 2,50=27,50\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Jede der Schwimmbadkarten hat denselben Preis.",
+        "Zuerst die Größe für 1 Schwimmbadkarte bestimmen:",
+        "\\[60{,}00:4=15{,}00\\ \\text{Euro}\\]",
+        "Eine Karte kostet also 15,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 15{,}00=120{,}00\\ \\text{Euro}\\]",
+        "8 Schwimmbadkarten kosten 120,00 Euro."
       ],
-      "loesung_kurz": "\\[27,50\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[120{,}00\\ \\text{Euro}\\]",
       "nummer": 380
     },
     {
       "id": "aufg0381",
       "topic_id": "dreisatz",
-      "aufgabe": "8 kg kosten \\(20,00\\ \\text{Euro}\\). Wie viel kosten \\(14\\) kg?",
+      "aufgabe": "6 Studierende brauchen gemeinsam 4 Stunden für ein Versuchsprotokoll, wenn alle gleich schnell arbeiten. Wie viele Stunden brauchen 3 Studierende?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[20,00:8=2,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(14\\) kg berechnen:",
-        "\\[14\\cdot 2,50=35,00\\ \\text{Euro}\\]"
+        "Umgekehrter Dreisatz: Mehr Helfer brauchen weniger Zeit, die Gesamtarbeit bleibt gleich.",
+        "Zuerst die gesamte Arbeit in Personenstunden bestimmen.",
+        "\\[6\\cdot 4=24\\ \\text{Personenstunden}\\]",
+        "Diese Gesamtarbeit auf die neue Anzahl verteilen:",
+        "\\[24:3=8\\ \\text{Stunden}\\]",
+        "3 Studierende brauchen 8 Stunden."
       ],
-      "loesung_kurz": "\\[35,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[8\\ \\text{Stunden}\\]",
       "nummer": 381
     },
     {
       "id": "aufg0382",
       "topic_id": "dreisatz",
-      "aufgabe": "5 kg kosten \\(13,75\\ \\text{Euro}\\). Wie viel kosten \\(7\\) kg?",
+      "aufgabe": "Ein Drucker schafft in 2 Minuten 16 Seiten. Wie viele Seiten sind es in 4 Minuten bei gleichem Tempo?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[13,75:5=2,75\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(7\\) kg berechnen:",
-        "\\[7\\cdot 2,75=19,25\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Die Menge ist proportional zur Zeit.",
+        "Zuerst die Größe für 1 Minute bestimmen:",
+        "\\[16:2=8\\ \\text{Seiten}\\]",
+        "In 1 Minute sind es 8 Seiten.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[4\\cdot 8=32\\ \\text{Seiten}\\]",
+        "In 4 Minuten sind es 32 Seiten."
       ],
-      "loesung_kurz": "\\[19,25\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[32\\ \\text{Seiten}\\]",
       "nummer": 382
     },
     {
       "id": "aufg0383",
       "topic_id": "dreisatz",
-      "aufgabe": "5 kg kosten \\(16,25\\ \\text{Euro}\\). Wie viel kosten \\(10\\) kg?",
+      "aufgabe": "Für 5 Stunden Korrektur von Übungsblättern werden 90,00 Euro bezahlt. Wie viel Geld sind es für 2 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[16,25:5=3,25\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(10\\) kg berechnen:",
-        "\\[10\\cdot 3,25=32,50\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Lohn ist proportional zur Arbeitszeit.",
+        "Zuerst die Größe für 1 Stunde bestimmen:",
+        "\\[90{,}00:5=18{,}00\\ \\text{Euro}\\]",
+        "Der Stundenlohn beträgt 18,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[2\\cdot 18{,}00=36{,}00\\ \\text{Euro}\\]",
+        "Für 2 Stunden sind es 36,00 Euro."
       ],
-      "loesung_kurz": "\\[32,50\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[36{,}00\\ \\text{Euro}\\]",
       "nummer": 383
     },
     {
       "id": "aufg0384",
       "topic_id": "dreisatz",
-      "aufgabe": "3 kg kosten \\(7,50\\ \\text{Euro}\\). Wie viel kosten \\(5\\) kg?",
+      "aufgabe": "Ein Linienbus fährt in 5 Stunden 120 km, bei gleichbleibendem Tempo. Wie viele Kilometer sind es in 4 Stunden?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[7,50:3=2,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(5\\) kg berechnen:",
-        "\\[5\\cdot 2,50=12,50\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Bei gleichem Tempo ist der Weg proportional zur Zeit.",
+        "Zuerst die Größe für 1 Stunde bestimmen:",
+        "\\[120:5=24\\ \\text{km}\\]",
+        "In 1 Stunde sind es 24 km.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[4\\cdot 24=96\\ \\text{km}\\]",
+        "In 4 Stunden sind es 96 km."
       ],
-      "loesung_kurz": "\\[12,50\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[96\\ \\text{km}\\]",
       "nummer": 384
     },
     {
       "id": "aufg0385",
       "topic_id": "dreisatz",
-      "aufgabe": "6 kg kosten \\(9,00\\ \\text{Euro}\\). Wie viel kosten \\(9\\) kg?",
+      "aufgabe": "Für 2 Beete braucht man 8 Liter Mulch. Wie viel Mulch braucht man für 10 Beete?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[9,00:6=1,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(9\\) kg berechnen:",
-        "\\[9\\cdot 1,50=13,50\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Verbrauch an Mulch ist proportional zur Anzahl.",
+        "Zuerst die Größe für 1 Beet bestimmen:",
+        "\\[8:2=4\\ \\text{Liter}\\]",
+        "Für 1 Beet braucht man 4 Liter Mulch.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[10\\cdot 4=40\\ \\text{Liter}\\]",
+        "Für 10 Beete braucht man 40 Liter Mulch."
       ],
-      "loesung_kurz": "\\[13,50\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[40\\ \\text{Liter}\\]",
       "nummer": 385
     },
     {
       "id": "aufg0386",
       "topic_id": "dreisatz",
-      "aufgabe": "6 kg kosten \\(12,00\\ \\text{Euro}\\). Wie viel kosten \\(8\\) kg?",
+      "aufgabe": "4 Kinokarten kosten zusammen 48,00 Euro. Wie viel kosten 3 Kinokarten zum selben Stückpreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[12,00:6=2,00\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(8\\) kg berechnen:",
-        "\\[8\\cdot 2,00=16,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Jede der Kinokarten hat denselben Preis.",
+        "Zuerst die Größe für 1 Kinokarte bestimmen:",
+        "\\[48{,}00:4=12{,}00\\ \\text{Euro}\\]",
+        "Eine Karte kostet also 12,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[3\\cdot 12{,}00=36{,}00\\ \\text{Euro}\\]",
+        "3 Kinokarten kosten 36,00 Euro."
       ],
-      "loesung_kurz": "\\[16,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[36{,}00\\ \\text{Euro}\\]",
       "nummer": 386
     },
     {
       "id": "aufg0387",
       "topic_id": "dreisatz",
-      "aufgabe": "3 kg kosten \\(3,60\\ \\text{Euro}\\). Wie viel kosten \\(6\\) kg?",
+      "aufgabe": "Ein Drucker schafft in 4 Minuten 100 Seiten. Wie viele Seiten sind es in 12 Minuten bei gleichem Tempo?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[3,60:3=1,20\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(6\\) kg berechnen:",
-        "\\[6\\cdot 1,20=7,20\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Die Menge ist proportional zur Zeit.",
+        "Zuerst die Größe für 1 Minute bestimmen:",
+        "\\[100:4=25\\ \\text{Seiten}\\]",
+        "In 1 Minute sind es 25 Seiten.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[12\\cdot 25=300\\ \\text{Seiten}\\]",
+        "In 12 Minuten sind es 300 Seiten."
       ],
-      "loesung_kurz": "\\[7,20\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[300\\ \\text{Seiten}\\]",
       "nummer": 387
     },
     {
       "id": "aufg0388",
       "topic_id": "dreisatz",
-      "aufgabe": "6 kg kosten \\(21,00\\ \\text{Euro}\\). Wie viel kosten \\(10\\) kg?",
+      "aufgabe": "Für 4 Stunden Nachhilfe werden 56,00 Euro bezahlt. Wie viel Geld sind es für 8 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[21,00:6=3,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(10\\) kg berechnen:",
-        "\\[10\\cdot 3,50=35,00\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Der Lohn ist proportional zur Arbeitszeit.",
+        "Zuerst die Größe für 1 Stunde bestimmen:",
+        "\\[56{,}00:4=14{,}00\\ \\text{Euro}\\]",
+        "Der Stundenlohn beträgt 14,00 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[8\\cdot 14{,}00=112{,}00\\ \\text{Euro}\\]",
+        "Für 8 Stunden sind es 112,00 Euro."
       ],
-      "loesung_kurz": "\\[35,00\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[112{,}00\\ \\text{Euro}\\]",
       "nummer": 388
     },
     {
       "id": "aufg0389",
       "topic_id": "dreisatz",
-      "aufgabe": "4 kg kosten \\(7,00\\ \\text{Euro}\\). Wie viel kosten \\(11\\) kg?",
+      "aufgabe": "Ein Drucker schafft in 4 Minuten 48 Seiten. Wie viele Seiten sind es in 3 Minuten bei gleichem Tempo?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[7,00:4=1,75\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(11\\) kg berechnen:",
-        "\\[11\\cdot 1,75=19,25\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Die Menge ist proportional zur Zeit.",
+        "Zuerst die Größe für 1 Minute bestimmen:",
+        "\\[48:4=12\\ \\text{Seiten}\\]",
+        "In 1 Minute sind es 12 Seiten.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[3\\cdot 12=36\\ \\text{Seiten}\\]",
+        "In 3 Minuten sind es 36 Seiten."
       ],
-      "loesung_kurz": "\\[19,25\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[36\\ \\text{Seiten}\\]",
       "nummer": 389
     },
     {
       "id": "aufg0390",
       "topic_id": "dreisatz",
-      "aufgabe": "5 kg kosten \\(17,50\\ \\text{Euro}\\). Wie viel kosten \\(11\\) kg?",
+      "aufgabe": "Auf dem Wochenmarkt kosten 2 kg Weizenmehl 2,40 Euro. Wie viel kosten 6 kg Weizenmehl zum selben Kilopreis?",
       "loesung_schritte": [
-        "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-        "\\[17,50:5=3,50\\ \\text{Euro pro kg}\\]",
-        "Danach den Preis für \\(11\\) kg berechnen:",
-        "\\[11\\cdot 3,50=38,50\\ \\text{Euro}\\]"
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        "Hier ist der Preis proportional zur Menge Weizenmehl.",
+        "Zuerst die Größe für 1 kg Weizenmehl bestimmen:",
+        "\\[2{,}40:2=1{,}20\\ \\text{Euro}\\]",
+        "1 kg Weizenmehl kostet also 1,20 Euro.",
+        "Danach auf die gefragte Menge hochrechnen:",
+        "\\[6\\cdot 1{,}20=7{,}20\\ \\text{Euro}\\]",
+        "6 kg Weizenmehl kosten 7,20 Euro."
       ],
-      "loesung_kurz": "\\[38,50\\ \\text{Euro}\\]",
+      "loesung_kurz": "\\[7{,}20\\ \\text{Euro}\\]",
       "nummer": 390
     },
     {
@@ -5463,206 +5581,20 @@
     {
       "id": "aufg0421",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[6x-10=-4\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[4^{2x}=16777216\\]",
       "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[6x-10=-4\\quad\\Rightarrow\\quad 6x=-4+10=6\\]",
-        "Nun beide Seiten durch \\(6\\) teilen:",
-        "\\[x=\\frac{6}{6}=1\\]"
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[16777216=4^{12}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[2x=12\\]",
+        "Beide Seiten durch \\(2\\) teilen:",
+        "\\[x=\\frac{12}{2}=6\\]"
       ],
-      "loesung_kurz": "\\[x=1\\]",
+      "loesung_kurz": "\\[x=6\\]",
       "nummer": 421
     },
     {
       "id": "aufg0422",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[7x-16=26\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[7x-16=26\\quad\\Rightarrow\\quad 7x=26+16=42\\]",
-        "Nun beide Seiten durch \\(7\\) teilen:",
-        "\\[x=\\frac{42}{7}=6\\]"
-      ],
-      "loesung_kurz": "\\[x=6\\]",
-      "nummer": 422
-    },
-    {
-      "id": "aufg0423",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[6x-4=38\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[6x-4=38\\quad\\Rightarrow\\quad 6x=38+4=42\\]",
-        "Nun beide Seiten durch \\(6\\) teilen:",
-        "\\[x=\\frac{42}{6}=7\\]"
-      ],
-      "loesung_kurz": "\\[x=7\\]",
-      "nummer": 423
-    },
-    {
-      "id": "aufg0424",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[7x+5=33\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[7x+5=33\\quad\\Rightarrow\\quad 7x=33-5=28\\]",
-        "Nun beide Seiten durch \\(7\\) teilen:",
-        "\\[x=\\frac{28}{7}=4\\]"
-      ],
-      "loesung_kurz": "\\[x=4\\]",
-      "nummer": 424
-    },
-    {
-      "id": "aufg0425",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[6x-3=33\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[6x-3=33\\quad\\Rightarrow\\quad 6x=33+3=36\\]",
-        "Nun beide Seiten durch \\(6\\) teilen:",
-        "\\[x=\\frac{36}{6}=6\\]"
-      ],
-      "loesung_kurz": "\\[x=6\\]",
-      "nummer": 425
-    },
-    {
-      "id": "aufg0426",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[6x+16=22\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[6x+16=22\\quad\\Rightarrow\\quad 6x=22-16=6\\]",
-        "Nun beide Seiten durch \\(6\\) teilen:",
-        "\\[x=\\frac{6}{6}=1\\]"
-      ],
-      "loesung_kurz": "\\[x=1\\]",
-      "nummer": 426
-    },
-    {
-      "id": "aufg0427",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[6x+18=36\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[6x+18=36\\quad\\Rightarrow\\quad 6x=36-18=18\\]",
-        "Nun beide Seiten durch \\(6\\) teilen:",
-        "\\[x=\\frac{18}{6}=3\\]"
-      ],
-      "loesung_kurz": "\\[x=3\\]",
-      "nummer": 427
-    },
-    {
-      "id": "aufg0428",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[3x+20=26\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[3x+20=26\\quad\\Rightarrow\\quad 3x=26-20=6\\]",
-        "Nun beide Seiten durch \\(3\\) teilen:",
-        "\\[x=\\frac{6}{3}=2\\]"
-      ],
-      "loesung_kurz": "\\[x=2\\]",
-      "nummer": 428
-    },
-    {
-      "id": "aufg0429",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2x+17=21\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[2x+17=21\\quad\\Rightarrow\\quad 2x=21-17=4\\]",
-        "Nun beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{4}{2}=2\\]"
-      ],
-      "loesung_kurz": "\\[x=2\\]",
-      "nummer": 429
-    },
-    {
-      "id": "aufg0430",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2x-4=12\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[2x-4=12\\quad\\Rightarrow\\quad 2x=12+4=16\\]",
-        "Nun beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{16}{2}=8\\]"
-      ],
-      "loesung_kurz": "\\[x=8\\]",
-      "nummer": 430
-    },
-    {
-      "id": "aufg0431",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[9x+4=-5\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[9x+4=-5\\quad\\Rightarrow\\quad 9x=-5-4=-9\\]",
-        "Nun beide Seiten durch \\(9\\) teilen:",
-        "\\[x=-\\frac{9}{9}=-1\\]"
-      ],
-      "loesung_kurz": "\\[x=-1\\]",
-      "nummer": 431
-    },
-    {
-      "id": "aufg0432",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[4x-14=26\\]",
-      "loesung_schritte": [
-        "Zuerst den konstanten Term auf beiden Seiten rückgängig machen.",
-        "\\[4x-14=26\\quad\\Rightarrow\\quad 4x=26+14=40\\]",
-        "Nun beide Seiten durch \\(4\\) teilen:",
-        "\\[x=\\frac{40}{4}=10\\]"
-      ],
-      "loesung_kurz": "\\[x=10\\]",
-      "nummer": 432
-    },
-    {
-      "id": "aufg0433",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[3^{2x}=729\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[729=3^{6}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[2x=6\\]",
-        "Beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{6}{2}=3\\]"
-      ],
-      "loesung_kurz": "\\[x=3\\]",
-      "nummer": 433
-    },
-    {
-      "id": "aufg0434",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=64\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[64=4^{3}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[3x=3\\]",
-        "Beide Seiten durch \\(3\\) teilen:",
-        "\\[x=\\frac{3}{3}=1\\]"
-      ],
-      "loesung_kurz": "\\[x=1\\]",
-      "nummer": 434
-    },
-    {
-      "id": "aufg0435",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2^{3x}=32768\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[32768=2^{15}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[3x=15\\]",
-        "Beide Seiten durch \\(3\\) teilen:",
-        "\\[x=\\frac{15}{3}=5\\]"
-      ],
-      "loesung_kurz": "\\[x=5\\]",
-      "nummer": 435
-    },
-    {
-      "id": "aufg0436",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3^{3x}=387420489\\]",
       "loesung_schritte": [
@@ -5674,199 +5606,115 @@
         "\\[x=\\frac{18}{3}=6\\]"
       ],
       "loesung_kurz": "\\[x=6\\]",
-      "nummer": 436
+      "nummer": 422
     },
     {
-      "id": "aufg0437",
+      "id": "aufg0423",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2^{x}=16\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[5^{2x}=390625\\]",
       "loesung_schritte": [
         "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[16=2^{4}\\]",
+        "\\[390625=5^{8}\\]",
         "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[x=4\\]",
-        "\\[x=4\\]"
+        "\\[2x=8\\]",
+        "Beide Seiten durch \\(2\\) teilen:",
+        "\\[x=\\frac{8}{2}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 437
+      "nummer": 423
     },
     {
-      "id": "aufg0438",
+      "id": "aufg0424",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[3^{x}=81\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=68719476736\\]",
       "loesung_schritte": [
         "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[81=3^{4}\\]",
+        "\\[68719476736=4^{18}\\]",
         "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[x=4\\]",
-        "\\[x=4\\]"
+        "\\[3x=18\\]",
+        "Beide Seiten durch \\(3\\) teilen:",
+        "\\[x=\\frac{18}{3}=6\\]"
       ],
-      "loesung_kurz": "\\[x=4\\]",
-      "nummer": 438
+      "loesung_kurz": "\\[x=6\\]",
+      "nummer": 424
     },
     {
-      "id": "aufg0439",
+      "id": "aufg0425",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[5^{x}=15625\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[4^{2x}=16\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[16=4^{2}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[2x=2\\]",
+        "Beide Seiten durch \\(2\\) teilen:",
+        "\\[x=\\frac{2}{2}=1\\]"
+      ],
+      "loesung_kurz": "\\[x=1\\]",
+      "nummer": 425
+    },
+    {
+      "id": "aufg0426",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[5^{2x}=15625\\]",
       "loesung_schritte": [
         "Die rechte Seite als Potenz mit derselben Basis schreiben:",
         "\\[15625=5^{6}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[x=6\\]",
-        "\\[x=6\\]"
-      ],
-      "loesung_kurz": "\\[x=6\\]",
-      "nummer": 439
-    },
-    {
-      "id": "aufg0440",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[4^{x}=4\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[4=4^{1}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[x=1\\]",
-        "\\[x=1\\]"
-      ],
-      "loesung_kurz": "\\[x=1\\]",
-      "nummer": 440
-    },
-    {
-      "id": "aufg0441",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=1073741824\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[1073741824=4^{15}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[3x=15\\]",
-        "Beide Seiten durch \\(3\\) teilen:",
-        "\\[x=\\frac{15}{3}=5\\]"
-      ],
-      "loesung_kurz": "\\[x=5\\]",
-      "nummer": 441
-    },
-    {
-      "id": "aufg0442",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2^{2x}=64\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[64=2^{6}\\]",
         "Bei gleichen Basen müssen die Exponenten gleich sein:",
         "\\[2x=6\\]",
         "Beide Seiten durch \\(2\\) teilen:",
         "\\[x=\\frac{6}{2}=3\\]"
       ],
       "loesung_kurz": "\\[x=3\\]",
-      "nummer": 442
+      "nummer": 426
     },
     {
-      "id": "aufg0443",
+      "id": "aufg0427",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[5^{3x}=30517578125\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[3^{2x}=9\\]",
       "loesung_schritte": [
         "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[30517578125=5^{15}\\]",
+        "\\[9=3^{2}\\]",
         "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[3x=15\\]",
+        "\\[2x=2\\]",
+        "Beide Seiten durch \\(2\\) teilen:",
+        "\\[x=\\frac{2}{2}=1\\]"
+      ],
+      "loesung_kurz": "\\[x=1\\]",
+      "nummer": 427
+    },
+    {
+      "id": "aufg0428",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=64\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[64=4^{3}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[3x=3\\]",
         "Beide Seiten durch \\(3\\) teilen:",
-        "\\[x=\\frac{15}{3}=5\\]"
+        "\\[x=\\frac{3}{3}=1\\]"
       ],
-      "loesung_kurz": "\\[x=5\\]",
-      "nummer": 443
+      "loesung_kurz": "\\[x=1\\]",
+      "nummer": 428
     },
     {
-      "id": "aufg0444",
+      "id": "aufg0429",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[5^{x}=3125\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=16777216\\]",
       "loesung_schritte": [
         "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[3125=5^{5}\\]",
+        "\\[16777216=4^{12}\\]",
         "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[x=5\\]",
-        "\\[x=5\\]"
-      ],
-      "loesung_kurz": "\\[x=5\\]",
-      "nummer": 444
-    },
-    {
-      "id": "aufg0445",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[5^{2x}=625\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[625=5^{4}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[2x=4\\]",
-        "Beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{4}{2}=2\\]"
-      ],
-      "loesung_kurz": "\\[x=2\\]",
-      "nummer": 445
-    },
-    {
-      "id": "aufg0446",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2^{2x}=16\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[16=2^{4}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[2x=4\\]",
-        "Beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{4}{2}=2\\]"
-      ],
-      "loesung_kurz": "\\[x=2\\]",
-      "nummer": 446
-    },
-    {
-      "id": "aufg0447",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[5^{3x}=1953125\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[1953125=5^{9}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[3x=9\\]",
+        "\\[3x=12\\]",
         "Beide Seiten durch \\(3\\) teilen:",
-        "\\[x=\\frac{9}{3}=3\\]"
+        "\\[x=\\frac{12}{3}=4\\]"
       ],
-      "loesung_kurz": "\\[x=3\\]",
-      "nummer": 447
+      "loesung_kurz": "\\[x=4\\]",
+      "nummer": 429
     },
     {
-      "id": "aufg0448",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[3^{x}=729\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[729=3^{6}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[x=6\\]",
-        "\\[x=6\\]"
-      ],
-      "loesung_kurz": "\\[x=6\\]",
-      "nummer": 448
-    },
-    {
-      "id": "aufg0449",
-      "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[4^{2x}=1048576\\]",
-      "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[1048576=4^{10}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[2x=10\\]",
-        "Beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{10}{2}=5\\]"
-      ],
-      "loesung_kurz": "\\[x=5\\]",
-      "nummer": 449
-    },
-    {
-      "id": "aufg0450",
+      "id": "aufg0430",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3^{x}=243\\]",
       "loesung_schritte": [
@@ -5877,709 +5725,1035 @@
         "\\[x=5\\]"
       ],
       "loesung_kurz": "\\[x=5\\]",
-      "nummer": 450
+      "nummer": 430
     },
     {
-      "id": "aufg0451",
+      "id": "aufg0431",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[5^{2x}=9765625\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[4^{x}=4\\]",
       "loesung_schritte": [
         "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[9765625=5^{10}\\]",
+        "\\[4=4^{1}\\]",
         "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[2x=10\\]",
-        "Beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{10}{2}=5\\]"
+        "\\[x=1\\]",
+        "\\[x=1\\]"
       ],
-      "loesung_kurz": "\\[x=5\\]",
-      "nummer": 451
+      "loesung_kurz": "\\[x=1\\]",
+      "nummer": 431
     },
     {
-      "id": "aufg0452",
+      "id": "aufg0432",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[4^{x}=256\\]",
+      "aufgabe": "Löse nach \\(x\\):\n\\[3^{x}=3\\]",
       "loesung_schritte": [
         "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[256=4^{4}\\]",
+        "\\[3=3^{1}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[x=1\\]",
+        "\\[x=1\\]"
+      ],
+      "loesung_kurz": "\\[x=1\\]",
+      "nummer": 432
+    },
+    {
+      "id": "aufg0433",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[3^{3x}=729\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[729=3^{6}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[3x=6\\]",
+        "Beide Seiten durch \\(3\\) teilen:",
+        "\\[x=\\frac{6}{3}=2\\]"
+      ],
+      "loesung_kurz": "\\[x=2\\]",
+      "nummer": 433
+    },
+    {
+      "id": "aufg0434",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[2^{x}=16\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[16=2^{4}\\]",
         "Bei gleichen Basen müssen die Exponenten gleich sein:",
         "\\[x=4\\]",
         "\\[x=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
+      "nummer": 434
+    },
+    {
+      "id": "aufg0435",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[2^{3x}=64\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[64=2^{6}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[3x=6\\]",
+        "Beide Seiten durch \\(3\\) teilen:",
+        "\\[x=\\frac{6}{3}=2\\]"
+      ],
+      "loesung_kurz": "\\[x=2\\]",
+      "nummer": 435
+    },
+    {
+      "id": "aufg0436",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[5^{3x}=244140625\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[244140625=5^{12}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[3x=12\\]",
+        "Beide Seiten durch \\(3\\) teilen:",
+        "\\[x=\\frac{12}{3}=4\\]"
+      ],
+      "loesung_kurz": "\\[x=4\\]",
+      "nummer": 436
+    },
+    {
+      "id": "aufg0437",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[5^{3x}=15625\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[15625=5^{6}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[3x=6\\]",
+        "Beide Seiten durch \\(3\\) teilen:",
+        "\\[x=\\frac{6}{3}=2\\]"
+      ],
+      "loesung_kurz": "\\[x=2\\]",
+      "nummer": 437
+    },
+    {
+      "id": "aufg0438",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse nach \\(x\\):\n\\[4^{2x}=4096\\]",
+      "loesung_schritte": [
+        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
+        "\\[4096=4^{6}\\]",
+        "Bei gleichen Basen müssen die Exponenten gleich sein:",
+        "\\[2x=6\\]",
+        "Beide Seiten durch \\(2\\) teilen:",
+        "\\[x=\\frac{6}{2}=3\\]"
+      ],
+      "loesung_kurz": "\\[x=3\\]",
+      "nummer": 438
+    },
+    {
+      "id": "aufg0439",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+1=4\\]",
+      "loesung_schritte": [
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+1=4\\quad\\Rightarrow\\quad \\sqrt{x}=4-1=3\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={3}^2=9\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{9}+1=3+1=4\\)."
+      ],
+      "loesung_kurz": "\\[x=9\\]",
+      "nummer": 439
+    },
+    {
+      "id": "aufg0440",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+4=6\\]",
+      "loesung_schritte": [
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+4=6\\quad\\Rightarrow\\quad \\sqrt{x}=6-4=2\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={2}^2=4\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{4}+4=2+4=6\\)."
+      ],
+      "loesung_kurz": "\\[x=4\\]",
+      "nummer": 440
+    },
+    {
+      "id": "aufg0441",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=8\\]",
+      "loesung_schritte": [
+        "Eine Quadratwurzel ist nur für nichtnegative Zahlen definiert und selbst nie negativ.",
+        "Beide Seiten quadrieren:",
+        "\\[(\\sqrt{x})^2={8}^2\\quad\\Rightarrow\\quad x=64\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{64}=8\\). Die Lösung passt."
+      ],
+      "loesung_kurz": "\\[x=64\\]",
+      "nummer": 441
+    },
+    {
+      "id": "aufg0442",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=2\\]",
+      "loesung_schritte": [
+        "Eine Quadratwurzel ist nur für nichtnegative Zahlen definiert und selbst nie negativ.",
+        "Beide Seiten quadrieren:",
+        "\\[(\\sqrt{x})^2={2}^2\\quad\\Rightarrow\\quad x=4\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{4}=2\\). Die Lösung passt."
+      ],
+      "loesung_kurz": "\\[x=4\\]",
+      "nummer": 442
+    },
+    {
+      "id": "aufg0443",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+8}=4\\]",
+      "loesung_schritte": [
+        "Zuerst prüfen, wann der Ausdruck unter der Wurzel erlaubt ist: \\(x+8\\geq 0\\).",
+        "Beide Seiten quadrieren:",
+        "\\[x+8={4}^2=16\\]",
+        "Danach \\(8\\) subtrahieren:",
+        "\\[x=16-8=8\\]",
+        "Probe: \\(\\sqrt{8+8}=\\sqrt{16}=4\\)."
+      ],
+      "loesung_kurz": "\\[x=8\\]",
+      "nummer": 443
+    },
+    {
+      "id": "aufg0444",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+5=7\\]",
+      "loesung_schritte": [
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+5=7\\quad\\Rightarrow\\quad \\sqrt{x}=7-5=2\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={2}^2=4\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{4}+5=2+5=7\\)."
+      ],
+      "loesung_kurz": "\\[x=4\\]",
+      "nummer": 444
+    },
+    {
+      "id": "aufg0445",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=6\\]",
+      "loesung_schritte": [
+        "Eine Quadratwurzel ist nur für nichtnegative Zahlen definiert und selbst nie negativ.",
+        "Beide Seiten quadrieren:",
+        "\\[(\\sqrt{x})^2={6}^2\\quad\\Rightarrow\\quad x=36\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{36}=6\\). Die Lösung passt."
+      ],
+      "loesung_kurz": "\\[x=36\\]",
+      "nummer": 445
+    },
+    {
+      "id": "aufg0446",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+2=9\\]",
+      "loesung_schritte": [
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+2=9\\quad\\Rightarrow\\quad \\sqrt{x}=9-2=7\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={7}^2=49\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{49}+2=7+2=9\\)."
+      ],
+      "loesung_kurz": "\\[x=49\\]",
+      "nummer": 446
+    },
+    {
+      "id": "aufg0447",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+8}=10\\]",
+      "loesung_schritte": [
+        "Zuerst prüfen, wann der Ausdruck unter der Wurzel erlaubt ist: \\(x+8\\geq 0\\).",
+        "Beide Seiten quadrieren:",
+        "\\[x+8={10}^2=100\\]",
+        "Danach \\(8\\) subtrahieren:",
+        "\\[x=100-8=92\\]",
+        "Probe: \\(\\sqrt{92+8}=\\sqrt{100}=10\\)."
+      ],
+      "loesung_kurz": "\\[x=92\\]",
+      "nummer": 447
+    },
+    {
+      "id": "aufg0448",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+8=12\\]",
+      "loesung_schritte": [
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+8=12\\quad\\Rightarrow\\quad \\sqrt{x}=12-8=4\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={4}^2=16\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{16}+8=4+8=12\\)."
+      ],
+      "loesung_kurz": "\\[x=16\\]",
+      "nummer": 448
+    },
+    {
+      "id": "aufg0449",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+8=14\\]",
+      "loesung_schritte": [
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+8=14\\quad\\Rightarrow\\quad \\sqrt{x}=14-8=6\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={6}^2=36\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{36}+8=6+8=14\\)."
+      ],
+      "loesung_kurz": "\\[x=36\\]",
+      "nummer": 449
+    },
+    {
+      "id": "aufg0450",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=3\\]",
+      "loesung_schritte": [
+        "Eine Quadratwurzel ist nur für nichtnegative Zahlen definiert und selbst nie negativ.",
+        "Beide Seiten quadrieren:",
+        "\\[(\\sqrt{x})^2={3}^2\\quad\\Rightarrow\\quad x=9\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{9}=3\\). Die Lösung passt."
+      ],
+      "loesung_kurz": "\\[x=9\\]",
+      "nummer": 450
+    },
+    {
+      "id": "aufg0451",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+3}=9\\]",
+      "loesung_schritte": [
+        "Zuerst prüfen, wann der Ausdruck unter der Wurzel erlaubt ist: \\(x+3\\geq 0\\).",
+        "Beide Seiten quadrieren:",
+        "\\[x+3={9}^2=81\\]",
+        "Danach \\(3\\) subtrahieren:",
+        "\\[x=81-3=78\\]",
+        "Probe: \\(\\sqrt{78+3}=\\sqrt{81}=9\\)."
+      ],
+      "loesung_kurz": "\\[x=78\\]",
+      "nummer": 451
+    },
+    {
+      "id": "aufg0452",
+      "topic_id": "gleichungen",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+5=9\\]",
+      "loesung_schritte": [
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+5=9\\quad\\Rightarrow\\quad \\sqrt{x}=9-5=4\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={4}^2=16\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{16}+5=4+5=9\\)."
+      ],
+      "loesung_kurz": "\\[x=16\\]",
       "nummer": 452
     },
     {
       "id": "aufg0453",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2^{x}=4\\]",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=7\\]",
       "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[4=2^{2}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[x=2\\]",
-        "\\[x=2\\]"
+        "Eine Quadratwurzel ist nur für nichtnegative Zahlen definiert und selbst nie negativ.",
+        "Beide Seiten quadrieren:",
+        "\\[(\\sqrt{x})^2={7}^2\\quad\\Rightarrow\\quad x=49\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{49}=7\\). Die Lösung passt."
       ],
-      "loesung_kurz": "\\[x=2\\]",
+      "loesung_kurz": "\\[x=49\\]",
       "nummer": 453
     },
     {
       "id": "aufg0454",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2^{2x}=256\\]",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+4}=4\\]",
       "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[256=2^{8}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[2x=8\\]",
-        "Beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{8}{2}=4\\]"
+        "Zuerst prüfen, wann der Ausdruck unter der Wurzel erlaubt ist: \\(x+4\\geq 0\\).",
+        "Beide Seiten quadrieren:",
+        "\\[x+4={4}^2=16\\]",
+        "Danach \\(4\\) subtrahieren:",
+        "\\[x=16-4=12\\]",
+        "Probe: \\(\\sqrt{12+4}=\\sqrt{16}=4\\)."
       ],
-      "loesung_kurz": "\\[x=4\\]",
+      "loesung_kurz": "\\[x=12\\]",
       "nummer": 454
     },
     {
       "id": "aufg0455",
       "topic_id": "gleichungen",
-      "aufgabe": "Löse nach \\(x\\):\n\\[2^{2x}=4096\\]",
+      "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+7=15\\]",
       "loesung_schritte": [
-        "Die rechte Seite als Potenz mit derselben Basis schreiben:",
-        "\\[4096=2^{12}\\]",
-        "Bei gleichen Basen müssen die Exponenten gleich sein:",
-        "\\[2x=12\\]",
-        "Beide Seiten durch \\(2\\) teilen:",
-        "\\[x=\\frac{12}{2}=6\\]"
+        "Zuerst die Wurzel allein auf eine Seite bringen.",
+        "\\[\\sqrt{x}+7=15\\quad\\Rightarrow\\quad \\sqrt{x}=15-7=8\\]",
+        "Beide Seiten quadrieren:",
+        "\\[x={8}^2=64\\]",
+        "Probe in der Ausgangsgleichung: \\(\\sqrt{64}+7=8+7=15\\)."
       ],
-      "loesung_kurz": "\\[x=6\\]",
+      "loesung_kurz": "\\[x=64\\]",
       "nummer": 455
     },
     {
       "id": "aufg0456",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[7x+12>5\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-7x>-10\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(12\\) subtrahieren:",
-        "\\[7x+12>5\\quad\\Rightarrow\\quad 7x>-7\\]",
-        "Beide Seiten durch die positive Zahl \\(7\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{7}{7}=-1\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-1\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(-7\\).",
+        "\\[-7x>-10\\quad\\Rightarrow\\quad -7x>-10\\]",
+        "Beide Seiten durch die negative Zahl \\(-7\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-10:(-7)=\\frac{10}{7}\\]",
+        "\\[x<\\frac{10}{7}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{10}{7}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-1\\]",
+      "loesung_kurz": "\\[x<\\frac{10}{7}\\]",
       "nummer": 456
     },
     {
       "id": "aufg0457",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+8>9\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-9x>-2\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(8\\) subtrahieren:",
-        "\\[3x+8>9\\quad\\Rightarrow\\quad 3x>1\\]",
-        "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{1}{3}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{1}{3}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(-9\\).",
+        "\\[-9x>-2\\quad\\Rightarrow\\quad -9x>-2\\]",
+        "Beide Seiten durch die negative Zahl \\(-9\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-2:(-9)=\\frac{2}{9}\\]",
+        "\\[x<\\frac{2}{9}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{2}{9}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{1}{3}\\]",
+      "loesung_kurz": "\\[x<\\frac{2}{9}\\]",
       "nummer": 457
     },
     {
       "id": "aufg0458",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[8x+11<22\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-8x+5<22\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(11\\) subtrahieren:",
-        "\\[8x+11<22\\quad\\Rightarrow\\quad 8x<11\\]",
-        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{11}{8}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{11}{8}\\) sind."
+        "Zuerst \\(5\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-8x+5<22\\quad\\Rightarrow\\quad -8x<17\\]",
+        "Beide Seiten durch die negative Zahl \\(-8\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[17:(-8)=-\\frac{17}{8}\\]",
+        "\\[x>-\\frac{17}{8}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{17}{8}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{11}{8}\\]",
+      "loesung_kurz": "\\[x>-\\frac{17}{8}\\]",
       "nummer": 458
     },
     {
       "id": "aufg0459",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+11<8\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-2x-4<-12\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(11\\) subtrahieren:",
-        "\\[3x+11<8\\quad\\Rightarrow\\quad 3x<-3\\]",
-        "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{3}{3}=-1\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-1\\) sind."
+        "Zuerst \\(4\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-2x-4<-12\\quad\\Rightarrow\\quad -2x<-8\\]",
+        "Beide Seiten durch die negative Zahl \\(-2\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-8:(-2)=4\\]",
+        "\\[x>4\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(4\\) sind."
       ],
-      "loesung_kurz": "\\[x<-1\\]",
+      "loesung_kurz": "\\[x>4\\]",
       "nummer": 459
     },
     {
       "id": "aufg0460",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[5x+4<-2\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-3x+11>17\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(4\\) subtrahieren:",
-        "\\[5x+4<-2\\quad\\Rightarrow\\quad 5x<-6\\]",
-        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{6}{5}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{6}{5}\\) sind."
+        "Zuerst \\(11\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-3x+11>17\\quad\\Rightarrow\\quad -3x>6\\]",
+        "Beide Seiten durch die negative Zahl \\(-3\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[6:(-3)=-2\\]",
+        "\\[x<-2\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-2\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{6}{5}\\]",
+      "loesung_kurz": "\\[x<-2\\]",
       "nummer": 460
     },
     {
       "id": "aufg0461",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[4x+8<37\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[6x+10<-1\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(8\\) subtrahieren:",
-        "\\[4x+8<37\\quad\\Rightarrow\\quad 4x<29\\]",
-        "Beide Seiten durch die positive Zahl \\(4\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{29}{4}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{29}{4}\\) sind."
+        "Zuerst \\(10\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[6x+10<-1\\quad\\Rightarrow\\quad 6x<-11\\]",
+        "Beide Seiten durch die positive Zahl \\(6\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[-11:6=-\\frac{11}{6}\\]",
+        "\\[x<-\\frac{11}{6}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{11}{6}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{29}{4}\\]",
+      "loesung_kurz": "\\[x<-\\frac{11}{6}\\]",
       "nummer": 461
     },
     {
       "id": "aufg0462",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[8x+12<25\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[5x<12\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(12\\) subtrahieren:",
-        "\\[8x+12<25\\quad\\Rightarrow\\quad 8x<13\\]",
-        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{13}{8}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{13}{8}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(5\\).",
+        "\\[5x<12\\quad\\Rightarrow\\quad 5x<12\\]",
+        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[12:5=\\frac{12}{5}\\]",
+        "\\[x<\\frac{12}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{12}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{13}{8}\\]",
+      "loesung_kurz": "\\[x<\\frac{12}{5}\\]",
       "nummer": 462
     },
     {
       "id": "aufg0463",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[5x+13>5\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-7x-11<-2\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(13\\) subtrahieren:",
-        "\\[5x+13>5\\quad\\Rightarrow\\quad 5x>-8\\]",
-        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{8}{5}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{8}{5}\\) sind."
+        "Zuerst \\(11\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-7x-11<-2\\quad\\Rightarrow\\quad -7x<9\\]",
+        "Beide Seiten durch die negative Zahl \\(-7\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[9:(-7)=-\\frac{9}{7}\\]",
+        "\\[x>-\\frac{9}{7}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{9}{7}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-\\frac{8}{5}\\]",
+      "loesung_kurz": "\\[x>-\\frac{9}{7}\\]",
       "nummer": 463
     },
     {
       "id": "aufg0464",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[9x+9<35\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[5x-8>18\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(9\\) subtrahieren:",
-        "\\[9x+9<35\\quad\\Rightarrow\\quad 9x<26\\]",
-        "Beide Seiten durch die positive Zahl \\(9\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{26}{9}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{26}{9}\\) sind."
+        "Zuerst \\(8\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[5x-8>18\\quad\\Rightarrow\\quad 5x>26\\]",
+        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[26:5=\\frac{26}{5}\\]",
+        "\\[x>\\frac{26}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{26}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{26}{9}\\]",
+      "loesung_kurz": "\\[x>\\frac{26}{5}\\]",
       "nummer": 464
     },
     {
       "id": "aufg0465",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+15>26\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-7x>18\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(15\\) subtrahieren:",
-        "\\[3x+15>26\\quad\\Rightarrow\\quad 3x>11\\]",
-        "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{11}{3}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{11}{3}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(-7\\).",
+        "\\[-7x>18\\quad\\Rightarrow\\quad -7x>18\\]",
+        "Beide Seiten durch die negative Zahl \\(-7\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[18:(-7)=-\\frac{18}{7}\\]",
+        "\\[x<-\\frac{18}{7}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{18}{7}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{11}{3}\\]",
+      "loesung_kurz": "\\[x<-\\frac{18}{7}\\]",
       "nummer": 465
     },
     {
       "id": "aufg0466",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+14>25\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[5x>3\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(14\\) subtrahieren:",
-        "\\[2x+14>25\\quad\\Rightarrow\\quad 2x>11\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{11}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{11}{2}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(5\\).",
+        "\\[5x>3\\quad\\Rightarrow\\quad 5x>3\\]",
+        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[3:5=\\frac{3}{5}\\]",
+        "\\[x>\\frac{3}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{3}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{11}{2}\\]",
+      "loesung_kurz": "\\[x>\\frac{3}{5}\\]",
       "nummer": 466
     },
     {
       "id": "aufg0467",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[4x+3<10\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-9x-10>16\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(3\\) subtrahieren:",
-        "\\[4x+3<10\\quad\\Rightarrow\\quad 4x<7\\]",
-        "Beide Seiten durch die positive Zahl \\(4\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{7}{4}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{7}{4}\\) sind."
+        "Zuerst \\(10\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-9x-10>16\\quad\\Rightarrow\\quad -9x>26\\]",
+        "Beide Seiten durch die negative Zahl \\(-9\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[26:(-9)=-\\frac{26}{9}\\]",
+        "\\[x<-\\frac{26}{9}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{26}{9}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{7}{4}\\]",
+      "loesung_kurz": "\\[x<-\\frac{26}{9}\\]",
       "nummer": 467
     },
     {
       "id": "aufg0468",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+11<3\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[3x<12\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(11\\) subtrahieren:",
-        "\\[3x+11<3\\quad\\Rightarrow\\quad 3x<-8\\]",
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(3\\).",
+        "\\[3x<12\\quad\\Rightarrow\\quad 3x<12\\]",
         "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{8}{3}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{8}{3}\\) sind."
+        "\\[12:3=4\\]",
+        "\\[x<4\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(4\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{8}{3}\\]",
+      "loesung_kurz": "\\[x<4\\]",
       "nummer": 468
     },
     {
       "id": "aufg0469",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+15<22\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[4x-1<20\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(15\\) subtrahieren:",
-        "\\[3x+15<22\\quad\\Rightarrow\\quad 3x<7\\]",
-        "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{7}{3}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{7}{3}\\) sind."
+        "Zuerst \\(1\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[4x-1<20\\quad\\Rightarrow\\quad 4x<21\\]",
+        "Beide Seiten durch die positive Zahl \\(4\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[21:4=\\frac{21}{4}\\]",
+        "\\[x<\\frac{21}{4}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{21}{4}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{7}{3}\\]",
+      "loesung_kurz": "\\[x<\\frac{21}{4}\\]",
       "nummer": 469
     },
     {
       "id": "aufg0470",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+8<-2\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[9x-1<10\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(8\\) subtrahieren:",
-        "\\[2x+8<-2\\quad\\Rightarrow\\quad 2x<-10\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{10}{2}=-5\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-5\\) sind."
+        "Zuerst \\(1\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[9x-1<10\\quad\\Rightarrow\\quad 9x<11\\]",
+        "Beide Seiten durch die positive Zahl \\(9\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[11:9=\\frac{11}{9}\\]",
+        "\\[x<\\frac{11}{9}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{11}{9}\\) sind."
       ],
-      "loesung_kurz": "\\[x<-5\\]",
+      "loesung_kurz": "\\[x<\\frac{11}{9}\\]",
       "nummer": 470
     },
     {
       "id": "aufg0471",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[9x+10<-7\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[6x-2>-13\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(10\\) subtrahieren:",
-        "\\[9x+10<-7\\quad\\Rightarrow\\quad 9x<-17\\]",
-        "Beide Seiten durch die positive Zahl \\(9\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{17}{9}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{17}{9}\\) sind."
+        "Zuerst \\(2\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[6x-2>-13\\quad\\Rightarrow\\quad 6x>-11\\]",
+        "Beide Seiten durch die positive Zahl \\(6\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[-11:6=-\\frac{11}{6}\\]",
+        "\\[x>-\\frac{11}{6}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{11}{6}\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{17}{9}\\]",
+      "loesung_kurz": "\\[x>-\\frac{11}{6}\\]",
       "nummer": 471
     },
     {
       "id": "aufg0472",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[6x+12<-9\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-8x-1>-11\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(12\\) subtrahieren:",
-        "\\[6x+12<-9\\quad\\Rightarrow\\quad 6x<-21\\]",
-        "Beide Seiten durch die positive Zahl \\(6\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{21}{6}=-\\frac{7}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{7}{2}\\) sind."
+        "Zuerst \\(1\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-8x-1>-11\\quad\\Rightarrow\\quad -8x>-10\\]",
+        "Beide Seiten durch die negative Zahl \\(-8\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-10:(-8)=\\frac{5}{4}\\]",
+        "\\[x<\\frac{5}{4}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{5}{4}\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{7}{2}\\]",
+      "loesung_kurz": "\\[x<\\frac{5}{4}\\]",
       "nummer": 472
     },
     {
       "id": "aufg0473",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[6x+14>-10\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-9x<-10\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(14\\) subtrahieren:",
-        "\\[6x+14>-10\\quad\\Rightarrow\\quad 6x>-24\\]",
-        "Beide Seiten durch die positive Zahl \\(6\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{24}{6}=-4\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-4\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(-9\\).",
+        "\\[-9x<-10\\quad\\Rightarrow\\quad -9x<-10\\]",
+        "Beide Seiten durch die negative Zahl \\(-9\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-10:(-9)=\\frac{10}{9}\\]",
+        "\\[x>\\frac{10}{9}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{10}{9}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-4\\]",
+      "loesung_kurz": "\\[x>\\frac{10}{9}\\]",
       "nummer": 473
     },
     {
       "id": "aufg0474",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+1<17\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-8x+7<9\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(1\\) subtrahieren:",
-        "\\[3x+1<17\\quad\\Rightarrow\\quad 3x<16\\]",
-        "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{16}{3}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{16}{3}\\) sind."
+        "Zuerst \\(7\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-8x+7<9\\quad\\Rightarrow\\quad -8x<2\\]",
+        "Beide Seiten durch die negative Zahl \\(-8\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[2:(-8)=-\\frac{1}{4}\\]",
+        "\\[x>-\\frac{1}{4}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{1}{4}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{16}{3}\\]",
+      "loesung_kurz": "\\[x>-\\frac{1}{4}\\]",
       "nummer": 474
     },
     {
       "id": "aufg0475",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+9>-7\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[3x-6>-8\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(9\\) subtrahieren:",
-        "\\[3x+9>-7\\quad\\Rightarrow\\quad 3x>-16\\]",
+        "Zuerst \\(6\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[3x-6>-8\\quad\\Rightarrow\\quad 3x>-2\\]",
         "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{16}{3}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{16}{3}\\) sind."
+        "\\[-2:3=-\\frac{2}{3}\\]",
+        "\\[x>-\\frac{2}{3}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{2}{3}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-\\frac{16}{3}\\]",
+      "loesung_kurz": "\\[x>-\\frac{2}{3}\\]",
       "nummer": 475
     },
     {
       "id": "aufg0476",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[9x+1<8\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[4x-3<-1\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(1\\) subtrahieren:",
-        "\\[9x+1<8\\quad\\Rightarrow\\quad 9x<7\\]",
-        "Beide Seiten durch die positive Zahl \\(9\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{7}{9}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{7}{9}\\) sind."
+        "Zuerst \\(3\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[4x-3<-1\\quad\\Rightarrow\\quad 4x<2\\]",
+        "Beide Seiten durch die positive Zahl \\(4\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[2:4=\\frac{1}{2}\\]",
+        "\\[x<\\frac{1}{2}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{1}{2}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{7}{9}\\]",
+      "loesung_kurz": "\\[x<\\frac{1}{2}\\]",
       "nummer": 476
     },
     {
       "id": "aufg0477",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[4x+13<-2\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[2x+11<19\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(13\\) subtrahieren:",
-        "\\[4x+13<-2\\quad\\Rightarrow\\quad 4x<-15\\]",
-        "Beide Seiten durch die positive Zahl \\(4\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{15}{4}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{15}{4}\\) sind."
+        "Zuerst \\(11\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[2x+11<19\\quad\\Rightarrow\\quad 2x<8\\]",
+        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[8:2=4\\]",
+        "\\[x<4\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(4\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{15}{4}\\]",
+      "loesung_kurz": "\\[x<4\\]",
       "nummer": 477
     },
     {
       "id": "aufg0478",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[7x+15<14\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[8x>12\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(15\\) subtrahieren:",
-        "\\[7x+15<14\\quad\\Rightarrow\\quad 7x<-1\\]",
-        "Beide Seiten durch die positive Zahl \\(7\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{1}{7}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{1}{7}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(8\\).",
+        "\\[8x>12\\quad\\Rightarrow\\quad 8x>12\\]",
+        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[12:8=\\frac{3}{2}\\]",
+        "\\[x>\\frac{3}{2}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{3}{2}\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{1}{7}\\]",
+      "loesung_kurz": "\\[x>\\frac{3}{2}\\]",
       "nummer": 478
     },
     {
       "id": "aufg0479",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[8x+7>-5\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-7x-2>-13\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(7\\) subtrahieren:",
-        "\\[8x+7>-5\\quad\\Rightarrow\\quad 8x>-12\\]",
-        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{12}{8}=-\\frac{3}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{3}{2}\\) sind."
+        "Zuerst \\(2\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-7x-2>-13\\quad\\Rightarrow\\quad -7x>-11\\]",
+        "Beide Seiten durch die negative Zahl \\(-7\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-11:(-7)=\\frac{11}{7}\\]",
+        "\\[x<\\frac{11}{7}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{11}{7}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-\\frac{3}{2}\\]",
+      "loesung_kurz": "\\[x<\\frac{11}{7}\\]",
       "nummer": 479
     },
     {
       "id": "aufg0480",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[7x+2<1\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[8x>-5\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(2\\) subtrahieren:",
-        "\\[7x+2<1\\quad\\Rightarrow\\quad 7x<-1\\]",
-        "Beide Seiten durch die positive Zahl \\(7\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{1}{7}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{1}{7}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(8\\).",
+        "\\[8x>-5\\quad\\Rightarrow\\quad 8x>-5\\]",
+        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[-5:8=-\\frac{5}{8}\\]",
+        "\\[x>-\\frac{5}{8}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{5}{8}\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{1}{7}\\]",
+      "loesung_kurz": "\\[x>-\\frac{5}{8}\\]",
       "nummer": 480
     },
     {
       "id": "aufg0481",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[4x+12>4\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-3x+10>-12\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(12\\) subtrahieren:",
-        "\\[4x+12>4\\quad\\Rightarrow\\quad 4x>-8\\]",
-        "Beide Seiten durch die positive Zahl \\(4\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{8}{4}=-2\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-2\\) sind."
+        "Zuerst \\(10\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-3x+10>-12\\quad\\Rightarrow\\quad -3x>-22\\]",
+        "Beide Seiten durch die negative Zahl \\(-3\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-22:(-3)=\\frac{22}{3}\\]",
+        "\\[x<\\frac{22}{3}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{22}{3}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-2\\]",
+      "loesung_kurz": "\\[x<\\frac{22}{3}\\]",
       "nummer": 481
     },
     {
       "id": "aufg0482",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+5<19\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[5x+4<19\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(5\\) subtrahieren:",
-        "\\[2x+5<19\\quad\\Rightarrow\\quad 2x<14\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{14}{2}=7\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(7\\) sind."
+        "Zuerst \\(4\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[5x+4<19\\quad\\Rightarrow\\quad 5x<15\\]",
+        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[15:5=3\\]",
+        "\\[x<3\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(3\\) sind."
       ],
-      "loesung_kurz": "\\[x<7\\]",
+      "loesung_kurz": "\\[x<3\\]",
       "nummer": 482
     },
     {
       "id": "aufg0483",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[8x+14>4\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[5x>15\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(14\\) subtrahieren:",
-        "\\[8x+14>4\\quad\\Rightarrow\\quad 8x>-10\\]",
-        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{10}{8}=-\\frac{5}{4}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{5}{4}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(5\\).",
+        "\\[5x>15\\quad\\Rightarrow\\quad 5x>15\\]",
+        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[15:5=3\\]",
+        "\\[x>3\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(3\\) sind."
       ],
-      "loesung_kurz": "\\[x>-\\frac{5}{4}\\]",
+      "loesung_kurz": "\\[x>3\\]",
       "nummer": 483
     },
     {
       "id": "aufg0484",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[9x+6<-1\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-6x-10<5\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(6\\) subtrahieren:",
-        "\\[9x+6<-1\\quad\\Rightarrow\\quad 9x<-7\\]",
-        "Beide Seiten durch die positive Zahl \\(9\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{7}{9}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{7}{9}\\) sind."
+        "Zuerst \\(10\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-6x-10<5\\quad\\Rightarrow\\quad -6x<15\\]",
+        "Beide Seiten durch die negative Zahl \\(-6\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[15:(-6)=-\\frac{5}{2}\\]",
+        "\\[x>-\\frac{5}{2}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{5}{2}\\) sind."
       ],
-      "loesung_kurz": "\\[x<-\\frac{7}{9}\\]",
+      "loesung_kurz": "\\[x>-\\frac{5}{2}\\]",
       "nummer": 484
     },
     {
       "id": "aufg0485",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[5x+15>36\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-5x-9>-1\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(15\\) subtrahieren:",
-        "\\[5x+15>36\\quad\\Rightarrow\\quad 5x>21\\]",
-        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{21}{5}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{21}{5}\\) sind."
+        "Zuerst \\(9\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-5x-9>-1\\quad\\Rightarrow\\quad -5x>8\\]",
+        "Beide Seiten durch die negative Zahl \\(-5\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[8:(-5)=-\\frac{8}{5}\\]",
+        "\\[x<-\\frac{8}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{8}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{21}{5}\\]",
+      "loesung_kurz": "\\[x<-\\frac{8}{5}\\]",
       "nummer": 485
     },
     {
       "id": "aufg0486",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+13<32\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-8x-10>-4\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(13\\) subtrahieren:",
-        "\\[2x+13<32\\quad\\Rightarrow\\quad 2x<19\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{19}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{19}{2}\\) sind."
+        "Zuerst \\(10\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-8x-10>-4\\quad\\Rightarrow\\quad -8x>6\\]",
+        "Beide Seiten durch die negative Zahl \\(-8\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[6:(-8)=-\\frac{3}{4}\\]",
+        "\\[x<-\\frac{3}{4}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{3}{4}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{19}{2}\\]",
+      "loesung_kurz": "\\[x<-\\frac{3}{4}\\]",
       "nummer": 486
     },
     {
       "id": "aufg0487",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+4>3\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[8x+11>9\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(4\\) subtrahieren:",
-        "\\[2x+4>3\\quad\\Rightarrow\\quad 2x>-1\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{1}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{1}{2}\\) sind."
+        "Zuerst \\(11\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[8x+11>9\\quad\\Rightarrow\\quad 8x>-2\\]",
+        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[-2:8=-\\frac{1}{4}\\]",
+        "\\[x>-\\frac{1}{4}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{1}{4}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-\\frac{1}{2}\\]",
+      "loesung_kurz": "\\[x>-\\frac{1}{4}\\]",
       "nummer": 487
     },
     {
       "id": "aufg0488",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[3x+10<-8\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[7x<2\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(10\\) subtrahieren:",
-        "\\[3x+10<-8\\quad\\Rightarrow\\quad 3x<-18\\]",
-        "Beide Seiten durch die positive Zahl \\(3\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<-\\frac{18}{3}=-6\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-6\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(7\\).",
+        "\\[7x<2\\quad\\Rightarrow\\quad 7x<2\\]",
+        "Beide Seiten durch die positive Zahl \\(7\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[2:7=\\frac{2}{7}\\]",
+        "\\[x<\\frac{2}{7}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{2}{7}\\) sind."
       ],
-      "loesung_kurz": "\\[x<-6\\]",
+      "loesung_kurz": "\\[x<\\frac{2}{7}\\]",
       "nummer": 488
     },
     {
       "id": "aufg0489",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+4>37\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-8x<-4\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(4\\) subtrahieren:",
-        "\\[2x+4>37\\quad\\Rightarrow\\quad 2x>33\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{33}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{33}{2}\\) sind."
+        "Vor \\(x\\) steht schon allein der Koeffizient \\(-8\\).",
+        "\\[-8x<-4\\quad\\Rightarrow\\quad -8x<-4\\]",
+        "Beide Seiten durch die negative Zahl \\(-8\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-4:(-8)=\\frac{1}{2}\\]",
+        "\\[x>\\frac{1}{2}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{1}{2}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{33}{2}\\]",
+      "loesung_kurz": "\\[x>\\frac{1}{2}\\]",
       "nummer": 489
     },
     {
       "id": "aufg0490",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[8x+8>4\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[6x+1>20\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(8\\) subtrahieren:",
-        "\\[8x+8>4\\quad\\Rightarrow\\quad 8x>-4\\]",
-        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>-\\frac{4}{8}=-\\frac{1}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{1}{2}\\) sind."
+        "Zuerst \\(1\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[6x+1>20\\quad\\Rightarrow\\quad 6x>19\\]",
+        "Beide Seiten durch die positive Zahl \\(6\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[19:6=\\frac{19}{6}\\]",
+        "\\[x>\\frac{19}{6}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{19}{6}\\) sind."
       ],
-      "loesung_kurz": "\\[x>-\\frac{1}{2}\\]",
+      "loesung_kurz": "\\[x>\\frac{19}{6}\\]",
       "nummer": 490
     },
     {
       "id": "aufg0491",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+3<22\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[8x+4>1\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(3\\) subtrahieren:",
-        "\\[2x+3<22\\quad\\Rightarrow\\quad 2x<19\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{19}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{19}{2}\\) sind."
+        "Zuerst \\(4\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[8x+4>1\\quad\\Rightarrow\\quad 8x>-3\\]",
+        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[-3:8=-\\frac{3}{8}\\]",
+        "\\[x>-\\frac{3}{8}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{3}{8}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{19}{2}\\]",
+      "loesung_kurz": "\\[x>-\\frac{3}{8}\\]",
       "nummer": 491
     },
     {
       "id": "aufg0492",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[5x+14<36\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-5x+6>-10\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(14\\) subtrahieren:",
-        "\\[5x+14<36\\quad\\Rightarrow\\quad 5x<22\\]",
-        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{22}{5}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{22}{5}\\) sind."
+        "Zuerst \\(6\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-5x+6>-10\\quad\\Rightarrow\\quad -5x>-16\\]",
+        "Beide Seiten durch die negative Zahl \\(-5\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-16:(-5)=\\frac{16}{5}\\]",
+        "\\[x<\\frac{16}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{16}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{22}{5}\\]",
+      "loesung_kurz": "\\[x<\\frac{16}{5}\\]",
       "nummer": 492
     },
     {
       "id": "aufg0493",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[7x+4>9\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-5x-10<23\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(4\\) subtrahieren:",
-        "\\[7x+4>9\\quad\\Rightarrow\\quad 7x>5\\]",
-        "Beide Seiten durch die positive Zahl \\(7\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{5}{7}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{5}{7}\\) sind."
+        "Zuerst \\(10\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-5x-10<23\\quad\\Rightarrow\\quad -5x<33\\]",
+        "Beide Seiten durch die negative Zahl \\(-5\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[33:(-5)=-\\frac{33}{5}\\]",
+        "\\[x>-\\frac{33}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{33}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{5}{7}\\]",
+      "loesung_kurz": "\\[x>-\\frac{33}{5}\\]",
       "nummer": 493
     },
     {
       "id": "aufg0494",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[5x+7<9\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[2x-12>20\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(7\\) subtrahieren:",
-        "\\[5x+7<9\\quad\\Rightarrow\\quad 5x<2\\]",
-        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{2}{5}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{2}{5}\\) sind."
+        "Zuerst \\(12\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[2x-12>20\\quad\\Rightarrow\\quad 2x>32\\]",
+        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[32:2=16\\]",
+        "\\[x>16\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(16\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{2}{5}\\]",
+      "loesung_kurz": "\\[x>16\\]",
       "nummer": 494
     },
     {
       "id": "aufg0495",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[2x+9>27\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-5x+1<-2\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(9\\) subtrahieren:",
-        "\\[2x+9>27\\quad\\Rightarrow\\quad 2x>18\\]",
-        "Beide Seiten durch die positive Zahl \\(2\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{18}{2}=9\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(9\\) sind."
+        "Zuerst \\(1\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-5x+1<-2\\quad\\Rightarrow\\quad -5x<-3\\]",
+        "Beide Seiten durch die negative Zahl \\(-5\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-3:(-5)=\\frac{3}{5}\\]",
+        "\\[x>\\frac{3}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{3}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x>9\\]",
+      "loesung_kurz": "\\[x>\\frac{3}{5}\\]",
       "nummer": 495
     },
     {
       "id": "aufg0496",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[8x+9>21\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[5x-8>0\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(9\\) subtrahieren:",
-        "\\[8x+9>21\\quad\\Rightarrow\\quad 8x>12\\]",
-        "Beide Seiten durch die positive Zahl \\(8\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{12}{8}=\\frac{3}{2}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{3}{2}\\) sind."
+        "Zuerst \\(8\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[5x-8>0\\quad\\Rightarrow\\quad 5x>8\\]",
+        "Beide Seiten durch die positive Zahl \\(5\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
+        "\\[8:5=\\frac{8}{5}\\]",
+        "\\[x>\\frac{8}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{8}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{3}{2}\\]",
+      "loesung_kurz": "\\[x>\\frac{8}{5}\\]",
       "nummer": 496
     },
     {
       "id": "aufg0497",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[7x+11<32\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-5x-6>3\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(11\\) subtrahieren:",
-        "\\[7x+11<32\\quad\\Rightarrow\\quad 7x<21\\]",
-        "Beide Seiten durch die positive Zahl \\(7\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{21}{7}=3\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(3\\) sind."
+        "Zuerst \\(6\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-5x-6>3\\quad\\Rightarrow\\quad -5x>9\\]",
+        "Beide Seiten durch die negative Zahl \\(-5\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[9:(-5)=-\\frac{9}{5}\\]",
+        "\\[x<-\\frac{9}{5}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{9}{5}\\) sind."
       ],
-      "loesung_kurz": "\\[x<3\\]",
+      "loesung_kurz": "\\[x<-\\frac{9}{5}\\]",
       "nummer": 497
     },
     {
       "id": "aufg0498",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[7x+12<16\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-8x+5<8\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(12\\) subtrahieren:",
-        "\\[7x+12<16\\quad\\Rightarrow\\quad 7x<4\\]",
-        "Beide Seiten durch die positive Zahl \\(7\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x<\\frac{4}{7}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{4}{7}\\) sind."
+        "Zuerst \\(5\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-8x+5<8\\quad\\Rightarrow\\quad -8x<3\\]",
+        "Beide Seiten durch die negative Zahl \\(-8\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[3:(-8)=-\\frac{3}{8}\\]",
+        "\\[x>-\\frac{3}{8}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{3}{8}\\) sind."
       ],
-      "loesung_kurz": "\\[x<\\frac{4}{7}\\]",
+      "loesung_kurz": "\\[x>-\\frac{3}{8}\\]",
       "nummer": 498
     },
     {
       "id": "aufg0499",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[4x+5>14\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-9x+4<8\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(5\\) subtrahieren:",
-        "\\[4x+5>14\\quad\\Rightarrow\\quad 4x>9\\]",
-        "Beide Seiten durch die positive Zahl \\(4\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{9}{4}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{9}{4}\\) sind."
+        "Zuerst \\(4\\) auf beiden Seiten subtrahieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-9x+4<8\\quad\\Rightarrow\\quad -9x<4\\]",
+        "Beide Seiten durch die negative Zahl \\(-9\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[4:(-9)=-\\frac{4}{9}\\]",
+        "\\[x>-\\frac{4}{9}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{4}{9}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{9}{4}\\]",
+      "loesung_kurz": "\\[x>-\\frac{4}{9}\\]",
       "nummer": 499
     },
     {
       "id": "aufg0500",
       "topic_id": "ungleichungen",
-      "aufgabe": "Löse die Ungleichung:\n\\[9x+4>44\\]",
+      "aufgabe": "Löse die Ungleichung:\n\\[-7x-3>-14\\]",
       "loesung_schritte": [
-        "Auf beiden Seiten \\(4\\) subtrahieren:",
-        "\\[9x+4>44\\quad\\Rightarrow\\quad 9x>40\\]",
-        "Beide Seiten durch die positive Zahl \\(9\\) teilen. Darum bleibt das Ungleichheitszeichen unverändert:",
-        "\\[x>\\frac{40}{9}\\]",
-        "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{40}{9}\\) sind."
+        "Zuerst \\(3\\) auf beiden Seiten addieren. Dabei dreht sich das Ungleichheitszeichen noch nicht um:",
+        "\\[-7x-3>-14\\quad\\Rightarrow\\quad -7x>-11\\]",
+        "Beide Seiten durch die negative Zahl \\(-7\\) teilen. Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:",
+        "\\[-11:(-7)=\\frac{11}{7}\\]",
+        "\\[x<\\frac{11}{7}\\]",
+        "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{11}{7}\\) sind."
       ],
-      "loesung_kurz": "\\[x>\\frac{40}{9}\\]",
+      "loesung_kurz": "\\[x<\\frac{11}{7}\\]",
       "nummer": 500
     }
   ]

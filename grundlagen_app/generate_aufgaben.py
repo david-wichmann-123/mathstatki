@@ -567,41 +567,306 @@ def gen_prozent(tasks: list, count: int) -> None:
             created += 1
 
 
-def gen_dreisatz(tasks: list, count: int) -> None:
-    created = 0
+def _consume_legacy_dreisatz_rng(count: int) -> None:
+    """Alte Zufallsfolge verbrauchen, damit spätere Themen stabil bleiben."""
     unit_prices = [120, 150, 175, 200, 225, 250, 275, 300, 325, 350]
+    created = 0
+    seen: set[tuple[str, str]] = set()
     while created < count:
         n1 = RNG.randint(3, 8)
         unit_cents = RNG.choice(unit_prices)
-        price_cents = n1 * unit_cents
         n2 = RNG.randint(n1 + 1, n1 + 7)
-        total_cents = unit_cents * n2
-        price_s = decimal_comma(price_cents)
-        unit_s = decimal_comma(unit_cents)
-        total_s = decimal_comma(total_cents)
-        aufgabe = (
+        price_s = decimal_comma(n1 * unit_cents)
+        total_s = decimal_comma(unit_cents * n2)
+        signature = (
             f"{n1} kg kosten {inline(price_s + r'\ \text{Euro}')}. "
-            f"Wie viel kosten {inline(str(n2))} kg?"
+            f"Wie viel kosten {inline(str(n2))} kg?",
+            display(rf"{total_s}\ \text{{Euro}}"),
         )
-        steps = [
-            "Zuerst den Preis für 1 kg bestimmen: Gesamtpreis durch Kilogramm teilen.",
-            display(rf"{price_s}:{n1}={unit_s}\ \text{{Euro pro kg}}"),
-            f"Danach den Preis für {inline(str(n2))} kg berechnen:",
-            display(rf"{n2}\cdot {unit_s}={total_s}\ \text{{Euro}}"),
-        ]
-        if append_task(
-            tasks, "dreisatz", aufgabe, steps, display(rf"{total_s}\ \text{{Euro}}")
-        ):
+        if signature in seen or signature in SEEN_TASKS:
+            continue
+        seen.add(signature)
+        created += 1
+
+
+def _euro(cents: int) -> str:
+    return f"{decimal_comma(cents)} Euro"
+
+
+def _math_amount(cents: int) -> str:
+    return decimal_comma(cents).replace(",", "{,}")
+
+
+def _direct_steps(
+    reason: str,
+    one_label: str,
+    given_formula: str,
+    one_formula: str,
+    one_sentence: str,
+    target_formula: str,
+    result_sentence: str,
+) -> list[str]:
+    return [
+        "Proportionaler Dreisatz: Die gesuchte Größe wächst im selben Verhältnis.",
+        reason,
+        f"Zuerst die Größe für 1 {one_label} bestimmen:",
+        display(f"{given_formula}={one_formula}"),
+        one_sentence,
+        "Danach auf die gefragte Menge hochrechnen:",
+        display(target_formula),
+        result_sentence,
+    ]
+
+
+def _inverse_steps(
+    work_sentence: str,
+    product_formula: str,
+    divide_formula: str,
+    result_sentence: str,
+) -> list[str]:
+    return [
+        "Umgekehrter Dreisatz: Mehr Helfer brauchen weniger Zeit, die Gesamtarbeit bleibt gleich.",
+        work_sentence,
+        display(product_formula),
+        "Diese Gesamtarbeit auf die neue Anzahl verteilen:",
+        display(divide_formula),
+        result_sentence,
+    ]
+
+
+def _pick_other(local: random.Random, options: list[int], forbidden: int) -> int:
+    return local.choice([value for value in options if value != forbidden])
+
+
+def gen_dreisatz(tasks: list, count: int) -> None:
+    _consume_legacy_dreisatz_rng(count)
+    local = random.Random(42)
+    goods = [
+        "Äpfel",
+        "Bio-Kartoffeln",
+        "Kaffeebohnen",
+        "Reis",
+        "Weizenmehl",
+    ]
+    tickets = ["Kinokarten", "Museumstickets", "Schwimmbadkarten"]
+    recipes = [
+        ("Pfannkuchen", "Mehl", "g"),
+        ("Tomatensoße", "passierte Tomaten", "g"),
+        ("Kakao", "Milch", "ml"),
+        ("Salatdressing", "Olivenöl", "ml"),
+    ]
+    created = 0
+    while created < count:
+        kind = local.choices(
+            ["market", "tickets", "recipe", "travel", "machine", "wage", "map", "material", "inverse"],
+            weights=[1, 2, 2, 2, 2, 2, 2, 2, 2],
+            k=1,
+        )[0]
+        if kind == "market":
+            good = local.choice(goods)
+            n1 = local.randint(2, 5)
+            unit = local.choice([120, 150, 180, 200, 250, 300])
+            n2 = _pick_other(local, [2, 3, 4, 5, 6, 8], n1)
+            aufgabe = (
+                f"Auf dem Wochenmarkt kosten {n1} kg {good} {_euro(n1 * unit)}. "
+                f"Wie viel kosten {n2} kg {good} zum selben Kilopreis?"
+            )
+            steps = _direct_steps(
+                f"Hier ist der Preis proportional zur Menge {good}.",
+                f"kg {good}",
+                f"{_math_amount(n1 * unit)}:{n1}",
+                rf"{_math_amount(unit)}\ \text{{Euro}}",
+                f"1 kg {good} kostet also {_euro(unit)}.",
+                rf"{n2}\cdot {_math_amount(unit)}={_math_amount(n2 * unit)}\ \text{{Euro}}",
+                f"{n2} kg {good} kosten {_euro(n2 * unit)}.",
+            )
+            kurz = display(rf"{_math_amount(n2 * unit)}\ \text{{Euro}}")
+        elif kind == "tickets":
+            name = local.choice(tickets)
+            n1 = local.choice([2, 3, 4, 5])
+            unit = local.choice([650, 750, 800, 900, 1200, 1500])
+            n2 = _pick_other(local, [2, 3, 4, 6, 8], n1)
+            aufgabe = (
+                f"{n1} {name} kosten zusammen {_euro(n1 * unit)}. "
+                f"Wie viel kosten {n2} {name} zum selben Stückpreis?"
+            )
+            steps = _direct_steps(
+                f"Jede der {name} hat denselben Preis.",
+                name[:-1] if name.endswith("n") else "Stück",
+                f"{_math_amount(n1 * unit)}:{n1}",
+                rf"{_math_amount(unit)}\ \text{{Euro}}",
+                f"Eine Karte kostet also {_euro(unit)}.",
+                rf"{n2}\cdot {_math_amount(unit)}={_math_amount(n2 * unit)}\ \text{{Euro}}",
+                f"{n2} {name} kosten {_euro(n2 * unit)}.",
+            )
+            kurz = display(rf"{_math_amount(n2 * unit)}\ \text{{Euro}}")
+        elif kind == "recipe":
+            dish, ingredient, unit_name = local.choice(recipes)
+            n1 = local.choice([2, 3, 4, 6])
+            per = local.choice([40, 50, 60, 75, 80, 100, 120])
+            n2 = _pick_other(local, [2, 3, 4, 5, 8, 10, 12], n1)
+            aufgabe = (
+                f"Für {n1} Portionen {dish} braucht man {n1 * per} {unit_name} {ingredient}. "
+                f"Wie viel {ingredient} braucht man für {n2} Portionen?"
+            )
+            steps = _direct_steps(
+                "Die Zutatmenge ist proportional zur Portionszahl.",
+                "Portion",
+                f"{n1 * per}:{n1}",
+                rf"{per}\ \text{{{unit_name}}}",
+                f"Für 1 Portion braucht man {per} {unit_name} {ingredient}.",
+                rf"{n2}\cdot {per}={n2 * per}\ \text{{{unit_name}}}",
+                f"Für {n2} Portionen braucht man {n2 * per} {unit_name} {ingredient}.",
+            )
+            kurz = display(rf"{n2 * per}\ \text{{{unit_name}}}")
+        elif kind == "travel":
+            who = local.choice(
+                ["Lea fährt mit dem Fahrrad", "Der Regionalzug fährt", "Ein Linienbus fährt"]
+            )
+            t1 = local.choice([2, 3, 4, 5])
+            speed = local.choice([12, 15, 18, 20, 24, 30])
+            t2 = _pick_other(local, [2, 3, 4, 6, 8], t1)
+            aufgabe = (
+                f"{who} in {t1} Stunden {t1 * speed} km, bei gleichbleibendem Tempo. "
+                f"Wie viele Kilometer sind es in {t2} Stunden?"
+            )
+            steps = _direct_steps(
+                "Bei gleichem Tempo ist der Weg proportional zur Zeit.",
+                "Stunde",
+                f"{t1 * speed}:{t1}",
+                rf"{speed}\ \text{{km}}",
+                f"In 1 Stunde sind es {speed} km.",
+                rf"{t2}\cdot {speed}={t2 * speed}\ \text{{km}}",
+                f"In {t2} Stunden sind es {t2 * speed} km.",
+            )
+            kurz = display(rf"{t2 * speed}\ \text{{km}}")
+        elif kind == "machine":
+            machine, output, unit_name = local.choice(
+                [
+                    ("Ein Drucker schafft", "Seiten", "Seiten"),
+                    ("Eine Pumpe fördert", "Liter Wasser", "Liter"),
+                    ("Eine Abfüllanlage füllt", "Liter Saft", "Liter"),
+                ]
+            )
+            t1 = local.choice([2, 3, 4, 5, 6])
+            per = local.choice([8, 10, 12, 15, 20, 25])
+            t2 = _pick_other(local, [2, 3, 4, 8, 10, 12], t1)
+            aufgabe = (
+                f"{machine} in {t1} Minuten {t1 * per} {output}. "
+                f"Wie viele {unit_name} sind es in {t2} Minuten bei gleichem Tempo?"
+            )
+            steps = _direct_steps(
+                "Die Menge ist proportional zur Zeit.",
+                "Minute",
+                f"{t1 * per}:{t1}",
+                rf"{per}\ \text{{{unit_name}}}",
+                f"In 1 Minute sind es {per} {unit_name}.",
+                rf"{t2}\cdot {per}={t2 * per}\ \text{{{unit_name}}}",
+                f"In {t2} Minuten sind es {t2 * per} {unit_name}.",
+            )
+            kurz = display(rf"{t2 * per}\ \text{{{unit_name}}}")
+        elif kind == "wage":
+            job = local.choice(["Nachhilfe", "Aushilfe im Labor", "Korrektur von Übungsblättern"])
+            n1 = local.choice([2, 3, 4, 5])
+            unit = local.choice([1200, 1400, 1500, 1600, 1800, 2000])
+            n2 = _pick_other(local, [2, 3, 6, 7, 8], n1)
+            aufgabe = (
+                f"Für {n1} Stunden {job} werden {_euro(n1 * unit)} bezahlt. "
+                f"Wie viel Geld sind es für {n2} Stunden zum selben Stundenlohn?"
+            )
+            steps = _direct_steps(
+                "Der Lohn ist proportional zur Arbeitszeit.",
+                "Stunde",
+                f"{_math_amount(n1 * unit)}:{n1}",
+                rf"{_math_amount(unit)}\ \text{{Euro}}",
+                f"Der Stundenlohn beträgt {_euro(unit)}.",
+                rf"{n2}\cdot {_math_amount(unit)}={_math_amount(n2 * unit)}\ \text{{Euro}}",
+                f"Für {n2} Stunden sind es {_euro(n2 * unit)}.",
+            )
+            kurz = display(rf"{_math_amount(n2 * unit)}\ \text{{Euro}}")
+        elif kind == "map":
+            cm1 = local.choice([2, 3, 4, 5])
+            km_per = local.choice([2, 3, 4, 5])
+            cm2 = _pick_other(local, [2, 3, 4, 6, 8, 10], cm1)
+            aufgabe = (
+                f"Auf einer Landkarte entsprechen {cm1} cm einer Strecke von {cm1 * km_per} km. "
+                f"Welcher Strecke entsprechen {cm2} cm im selben Maßstab?"
+            )
+            steps = _direct_steps(
+                "Im festen Maßstab ist die wirkliche Strecke proportional zur Kartenlänge.",
+                "cm auf der Karte",
+                f"{cm1 * km_per}:{cm1}",
+                rf"{km_per}\ \text{{km}}",
+                f"1 cm auf der Karte entspricht {km_per} km.",
+                rf"{cm2}\cdot {km_per}={cm2 * km_per}\ \text{{km}}",
+                f"{cm2} cm entsprechen {cm2 * km_per} km.",
+            )
+            kurz = display(rf"{cm2 * km_per}\ \text{{km}}")
+        elif kind == "material":
+            singular, plural, need, unit_name = local.choice(
+                [
+                    ("m² Wand", "m² Wand", "Farbe", "Liter"),
+                    ("Beet", "Beete", "Mulch", "Liter"),
+                    ("Regalbrett", "Regalbretter", "Holzlasur", "ml"),
+                ]
+            )
+            n1 = local.choice([2, 3, 4, 5])
+            per = local.choice([2, 3, 4, 5, 6]) if unit_name == "Liter" else local.choice([40, 50, 60, 80])
+            n2 = _pick_other(local, [2, 3, 6, 8, 10], n1)
+            aufgabe = (
+                f"Für {n1} {plural} braucht man {n1 * per} {unit_name} {need}. "
+                f"Wie viel {need} braucht man für {n2} {plural}?"
+            )
+            steps = _direct_steps(
+                f"Der Verbrauch an {need} ist proportional zur Anzahl.",
+                singular,
+                f"{n1 * per}:{n1}",
+                rf"{per}\ \text{{{unit_name}}}",
+                f"Für 1 {singular} braucht man {per} {unit_name} {need}.",
+                rf"{n2}\cdot {per}={n2 * per}\ \text{{{unit_name}}}",
+                f"Für {n2} {plural} braucht man {n2 * per} {unit_name} {need}.",
+            )
+            kurz = display(rf"{n2 * per}\ \text{{{unit_name}}}")
+        else:
+            people1 = local.choice([2, 3, 4, 6])
+            hours = local.choice([2, 3, 4, 5, 6])
+            people2 = _pick_other(local, [2, 3, 4, 5, 8], people1)
+            total_work = people1 * hours
+            if total_work % people2 != 0:
+                continue
+            result = total_work // people2
+            job = local.choice(
+                ["ein Versuchsprotokoll", "das Aufräumen des Labors", "eine Inventur"]
+            )
+            aufgabe = (
+                f"{people1} Studierende brauchen gemeinsam {hours} Stunden für {job}, "
+                f"wenn alle gleich schnell arbeiten. Wie viele Stunden brauchen {people2} Studierende?"
+            )
+            steps = _inverse_steps(
+                "Zuerst die gesamte Arbeit in Personenstunden bestimmen.",
+                f"{people1}\\cdot {hours}={total_work}\\ \\text{{Personenstunden}}",
+                f"{total_work}:{people2}={result}\\ \\text{{Stunden}}",
+                f"{people2} Studierende brauchen {result} Stunden.",
+            )
+            kurz = display(rf"{result}\ \text{{Stunden}}")
+        if append_task(tasks, "dreisatz", aufgabe, steps, kurz):
             created += 1
 
 
 def gen_gleichungen(tasks: list, count: int) -> None:
     created = 0
-    linear_target = round(count * 0.65)
+    linear_target = round(count * 0.46)
+    exp_target = round(count * 0.27)
     linear_created = 0
+    exp_created = 0
     while created < count:
-        is_linear = linear_created < linear_target
-        if is_linear:
+        if linear_created < linear_target:
+            kind = "linear"
+        elif exp_created < exp_target:
+            kind = "exp"
+        else:
+            kind = "sqrt"
+        if kind == "linear":
             a = RNG.randint(2, 9)
             b = RNG.randint(1, 20)
             x = RNG.randint(-5, 10)
@@ -619,7 +884,7 @@ def gen_gleichungen(tasks: list, count: int) -> None:
                 display(f"x={frac_tex(isolated, a)}={x}"),
             ]
             kurz = display(f"x={x}")
-        else:
+        elif kind == "exp":
             base = RNG.choice([2, 3, 4, 5])
             coefficient = RNG.choice([1, 2, 3])
             x = RNG.randint(1, 6)
@@ -643,41 +908,124 @@ def gen_gleichungen(tasks: list, count: int) -> None:
             else:
                 steps.append(display(f"x={x}"))
             kurz = display(f"x={x}")
+        else:
+            variant = RNG.choice(["plain", "shift", "isolate"])
+            if variant == "plain":
+                root = RNG.randint(2, 12)
+                x = root * root
+                aufgabe = f"Löse die Wurzelgleichung:\n{display(rf'\sqrt{{x}}={root}')}"
+                steps = [
+                    "Eine Quadratwurzel ist nur für nichtnegative Zahlen definiert und selbst nie negativ.",
+                    "Beide Seiten quadrieren:",
+                    display(rf"(\sqrt{{x}})^2={{{root}}}^2\quad\Rightarrow\quad x={x}"),
+                    f"Probe in der Ausgangsgleichung: {inline(rf'\sqrt{{{x}}}={root}')}. Die Lösung passt.",
+                ]
+            elif variant == "shift":
+                shift = RNG.randint(1, 9)
+                root = RNG.randint(2, 10)
+                x = root * root - shift
+                if x < 0:
+                    continue
+                aufgabe = f"Löse die Wurzelgleichung:\n{display(rf'\sqrt{{x+{shift}}}={root}')}"
+                steps = [
+                    "Zuerst prüfen, wann der Ausdruck unter der Wurzel erlaubt ist: "
+                    f"{inline(f'x+{shift}\\geq 0')}.",
+                    "Beide Seiten quadrieren:",
+                    display(rf"x+{shift}={{{root}}}^2={root * root}"),
+                    f"Danach {inline(str(shift))} subtrahieren:",
+                    display(f"x={root * root}-{shift}={x}"),
+                    f"Probe: {inline(rf'\sqrt{{{x}+{shift}}}=\sqrt{{{root * root}}}={root}')}.",
+                ]
+            else:
+                added = RNG.randint(1, 8)
+                root = RNG.randint(2, 9)
+                right = root + added
+                x = root * root
+                aufgabe = (
+                    f"Löse die Wurzelgleichung:\n{display(rf'\sqrt{{x}}+{added}={right}')}"
+                )
+                steps = [
+                    "Zuerst die Wurzel allein auf eine Seite bringen.",
+                    display(rf"\sqrt{{x}}+{added}={right}\quad\Rightarrow\quad \sqrt{{x}}={right}-{added}={root}"),
+                    "Beide Seiten quadrieren:",
+                    display(rf"x={{{root}}}^2={x}"),
+                    "Probe in der Ausgangsgleichung: "
+                    f"{inline(rf'\sqrt{{{x}}}+{added}={root}+{added}={right}')}.",
+                ]
+            kurz = display(f"x={x}")
         if append_task(tasks, "gleichungen", aufgabe, steps, kurz):
             created += 1
-            if is_linear:
+            if kind == "linear":
                 linear_created += 1
+            elif kind == "exp":
+                exp_created += 1
 
 
 def gen_ungleichungen(tasks: list, count: int) -> None:
     created = 0
     while created < count:
         a = RNG.randint(2, 9)
-        b = RNG.randint(1, 15)
-        c = RNG.randint(-10, 45)
+        negative_coeff = RNG.random() < 0.5
+        coeff = -a if negative_coeff else a
         relation = RNG.choice([">", "<"])
-        bound = Fraction(c - b, a)
-        raw_bound = frac_tex(c - b, a)
-        reduced_bound = number_tex(bound)
-        bound_calculation = (
-            raw_bound if raw_bound == reduced_bound else f"{raw_bound}={reduced_bound}"
-        )
-        aufgabe = f"Löse die Ungleichung:\n{display(f'{a}x+{b}{relation}{c}')}"
+        result_relation = ("<" if relation == ">" else ">") if negative_coeff else relation
+        pattern = RNG.choice(["only", "plus", "minus"])
+        if pattern == "only":
+            c = RNG.choice([value for value in range(-18, 25) if value != 0])
+            left = f"{coeff}x" if coeff < 0 else f"{a}x"
+            isolated = c
+            prepare = (
+                f"Vor {inline('x')} steht schon allein der Koeffizient {inline(str(coeff))}."
+            )
+            prepared = f"{left}{relation}{c}"
+        else:
+            b = RNG.randint(1, 12)
+            c = RNG.randint(-15, 24)
+            sign = "-" if coeff < 0 else ""
+            if pattern == "plus":
+                left = f"{sign}{a}x+{b}"
+                isolated = c - b
+                prepare = (
+                    f"Zuerst {inline(str(b))} auf beiden Seiten subtrahieren. "
+                    "Dabei dreht sich das Ungleichheitszeichen noch nicht um:"
+                )
+            else:
+                left = f"{sign}{a}x-{b}"
+                isolated = c + b
+                prepare = (
+                    f"Zuerst {inline(str(b))} auf beiden Seiten addieren. "
+                    "Dabei dreht sich das Ungleichheitszeichen noch nicht um:"
+                )
+            prepared = f"{coeff}x{relation}{isolated}"
+        bound = Fraction(isolated, coeff)
+        if negative_coeff:
+            divide_step = (
+                f"Beide Seiten durch die negative Zahl {inline(str(coeff))} teilen. "
+                "Beim Teilen durch eine negative Zahl dreht sich das Ungleichheitszeichen um:"
+            )
+            division = display(rf"{isolated}:({coeff})={number_tex(bound)}")
+        else:
+            divide_step = (
+                f"Beide Seiten durch die positive Zahl {inline(str(a))} teilen. "
+                "Darum bleibt das Ungleichheitszeichen unverändert:"
+            )
+            division = display(rf"{isolated}:{a}={number_tex(bound)}")
+        aufgabe = f"Löse die Ungleichung:\n{display(f'{left}{relation}{c}')}"
         steps = [
-            f"Auf beiden Seiten {inline(str(b))} subtrahieren:",
-            display(f"{a}x+{b}{relation}{c}\\quad\\Rightarrow\\quad {a}x{relation}{c-b}"),
-            f"Beide Seiten durch die positive Zahl {inline(str(a))} teilen. "
-            "Darum bleibt das Ungleichheitszeichen unverändert:",
-            display(f"x{relation}{bound_calculation}"),
+            prepare,
+            display(f"{left}{relation}{c}\\quad\\Rightarrow\\quad {prepared}"),
+            divide_step,
+            division,
+            display(f"x{result_relation}{number_tex(bound)}"),
             f"Die Lösung sind alle Zahlen {inline('x')}, die "
-            f"{'größer' if relation == '>' else 'kleiner'} als {inline(number_tex(bound))} sind.",
+            f"{'größer' if result_relation == '>' else 'kleiner'} als {inline(number_tex(bound))} sind.",
         ]
         if append_task(
             tasks,
             "ungleichungen",
             aufgabe,
             steps,
-            display(f"x{relation}{number_tex(bound)}"),
+            display(f"x{result_relation}{number_tex(bound)}"),
         ):
             created += 1
 
@@ -799,7 +1147,7 @@ def main() -> None:
         {"id": "logarithmus", "title": "Logarithmus"},
         {"id": "prozent", "title": "Prozentrechnung"},
         {"id": "dreisatz", "title": "Dreisatzrechnung"},
-        {"id": "gleichungen", "title": "Gleichungen (inkl. Exponentialgleichungen)"},
+        {"id": "gleichungen", "title": "Gleichungen lösen"},
         {"id": "ungleichungen", "title": "Ungleichungen"},
     ]
 
