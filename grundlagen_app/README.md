@@ -5,6 +5,11 @@ Streamlit-App mit Aufgaben zu Grundlagen (Brüche, Dreisatz, Prozent, Logarithmu
 Die 500 Aufgaben und ihre kleinschrittigen Lösungen liegen in **`data/aufgaben.json`**
 (LaTeX in Strings). Die App rendert sie als Markdown mit LaTeX.
 
+## Logo
+
+- `logo.png` – Favicon / Browser-Tab (wird in der App eingebunden)
+- `logo.svg` – Vektorversion für Webseiten, Folien oder Verlinkungen
+
 ## Lokal starten (PowerShell, Repo-Root)
 
 ```powershell

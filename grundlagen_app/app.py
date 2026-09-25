@@ -9,6 +9,7 @@ import streamlit as st
 
 _APP_DIR = Path(__file__).resolve().parent
 _DATA_PATH = _APP_DIR / "data" / "aufgaben.json"
+_LOGO_PATH = _APP_DIR / "logo.png"
 
 
 def _aufgaben_file_version() -> float:
@@ -124,7 +125,7 @@ def go_prev_task(filtered: list[dict]) -> None:
 
 st.set_page_config(
     page_title="Mathe 1 – Übungen",
-    page_icon="📝",
+    page_icon=str(_LOGO_PATH) if _LOGO_PATH.is_file() else "📝",
     layout="wide",
 )
 
