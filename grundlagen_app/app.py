@@ -129,6 +129,32 @@ st.set_page_config(
     layout="wide",
 )
 
+# KaTeX (Streamlit-Markdown): Bruchstriche auf Mobil/Dark Mode oft zu dünn (Subpixel).
+st.markdown(
+    """
+    <style>
+    .katex .frac-line,
+    .katex .overline .overline-line,
+    .katex .underline .underline-line {
+        border-bottom-width: max(0.08em, 1.25px) !important;
+    }
+    @media (max-width: 768px) {
+        .katex .frac-line,
+        .katex .overline .overline-line,
+        .katex .underline .underline-line {
+            border-bottom-width: max(0.11em, 2px) !important;
+        }
+    }
+    [data-theme="dark"] .katex .frac-line,
+    [data-theme="dark"] .katex .overline .overline-line,
+    [data-theme="dark"] .katex .underline .underline-line {
+        border-bottom-color: rgba(250, 250, 250, 0.92) !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 data = load_aufgaben(_aufgaben_file_version())
 topics = data["topics"]
 titles = topic_map(data)
