@@ -32,18 +32,22 @@ A_NM1 = Symbol("a_nm1")
 A_NM2 = Symbol("a_nm2")
 A_NM3 = Symbol("a_nm3")
 TRANSFORMATIONS = standard_transformations + (convert_xor, implicit_multiplication_application)
-N_TERMS = 100
 N_X_MIN = 0
-N_X_MAX = 100
+N_TERMS_DEFAULT = 100
+N_TERMS_MIN = 5
+N_TERMS_MAX = 500
 
-TOKEN_A_NM1 = "a_{n-1}"
-TOKEN_A_NM2 = "a_{n-2}"
-TOKEN_A_NM3 = "a_{n-3}"
+TOKEN_A_NM1 = "a[n-1]"
+TOKEN_A_NM2 = "a[n-2]"
+TOKEN_A_NM3 = "a[n-3]"
 TOKEN_SQRT = "√("
 
 
 def normalize_recurrence_tokens(formula: str) -> str:
     text = formula
+    text = re.sub(r"a\[n-1\]", "a_nm1", text)
+    text = re.sub(r"a\[n-2\]", "a_nm2", text)
+    text = re.sub(r"a\[n-3\]", "a_nm3", text)
     text = re.sub(r"a_\{n-1\}", "a_nm1", text)
     text = re.sub(r"a_\{n-2\}", "a_nm2", text)
     text = re.sub(r"a_\{n-3\}", "a_nm3", text)
@@ -125,27 +129,29 @@ def latex_for_plot(expression) -> str:
     )
 
 
-def compute_explicit(expression) -> np.ndarray:
+def compute_explicit(expression, n_terms: int) -> np.ndarray:
     numeric = lambdify(N_INDEX, expression, modules=["numpy"])
-    indices = np.arange(1, N_TERMS + 1, dtype=float)
+    indices = np.arange(1, n_terms + 1, dtype=float)
     with np.errstate(all="ignore"):
         values = np.asarray(numeric(indices), dtype=float)
     if values.ndim == 0:
-        values = np.full(N_TERMS, float(values))
+        values = np.full(n_terms, float(values))
     values[~np.isfinite(values)] = np.nan
     return values
 
 
-def compute_recursive(expression, formula: str, a1: float, a2: float, a3: float) -> np.ndarray:
+def compute_recursive(
+    expression, formula: str, a1: float, a2: float, a3: float, n_terms: int
+) -> np.ndarray:
     max_lag = max_predecessor_lag(formula)
     fn = lambdify((A_NM1, A_NM2, A_NM3, N_INDEX), expression, modules=["numpy"])
     initials = [a1, a2, a3]
 
-    values = np.full(N_TERMS, np.nan, dtype=float)
+    values = np.full(n_terms, np.nan, dtype=float)
     for index in range(max_lag):
         values[index] = initials[index]
 
-    for n in range(max_lag + 1, N_TERMS + 1):
+    for n in range(max_lag + 1, n_terms + 1):
         prev1 = values[n - 2]
         prev2 = values[n - 3] if n - 3 >= 0 else 0.0
         prev3 = values[n - 4] if n - 4 >= 0 else 0.0
@@ -159,10 +165,12 @@ def compute_recursive(expression, formula: str, a1: float, a2: float, a3: float)
     return values
 
 
-def compute_sequence(expression, formula: str, a1: float, a2: float, a3: float) -> np.ndarray:
+def compute_sequence(
+    expression, formula: str, a1: float, a2: float, a3: float, n_terms: int
+) -> np.ndarray:
     if formula_uses_predecessor(formula):
-        return compute_recursive(expression, formula, a1, a2, a3)
-    return compute_explicit(expression)
+        return compute_recursive(expression, formula, a1, a2, a3, n_terms)
+    return compute_explicit(expression, n_terms)
 
 
 def partial_sums(sequence: np.ndarray) -> np.ndarray:
@@ -190,13 +198,14 @@ def format_value(value: float) -> str:
 
 
 def horizontal_value_table(sequence: np.ndarray, partials: np.ndarray) -> pd.DataFrame:
-    columns = [str(n) for n in range(1, N_TERMS + 1)]
+    n_terms = len(sequence)
+    columns = [str(n) for n in range(1, n_terms + 1)]
     table = pd.DataFrame(
         [
             {col: format_value(sequence[i]) for i, col in enumerate(columns)},
             {col: format_value(partials[i]) for i, col in enumerate(columns)},
         ],
-        index=[r"aₙ", r"Sₙ"],
+        index=[r"aₙ", r"sₙ"],
     )
     table.index.name = "n"
     return table
@@ -206,10 +215,11 @@ def append_to_formula(token: str) -> None:
     st.session_state.formula = st.session_state.get("formula", "") + token
 
 
-X_CLAMP_SCRIPT = f"""
+def x_clamp_script(n_x_max: int) -> str:
+    return f"""
 const graph = document.getElementById('{{plot_id}}');
 const N_MIN = {N_X_MIN};
-const N_MAX = {N_X_MAX};
+const N_MAX = {n_x_max};
 let internalRelayout = false;
 
 function clampXRange(range) {{
@@ -266,7 +276,7 @@ if "formula" not in st.session_state:
     st.session_state.formula = "0.5^n"
 
 st.title("Folgen und Reihen")
-st.caption("Es werden immer die ersten 100 Folgenglieder gezeichnet (Start bei n = 1).")
+st.caption("Folgenglieder ab n = 1; die Anzahl stellst du über der Wertetabelle ein (Standard: 100).")
 
 sidebar_formula = st.session_state.formula.replace(",", ".")
 predecessor_lag = max_predecessor_lag(sidebar_formula)
@@ -302,10 +312,10 @@ with st.sidebar:
 
     label_col, input_col = st.columns([1, 3], gap="small", vertical_alignment="top")
     with label_col:
-        st.markdown("**a_n** =")
+        st.markdown(r"$a_n$ =")
     with input_col:
         st.text_input("Folge", key="formula", label_visibility="collapsed")
-        st.caption("Enter drücken, um die Formel zu übernehmen.")
+        st.caption("Enter zum Übernehmen. Vorgänger z. B. mit den Buttons als a[n-1] einfügen.")
 
     with st.expander("Funktionen", expanded=False):
         calc_rows = [
@@ -328,27 +338,41 @@ with st.sidebar:
                         width="stretch",
                     )
 
-        st.markdown("**Vorgänger**")
-        rec_cols = st.columns(3)
+        st.markdown("**Index n und Vorgänger**")
+        rec_cols = st.columns(4)
         with rec_cols[0]:
-            st.button("aₙ₋₁", key="rec_nm1", on_click=append_to_formula, args=(TOKEN_A_NM1,), width="stretch")
+            st.button("n", key="rec_n", on_click=append_to_formula, args=("n",), width="stretch")
         with rec_cols[1]:
-            st.button("aₙ₋₂", key="rec_nm2", on_click=append_to_formula, args=(TOKEN_A_NM2,), width="stretch")
+            st.button("a[n-1]", key="rec_nm1", on_click=append_to_formula, args=(TOKEN_A_NM1,), width="stretch")
         with rec_cols[2]:
-            st.button("aₙ₋₃", key="rec_nm3", on_click=append_to_formula, args=(TOKEN_A_NM3,), width="stretch")
+            st.button("a[n-2]", key="rec_nm2", on_click=append_to_formula, args=(TOKEN_A_NM2,), width="stretch")
+        with rec_cols[3]:
+            st.button("a[n-3]", key="rec_nm3", on_click=append_to_formula, args=(TOKEN_A_NM3,), width="stretch")
 
     a1 = 1.0
     a2 = 0.0
     a3 = 0.0
     if show_start_values:
         st.markdown("**Startwerte**")
-        a1 = st.number_input(r"\(a_1\)", value=1.0, format="%.6g")
+        start_label_col, start_input_col = st.columns([1, 3], gap="small", vertical_alignment="center")
+        with start_label_col:
+            st.markdown(r"$a_1$ =")
+        with start_input_col:
+            a1 = st.number_input("a_1", value=1.0, format="%.6g", label_visibility="collapsed", key="start_a1")
         if predecessor_lag >= 2:
-            a2 = st.number_input(r"\(a_2\)", value=0.0, format="%.6g")
+            start_label_col, start_input_col = st.columns([1, 3], gap="small", vertical_alignment="center")
+            with start_label_col:
+                st.markdown(r"$a_2$ =")
+            with start_input_col:
+                a2 = st.number_input("a_2", value=0.0, format="%.6g", label_visibility="collapsed", key="start_a2")
         if predecessor_lag >= 3:
-            a3 = st.number_input(r"\(a_3\)", value=0.0, format="%.6g")
+            start_label_col, start_input_col = st.columns([1, 3], gap="small", vertical_alignment="center")
+            with start_label_col:
+                st.markdown(r"$a_3$ =")
+            with start_input_col:
+                a3 = st.number_input("a_3", value=0.0, format="%.6g", label_visibility="collapsed", key="start_a3")
 
-    st.caption(r"Beispiele: `0.5^n`, `1/n`, `sin(n)`, `a_{n-1}+a_{n-2}`.")
+    st.caption("Beispiele: `0.5^n`, `1/n`, `sin(n)`, `a[n-1]+a[n-2]`.")
 
     st.info("Mit dem Mausrad zoomen, ziehen zum Verschieben. Plotly-Toolbar oben rechts im Diagramm.")
 
@@ -363,17 +387,21 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
 
+if "n_terms" not in st.session_state:
+    st.session_state.n_terms = N_TERMS_DEFAULT
+n_terms = int(st.session_state.n_terms)
+
 formula = st.session_state.formula.replace(",", ".")
 
 try:
     expression = parse_sequence_formula(formula)
-    sequence = compute_sequence(expression, formula, float(a1), float(a2), float(a3))
+    sequence = compute_sequence(expression, formula, float(a1), float(a2), float(a3), n_terms)
     seq_latex = latex_for_plot(expression)
     title_seq = rf"$\text{{Folge: }}\ a_n = {seq_latex}$"
-    title_partial = r"$\text{Partialsummen: }\ S_n = \sum_{k=1}^{n} a_k$"
+    title_partial = r"$\text{Partialsummen: }\ s_n = \sum_{k=1}^{n} a_k$"
 
     partials = partial_sums(sequence)
-    n_values = np.arange(1, N_TERMS + 1)
+    n_values = np.arange(1, n_terms + 1)
     y_seq = padded_y_range(sequence)
     y_part = padded_y_range(partials)
 
@@ -404,7 +432,7 @@ try:
             y=partials,
             mode="markers",
             marker={"size": 9, "color": "#16a34a", "line": {"width": 1, "color": "#15803d"}},
-            name=r"S_n",
+            name=r"s_n",
             **marker_style,
         ),
         row=2,
@@ -425,7 +453,7 @@ try:
         figure.layout.annotations[1].update(y=y2_top, yref="paper", yshift=10)
     x_axis_style = {
         "title_text": "n",
-        "range": [N_X_MIN, N_X_MAX],
+        "range": [N_X_MIN, n_terms],
         "dtick": 10,
         "showticklabels": True,
         "ticks": "outside",
@@ -436,12 +464,22 @@ try:
     figure.update_xaxes(**x_axis_style, title_standoff=6, row=2, col=1)
     axis_frame = {"showline": False, "mirror": False, "zeroline": False}
     figure.update_yaxes(title_text="$a_n$", range=y_seq, **axis_frame, row=1, col=1)
-    figure.update_yaxes(title_text="$S_n$", range=y_part, **axis_frame, row=2, col=1)
+    figure.update_yaxes(title_text="$s_n$", range=y_part, **axis_frame, row=2, col=1)
 
     table_df = horizontal_value_table(sequence, partials)
 
+    st.number_input(
+        "Anzahl Folgenglieder",
+        min_value=N_TERMS_MIN,
+        max_value=N_TERMS_MAX,
+        step=1,
+        key="n_terms",
+        help="Es werden die Glieder n = 1, 2, … bis zu dieser Anzahl tabelliert und gezeichnet.",
+    )
+    n_terms = int(st.session_state.n_terms)
+
     st.subheader("Wertetabelle")
-    st.caption("Horizontal scrollen, um alle 100 Folgenglieder zu sehen.")
+    st.caption(f"Horizontal scrollen, um alle {n_terms} Folgenglieder zu sehen.")
     st.dataframe(table_df, width="stretch", hide_index=False)
 
     st.subheader("Graph")
@@ -456,7 +494,7 @@ try:
         include_plotlyjs=True,
         include_mathjax="cdn",
         full_html=False,
-        post_script=X_CLAMP_SCRIPT,
+        post_script=x_clamp_script(n_terms),
         config=plot_config,
     )
     components.html(chart_html, height=740, scrolling=False)
@@ -464,6 +502,6 @@ try:
 except Exception:
     st.error("Diese Eingabe konnte ich nicht auswerten.")
     st.info(
-        r"Formel in \(n\) oder mit Vorgängern, z. B. `0.5^n`, `sin(n)`, `a_{n-1}+a_{n-2}` "
-        r"(Buttons aₙ₋₁ / aₙ₋₂ / aₙ₋₃). Wurzel: Zeichen √."
+        "Formel in n oder mit Vorgängern, z. B. `0.5^n`, `sin(n)`, `a[n-1]+a[n-2]` "
+        "(Buttons a[n-1] …). Wurzel: Zeichen √."
     )

@@ -1,6 +1,6 @@
 # Folgen und Reihen
 
-Streamlit-App zum Definieren, Tabellieren und Plotten von Folgen und Partialsummen (immer die ersten 100 Glieder, Start bei \(n=1\)).
+Streamlit-App zum Definieren, Tabellieren und Plotten von Folgen und Partialsummen \(s_n\) (Anzahl der Glieder wählbar, Standard 100, Start bei \(n=1\)).
 
 ## Logo
 
