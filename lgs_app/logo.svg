@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Lineares Gleichungssystem mit x, y und z">
+  <rect width="512" height="512" rx="96" fill="#002C5C"/>
+  <g
+    font-family="Consolas, Segoe UI, Arial, sans-serif"
+    font-size="44"
+    font-weight="600"
+    fill="#ffffff"
+  >
+    <g text-anchor="end">
+      <text x="352" y="191">x + y + z</text>
+      <text x="352" y="273">2x − y + z</text>
+      <text x="352" y="355">x + 2y − z</text>
+    </g>
+    <g text-anchor="middle" fill="#5B9BD5">
+      <text x="385" y="191">=</text>
+      <text x="385" y="273">=</text>
+      <text x="385" y="355">=</text>
+    </g>
+    <g text-anchor="start">
+      <text x="416" y="191">6</text>
+      <text x="416" y="273">3</text>
+      <text x="416" y="355">2</text>
+    </g>
+  </g>
+</svg>
