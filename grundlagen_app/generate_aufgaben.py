@@ -1,4 +1,4 @@
-"""Erzeugt genau 500 Aufgaben im Stil des Skripts 01_grundlagen.tex.
+"""Erzeugt 529 Aufgaben im Stil des Skripts 01_grundlagen.tex.
 
 Schrittfolgen und Notation: siehe AUFGABEN_REGELN.md im gleichen Ordner.
 """
@@ -1108,10 +1108,199 @@ def add_skript_vorlagen(tasks: list) -> None:
     )
 
 
+def gen_potenzgleichungen(tasks: list) -> None:
+    """Lösbare Gleichungen der Form x^n + b = c, zusätzlich zu den anderen Gleichungstypen."""
+    ordinal = {2: "zweite", 3: "dritte", 4: "vierte", 5: "fünfte"}
+    # (Exponent, ganzzahlige Lösung, Konstante links: x^n + Konstante)
+    specs = [
+        (3, 3, 5),
+        (2, 4, 7),
+        (3, 3, -2),
+        (4, 2, 0),
+        (3, 3, 1),
+        (2, 4, -5),
+        (3, -3, 0),
+        (5, 2, 3),
+        (4, 3, 2),
+        (3, 4, -10),
+        (2, 5, 9),
+        (3, -2, 8),
+        (4, 2, -1),
+        (3, -2, -4),
+        (2, 7, -3),
+    ]
+    for exponent, root, added in specs:
+        power = root**exponent
+        rhs = power + added
+        power_tex = f"x^{{{exponent}}}"
+        if added > 0:
+            left = f"{power_tex}+{added}"
+            isolate_sentence = (
+                f"Zuerst {inline(str(added))} auf beiden Seiten subtrahieren, "
+                "damit die Potenz allein steht."
+            )
+            isolated = display(f"{left}={rhs}\\quad\\Rightarrow\\quad {power_tex}={rhs}-{added}={power}")
+        elif added < 0:
+            removed = -added
+            left = f"{power_tex}-{removed}"
+            isolate_sentence = (
+                f"Zuerst {inline(str(removed))} auf beiden Seiten addieren, "
+                "damit die Potenz allein steht."
+            )
+            isolated = display(f"{left}={rhs}\\quad\\Rightarrow\\quad {power_tex}={rhs}+{removed}={power}")
+        else:
+            left = power_tex
+            isolate_sentence = "Die Potenz steht bereits allein auf der linken Seite."
+            isolated = display(f"{power_tex}={power}")
+        even = exponent % 2 == 0
+        base_tex = f"({root})" if root < 0 else str(root)
+        if even:
+            solution = display(rf"x={root}\quad\text{{oder}}\quad x=-{root}")
+            recognize = (
+                f"Der Exponent {inline(str(exponent))} ist gerade. Sowohl "
+                f"{inline(f'{root}^{{{exponent}}}')} als auch "
+                f"{inline(f'(-{root})^{{{exponent}}}')} ergeben {inline(str(power))}."
+            )
+            probe = (
+                f"Probe für beide Lösungen: "
+                f"{inline(f'{root}^{{{exponent}}}={power}')} und "
+                f"{inline(f'(-{root})^{{{exponent}}}={power}')}."
+            )
+        else:
+            solution = display(f"x={root}")
+            recognize = (
+                f"Die {ordinal[exponent]} Potenz von {inline(str(root))} ist "
+                f"{inline(f'{base_tex}^{{{exponent}}}={power}')}. "
+                "Bei ungeradem Exponenten gibt es nur diese eine reelle Lösung."
+            )
+            probe = (
+                f"Probe: {inline(f'{base_tex}^{{{exponent}}}={power}')}, "
+                "eingesetzt passt die Ausgangsgleichung."
+            )
+        steps = [isolate_sentence, isolated, recognize, solution, probe]
+        if not append_task(
+            tasks,
+            "gleichungen",
+            f"Löse die Potenzgleichung:\n{display(f'{left}={rhs}')}",
+            steps,
+            solution,
+        ):
+            raise RuntimeError(f"Potenzgleichung doppelt: {left}={rhs}")
+
+
+def _frac_exp(base: str, numerator: int, denominator: int) -> str:
+    if denominator == 1:
+        return f"{base}^{{{numerator}}}"
+    return f"{base}^{{\\frac{{{numerator}}}{{{denominator}}}}}"
+
+
+def gen_bruch_exponenten(tasks: list) -> None:
+    """Potenzen mit Bruch im Exponenten, teils mit x als Basis."""
+    root_name = {2: "Quadratwurzel", 3: "Kubikwurzel", 4: "vierte Wurzel", 5: "fünfte Wurzel"}
+    numeric = [
+        (8, 2, 3, 2),
+        (16, 3, 4, 2),
+        (27, 2, 3, 3),
+        (81, 3, 4, 3),
+        (32, 2, 5, 2),
+        (9, 3, 2, 3),
+        (4, 5, 2, 2),
+        (125, 2, 3, 5),
+    ]
+    for base, numerator, denominator, root in numeric:
+        expr = _frac_exp(str(base), numerator, denominator)
+        result = root**numerator
+        steps = [
+            "Ein Bruch im Exponenten bedeutet: Der Nenner gehört zur Wurzel, der Zähler zur Potenz.",
+            display(
+                rf"{expr}=\left({base}^{{\frac{{1}}{{{denominator}}}}}\right)^{{{numerator}}}"
+            ),
+            f"Zuerst die {root_name[denominator]} bestimmen: "
+            f"{display(rf'{base}^{{\frac{{1}}{{{denominator}}}}}={root}')}.",
+            f"Danach diese Zahl potenzieren: {display(f'{root}^{{{numerator}}}={result}')}.",
+        ]
+        if not append_task(
+            tasks,
+            "potenzen_wurzel",
+            f"Berechne:\n{display(expr)}",
+            steps,
+            display(str(result)),
+        ):
+            raise RuntimeError(f"Bruchexponent doppelt: {expr}")
+
+    variable_tasks = [
+        (
+            rf"{_frac_exp('x', 1, 2)}\cdot {_frac_exp('x', 3, 2)}",
+            [
+                "Bei gleicher Basis werden beim Multiplizieren die Exponenten addiert.",
+                "Die Nenner sind gleich: "
+                + display(r"\frac{1}{2}+\frac{3}{2}=\frac{1+3}{2}=\frac{4}{2}=2"),
+                display(rf"{_frac_exp('x', 1, 2)}\cdot {_frac_exp('x', 3, 2)}=x^2"),
+            ],
+            display("x^2"),
+        ),
+        (
+            rf"{_frac_exp('x', 2, 3)}\cdot {_frac_exp('x', 1, 3)}",
+            [
+                "Bei gleicher Basis werden beim Multiplizieren die Exponenten addiert.",
+                display(r"\frac{2}{3}+\frac{1}{3}=\frac{3}{3}=1"),
+                display(rf"{_frac_exp('x', 2, 3)}\cdot {_frac_exp('x', 1, 3)}=x^1=x"),
+            ],
+            display("x"),
+        ),
+        (
+            rf"{_frac_exp('x', 5, 4)}:{_frac_exp('x', 1, 4)}",
+            [
+                "Bei gleicher Basis werden beim Dividieren die Exponenten subtrahiert.",
+                display(r"\frac{5}{4}-\frac{1}{4}=\frac{4}{4}=1"),
+                display(rf"{_frac_exp('x', 5, 4)}:{_frac_exp('x', 1, 4)}=x^1=x"),
+            ],
+            display("x"),
+        ),
+        (
+            rf"\left({_frac_exp('x', 2, 3)}\right)^3",
+            [
+                "Bei einer Potenz von einer Potenz werden die Exponenten multipliziert.",
+                display(r"\frac{2}{3}\cdot 3=\frac{2}{3}\cdot\frac{3}{1}=2"),
+                display(rf"\left({_frac_exp('x', 2, 3)}\right)^3=x^2"),
+            ],
+            display("x^2"),
+        ),
+        (
+            rf"\left({_frac_exp('x', 3, 2)}\right)^{{\frac{{2}}{{3}}}}",
+            [
+                "Bei einer Potenz von einer Potenz werden die Exponenten multipliziert.",
+                display(r"\frac{3}{2}\cdot\frac{2}{3}=\frac{3\cdot 2}{2\cdot 3}=1"),
+                display(rf"\left({_frac_exp('x', 3, 2)}\right)^{{\frac{{2}}{{3}}}}=x^1=x"),
+            ],
+            display("x"),
+        ),
+        (
+            rf"{_frac_exp('x', 7, 2)}:{_frac_exp('x', 3, 2)}",
+            [
+                "Bei gleicher Basis werden beim Dividieren die Exponenten subtrahiert.",
+                display(r"\frac{7}{2}-\frac{3}{2}=\frac{4}{2}=2"),
+                display(rf"{_frac_exp('x', 7, 2)}:{_frac_exp('x', 3, 2)}=x^2"),
+            ],
+            display("x^2"),
+        ),
+    ]
+    for expression, steps, kurz in variable_tasks:
+        if not append_task(
+            tasks,
+            "potenzen_wurzel",
+            f"Vereinfache:\n{display(expression)}",
+            steps,
+            kurz,
+        ):
+            raise RuntimeError(f"Bruchexponent mit x doppelt: {expression}")
+
+
 def validate_tasks(tasks: list[dict], expected_counts: dict[str, int]) -> None:
     """Strukturelle Qualitätskontrolle vor dem Schreiben der JSON-Datei."""
-    if len(tasks) != 500:
-        raise ValueError(f"Erwartet: 500 Aufgaben; erzeugt: {len(tasks)}")
+    expected_total = sum(expected_counts.values())
+    if len(tasks) != expected_total:
+        raise ValueError(f"Erwartet: {expected_total} Aufgaben; erzeugt: {len(tasks)}")
 
     counts = Counter(task["topic_id"] for task in tasks)
     if counts != Counter(expected_counts):
@@ -1162,10 +1351,12 @@ def main() -> None:
     gen_brueche_mul_div(tasks, 39)
     gen_brueche_doppel(tasks, 33)
     gen_potenzen(tasks, 55)
+    gen_bruch_exponenten(tasks)
     gen_logarithmus(tasks, 25)
     gen_prozent(tasks, 30)
     gen_dreisatz(tasks, 30)
     gen_gleichungen(tasks, 65)
+    gen_potenzgleichungen(tasks)
     gen_ungleichungen(tasks, 45)
 
     for index, item in enumerate(tasks, start=1):
@@ -1178,11 +1369,11 @@ def main() -> None:
         "brueche_add_sub": 50,
         "brueche_mul_div": 40,
         "brueche_doppel": 35,
-        "potenzen_wurzel": 55,
+        "potenzen_wurzel": 69,
         "logarithmus": 25,
         "prozent": 30,
         "dreisatz": 30,
-        "gleichungen": 65,
+        "gleichungen": 80,
         "ungleichungen": 45,
     }
     validate_tasks(tasks, expected_counts)

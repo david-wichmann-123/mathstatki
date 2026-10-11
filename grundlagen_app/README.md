@@ -2,7 +2,7 @@
 
 Streamlit-App mit Aufgaben zu Grundlagen (Brüche, Dreisatz, Prozent, Logarithmus, Potenzen/Wurzeln, Exponentialgleichungen).
 
-Die 500 Aufgaben und ihre kleinschrittigen Lösungen liegen in **`data/aufgaben.json`**
+Die 529 Aufgaben und ihre kleinschrittigen Lösungen liegen in **`data/aufgaben.json`**
 (LaTeX in Strings). Die App rendert sie als Markdown mit LaTeX.
 
 ## Logo
@@ -32,7 +32,7 @@ Neue Einträge in `tasks` mit:
 - `loesung_schritte` (Liste von Strings, je ein Lösungsschritt)
 - `loesung_kurz` (Endergebnis)
 
-Aufgaben reproduzierbar neu erzeugen (genau 500 Stück):
+Aufgaben reproduzierbar neu erzeugen (529 Stück):
 
 ```powershell
 py .\grundlagen_app\generate_aufgaben.py

@@ -17,7 +17,7 @@ Bei Änderungen an den Regeln: Generator anpassen, dann `py .\grundlagen_app\gen
 | ggT / kgV | Deutsch ausgeschrieben: „größter gemeinsamer Teiler“, „kleinstes gemeinsames Vielfaches“ — **kein** `\gcd`, `\kgV` |
 | `loesung_kurz` | Nur das Endergebnis (meist ein Display-Block) |
 | `loesung_schritte` | Didaktische Zwischenschritte, je String ein Schritt in der App |
-| Aufgaben-IDs | Generator vergibt `aufg0001` … `aufg0500`; `nummer` 1–500 |
+| Aufgaben-IDs | Generator vergibt `aufg0001` … fortlaufend; `nummer` ab 1 |
 | Verständlichkeit | Jede Umformung wird benannt und in einem eigenen, nachvollziehbaren Schritt gezeigt |
 | Eindeutigkeit | Keine identischen Kombinationen aus Aufgabe und Kurzlösung |
 | Ganze Ergebnisse | Ganze Zahlen als `4`, nicht als `\frac{4}{1}` ausgeben |
@@ -105,6 +105,7 @@ Lösungsschritte:
 - Gleiche Basis: beim **Multiplizieren** Exponenten addieren, beim **Dividieren** Exponenten subtrahieren. Die konkrete Exponentenrechnung als eigenen Schritt zeigen.  
 - Wurzeln: Faktorzerlegung, dann `\sqrt{a^2\cdot rest}=a\sqrt{rest}`.  
 - Potenz einer Potenz: Exponenten multiplizieren.
+- Bruch im Exponenten: Nenner als Wurzel, Zähler als Potenz, zum Beispiel \(8^{2/3}=(8^{1/3})^2\). Exponentenbrüche beim Addieren, Subtrahieren oder Multiplizieren vollständig ausrechnen. Ein Teil der Aufgaben hat \(x\) als Basis und wird nur vereinfacht, nicht zu einer Zahl ausgewertet.
 
 ---
 
@@ -118,7 +119,7 @@ Zuerst die Definition `\log_b(x)=e \Leftrightarrow b^e=x` nennen, dann die passe
 
 - Prozent: „von Hundert“ erklären, dann `\frac{p}{100}` mal Grundwert. Die Aufgaben verwenden ganzzahlige Prozentwerte.  
 - Dreisatz: konkrete Situationen mit benannter Sache (nicht nur „kg kosten Euro“). Proportional: zuerst die Größe für 1 Einheit, dann hochrechnen. Umgekehrt: Gesamtarbeit bleibt gleich, dann auf die neue Anzahl verteilen. Euro-Beträge im Aufgabentext als normaler Text, keine versteckte Rundung.  
-- Lineare Gleichung: zuerst den konstanten Term entfernen, anschließend die sichtbare Division zum Isolieren von `x`. Exponentialgleichung: gleiche Basis herstellen, Exponenten vergleichen und gegebenenfalls dividieren. Wurzelgleichung: Wurzel isolieren, beide Seiten quadrieren und das Ergebnis in der Ausgangsgleichung prüfen.  
+- Lineare Gleichung: zuerst den konstanten Term entfernen, anschließend die sichtbare Division zum Isolieren von `x`. Exponentialgleichung: gleiche Basis herstellen, Exponenten vergleichen und gegebenenfalls dividieren. Wurzelgleichung: Wurzel isolieren, beide Seiten quadrieren und das Ergebnis in der Ausgangsgleichung prüfen. Potenzgleichung \(x^n\pm b=c\): Potenz isolieren, die passende ganzzahlige Basis nennen. Bei geradem Exponenten beide Vorzeichen angeben, bei ungeradem nur die eine reelle Lösung.  
 - Ungleichung: etwa die Hälfte mit positivem Koeffizienten vor `x` (Zeichen bleibt beim Teilen gleich), die andere Hälfte mit negativem Koeffizienten wie `-7x` (Zeichen dreht sich um). Das jeweils ausdrücklich begründen. Zuerst konstante Terme beseitigen. Exakte Brüche statt langer Dezimalzahlen.
 
 ---
@@ -126,7 +127,7 @@ Zuerst die Definition `\log_b(x)=e \Leftrightarrow b^e=x` nennen, dann die passe
 ## Generator
 
 - Logik und Schritt-Templates: `generate_aufgaben.py`  
-- Seed `42` für eine reproduzierbare Aufgabenmenge von **genau 500 Aufgaben**  
+- Seed `42` für den reproduzierbaren Grundstock; Potenzgleichungen und Bruchexponenten sind fest vorgegeben. Insgesamt **529 Aufgaben**.  
 - Der Generator verhindert identische Aufgaben und validiert Anzahl, Themenverteilung, IDs sowie Nullnenner vor dem Schreiben.  
-- Soll-Verteilung: Rechenregeln 70; Kürzen/Erweitern 55; Add/Sub 50; Mul/Div 40; Doppelbrüche 35; Potenzen/Wurzeln 55; Logarithmus 25; Prozent 30; Dreisatz 30; Gleichungen 65; Ungleichungen 45.  
+- Soll-Verteilung: Rechenregeln 70; Kürzen/Erweitern 55; Add/Sub 50; Mul/Div 40; Doppelbrüche 35; Potenzen/Wurzeln 69; Logarithmus 25; Prozent 30; Dreisatz 30; Gleichungen 80; Ungleichungen 45.  
 - Nach Regeländerungen immer JSON neu generieren und in der App alle Themen sowie Sonderfälle stichprobenartig prüfen.
