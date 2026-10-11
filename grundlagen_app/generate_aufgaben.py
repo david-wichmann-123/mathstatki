@@ -1,4 +1,4 @@
-"""Erzeugt 529 Aufgaben im Stil des Skripts 01_grundlagen.tex.
+"""Erzeugt 534 Aufgaben im Stil des Skripts 01_grundlagen.tex.
 
 Schrittfolgen und Notation: siehe AUFGABEN_REGELN.md im gleichen Ordner.
 """
@@ -1296,6 +1296,64 @@ def gen_bruch_exponenten(tasks: list) -> None:
             raise RuntimeError(f"Bruchexponent mit x doppelt: {expression}")
 
 
+def gen_gleiche_exponenten(tasks: list) -> None:
+    """Gleicher Exponent, verschiedene Basen: a^n·b^n=(a·b)^n und a^n:b^n=(a:b)^n."""
+    product_rule = "Bei gleichem Exponenten werden die Basen multipliziert: der Exponent bleibt stehen."
+    quotient_rule = "Bei gleichem Exponenten werden die Basen dividiert: der Exponent bleibt stehen."
+    specs = [
+        (
+            r"x^{3}\cdot y^{3}",
+            [
+                product_rule,
+                display(r"x^{3}\cdot y^{3}=(x\cdot y)^{3}=(xy)^{3}"),
+            ],
+            display(r"(xy)^{3}"),
+        ),
+        (
+            r"a^{2}\cdot b^{2}",
+            [
+                product_rule,
+                display(r"a^{2}\cdot b^{2}=(a\cdot b)^{2}=(ab)^{2}"),
+            ],
+            display(r"(ab)^{2}"),
+        ),
+        (
+            r"x^{4}:y^{4}",
+            [
+                quotient_rule,
+                display(r"x^{4}:y^{4}=\left(\frac{x}{y}\right)^{4}"),
+            ],
+            display(r"\left(\frac{x}{y}\right)^{4}"),
+        ),
+        (
+            r"p^{5}\cdot q^{5}",
+            [
+                product_rule,
+                display(r"p^{5}\cdot q^{5}=(p\cdot q)^{5}=(pq)^{5}"),
+            ],
+            display(r"(pq)^{5}"),
+        ),
+        (
+            r"x^{3}\cdot y^{3}\cdot z^{3}",
+            [
+                product_rule,
+                "Die Regel gilt auch für mehr als zwei Faktoren mit demselben Exponenten.",
+                display(r"x^{3}\cdot y^{3}\cdot z^{3}=(x\cdot y\cdot z)^{3}=(xyz)^{3}"),
+            ],
+            display(r"(xyz)^{3}"),
+        ),
+    ]
+    for expression, steps, kurz in specs:
+        if not append_task(
+            tasks,
+            "potenzen_wurzel",
+            f"Vereinfache:\n{display(expression)}",
+            steps,
+            kurz,
+        ):
+            raise RuntimeError(f"Gleicher Exponent doppelt: {expression}")
+
+
 def validate_tasks(tasks: list[dict], expected_counts: dict[str, int]) -> None:
     """Strukturelle Qualitätskontrolle vor dem Schreiben der JSON-Datei."""
     expected_total = sum(expected_counts.values())
@@ -1352,6 +1410,7 @@ def main() -> None:
     gen_brueche_doppel(tasks, 33)
     gen_potenzen(tasks, 55)
     gen_bruch_exponenten(tasks)
+    gen_gleiche_exponenten(tasks)
     gen_logarithmus(tasks, 25)
     gen_prozent(tasks, 30)
     gen_dreisatz(tasks, 30)
@@ -1369,7 +1428,7 @@ def main() -> None:
         "brueche_add_sub": 50,
         "brueche_mul_div": 40,
         "brueche_doppel": 35,
-        "potenzen_wurzel": 69,
+        "potenzen_wurzel": 74,
         "logarithmus": 25,
         "prozent": 30,
         "dreisatz": 30,

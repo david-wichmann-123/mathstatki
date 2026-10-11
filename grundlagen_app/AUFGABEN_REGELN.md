@@ -106,6 +106,7 @@ Lösungsschritte:
 - Wurzeln: Faktorzerlegung, dann `\sqrt{a^2\cdot rest}=a\sqrt{rest}`.  
 - Potenz einer Potenz: Exponenten multiplizieren.
 - Bruch im Exponenten: Nenner als Wurzel, Zähler als Potenz, zum Beispiel \(8^{2/3}=(8^{1/3})^2\). Exponentenbrüche beim Addieren, Subtrahieren oder Multiplizieren vollständig ausrechnen. Ein Teil der Aufgaben hat \(x\) als Basis und wird nur vereinfacht, nicht zu einer Zahl ausgewertet.
+- Gleicher Exponent, verschiedene Basen: \(a^n\cdot b^n=(ab)^n\) und \(a^n:b^n=\left(\frac{a}{b}\right)^n\).
 
 ---
 
@@ -127,7 +128,7 @@ Zuerst die Definition `\log_b(x)=e \Leftrightarrow b^e=x` nennen, dann die passe
 ## Generator
 
 - Logik und Schritt-Templates: `generate_aufgaben.py`  
-- Seed `42` für den reproduzierbaren Grundstock; Potenzgleichungen und Bruchexponenten sind fest vorgegeben. Insgesamt **529 Aufgaben**.  
+- Seed `42` für den reproduzierbaren Grundstock; Potenzgleichungen, Bruchexponenten und gleiche Exponenten sind fest vorgegeben. Insgesamt **534 Aufgaben**.  
 - Der Generator verhindert identische Aufgaben und validiert Anzahl, Themenverteilung, IDs sowie Nullnenner vor dem Schreiben.  
-- Soll-Verteilung: Rechenregeln 70; Kürzen/Erweitern 55; Add/Sub 50; Mul/Div 40; Doppelbrüche 35; Potenzen/Wurzeln 69; Logarithmus 25; Prozent 30; Dreisatz 30; Gleichungen 80; Ungleichungen 45.  
+- Soll-Verteilung: Rechenregeln 70; Kürzen/Erweitern 55; Add/Sub 50; Mul/Div 40; Doppelbrüche 35; Potenzen/Wurzeln 74; Logarithmus 25; Prozent 30; Dreisatz 30; Gleichungen 80; Ungleichungen 45.  
 - Nach Regeländerungen immer JSON neu generieren und in der App alle Themen sowie Sonderfälle stichprobenartig prüfen.

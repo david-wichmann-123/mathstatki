@@ -4198,6 +4198,62 @@
     },
     {
       "id": "aufg0320",
+      "topic_id": "potenzen_wurzel",
+      "aufgabe": "Vereinfache:\n\\[x^{3}\\cdot y^{3}\\]",
+      "loesung_schritte": [
+        "Bei gleichem Exponenten werden die Basen multipliziert: der Exponent bleibt stehen.",
+        "\\[x^{3}\\cdot y^{3}=(x\\cdot y)^{3}=(xy)^{3}\\]"
+      ],
+      "loesung_kurz": "\\[(xy)^{3}\\]",
+      "nummer": 320
+    },
+    {
+      "id": "aufg0321",
+      "topic_id": "potenzen_wurzel",
+      "aufgabe": "Vereinfache:\n\\[a^{2}\\cdot b^{2}\\]",
+      "loesung_schritte": [
+        "Bei gleichem Exponenten werden die Basen multipliziert: der Exponent bleibt stehen.",
+        "\\[a^{2}\\cdot b^{2}=(a\\cdot b)^{2}=(ab)^{2}\\]"
+      ],
+      "loesung_kurz": "\\[(ab)^{2}\\]",
+      "nummer": 321
+    },
+    {
+      "id": "aufg0322",
+      "topic_id": "potenzen_wurzel",
+      "aufgabe": "Vereinfache:\n\\[x^{4}:y^{4}\\]",
+      "loesung_schritte": [
+        "Bei gleichem Exponenten werden die Basen dividiert: der Exponent bleibt stehen.",
+        "\\[x^{4}:y^{4}=\\left(\\frac{x}{y}\\right)^{4}\\]"
+      ],
+      "loesung_kurz": "\\[\\left(\\frac{x}{y}\\right)^{4}\\]",
+      "nummer": 322
+    },
+    {
+      "id": "aufg0323",
+      "topic_id": "potenzen_wurzel",
+      "aufgabe": "Vereinfache:\n\\[p^{5}\\cdot q^{5}\\]",
+      "loesung_schritte": [
+        "Bei gleichem Exponenten werden die Basen multipliziert: der Exponent bleibt stehen.",
+        "\\[p^{5}\\cdot q^{5}=(p\\cdot q)^{5}=(pq)^{5}\\]"
+      ],
+      "loesung_kurz": "\\[(pq)^{5}\\]",
+      "nummer": 323
+    },
+    {
+      "id": "aufg0324",
+      "topic_id": "potenzen_wurzel",
+      "aufgabe": "Vereinfache:\n\\[x^{3}\\cdot y^{3}\\cdot z^{3}\\]",
+      "loesung_schritte": [
+        "Bei gleichem Exponenten werden die Basen multipliziert: der Exponent bleibt stehen.",
+        "Die Regel gilt auch für mehr als zwei Faktoren mit demselben Exponenten.",
+        "\\[x^{3}\\cdot y^{3}\\cdot z^{3}=(x\\cdot y\\cdot z)^{3}=(xyz)^{3}\\]"
+      ],
+      "loesung_kurz": "\\[(xyz)^{3}\\]",
+      "nummer": 324
+    },
+    {
+      "id": "aufg0325",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{4}(16)\\]",
       "loesung_schritte": [
@@ -4206,10 +4262,10 @@
         "\\[\\log_{4}(16)=2\\]"
       ],
       "loesung_kurz": "\\[2\\]",
-      "nummer": 320
+      "nummer": 325
     },
     {
-      "id": "aufg0321",
+      "id": "aufg0326",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{2}(64)\\]",
       "loesung_schritte": [
@@ -4218,10 +4274,10 @@
         "\\[\\log_{2}(64)=6\\]"
       ],
       "loesung_kurz": "\\[6\\]",
-      "nummer": 321
+      "nummer": 326
     },
     {
-      "id": "aufg0322",
+      "id": "aufg0327",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{4}(64)\\]",
       "loesung_schritte": [
@@ -4230,10 +4286,10 @@
         "\\[\\log_{4}(64)=3\\]"
       ],
       "loesung_kurz": "\\[3\\]",
-      "nummer": 322
+      "nummer": 327
     },
     {
-      "id": "aufg0323",
+      "id": "aufg0328",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{5}(3125)\\]",
       "loesung_schritte": [
@@ -4242,10 +4298,10 @@
         "\\[\\log_{5}(3125)=5\\]"
       ],
       "loesung_kurz": "\\[5\\]",
-      "nummer": 323
+      "nummer": 328
     },
     {
-      "id": "aufg0324",
+      "id": "aufg0329",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{5}(125)\\]",
       "loesung_schritte": [
@@ -4254,10 +4310,10 @@
         "\\[\\log_{5}(125)=3\\]"
       ],
       "loesung_kurz": "\\[3\\]",
-      "nummer": 324
+      "nummer": 329
     },
     {
-      "id": "aufg0325",
+      "id": "aufg0330",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{4}(4)\\]",
       "loesung_schritte": [
@@ -4266,10 +4322,10 @@
         "\\[\\log_{4}(4)=1\\]"
       ],
       "loesung_kurz": "\\[1\\]",
-      "nummer": 325
+      "nummer": 330
     },
     {
-      "id": "aufg0326",
+      "id": "aufg0331",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{5}(25)\\]",
       "loesung_schritte": [
@@ -4278,10 +4334,10 @@
         "\\[\\log_{5}(25)=2\\]"
       ],
       "loesung_kurz": "\\[2\\]",
-      "nummer": 326
+      "nummer": 331
     },
     {
-      "id": "aufg0327",
+      "id": "aufg0332",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{10}(100)\\]",
       "loesung_schritte": [
@@ -4290,10 +4346,10 @@
         "\\[\\log_{10}(100)=2\\]"
       ],
       "loesung_kurz": "\\[2\\]",
-      "nummer": 327
+      "nummer": 332
     },
     {
-      "id": "aufg0328",
+      "id": "aufg0333",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{2}(32)\\]",
       "loesung_schritte": [
@@ -4302,10 +4358,10 @@
         "\\[\\log_{2}(32)=5\\]"
       ],
       "loesung_kurz": "\\[5\\]",
-      "nummer": 328
+      "nummer": 333
     },
     {
-      "id": "aufg0329",
+      "id": "aufg0334",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{5}(1)\\]",
       "loesung_schritte": [
@@ -4314,10 +4370,10 @@
         "\\[\\log_{5}(1)=0\\]"
       ],
       "loesung_kurz": "\\[0\\]",
-      "nummer": 329
+      "nummer": 334
     },
     {
-      "id": "aufg0330",
+      "id": "aufg0335",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{5}(625)\\]",
       "loesung_schritte": [
@@ -4326,10 +4382,10 @@
         "\\[\\log_{5}(625)=4\\]"
       ],
       "loesung_kurz": "\\[4\\]",
-      "nummer": 330
+      "nummer": 335
     },
     {
-      "id": "aufg0331",
+      "id": "aufg0336",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{3}(81)\\]",
       "loesung_schritte": [
@@ -4338,10 +4394,10 @@
         "\\[\\log_{3}(81)=4\\]"
       ],
       "loesung_kurz": "\\[4\\]",
-      "nummer": 331
+      "nummer": 336
     },
     {
-      "id": "aufg0332",
+      "id": "aufg0337",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{2}(1)\\]",
       "loesung_schritte": [
@@ -4350,10 +4406,10 @@
         "\\[\\log_{2}(1)=0\\]"
       ],
       "loesung_kurz": "\\[0\\]",
-      "nummer": 332
+      "nummer": 337
     },
     {
-      "id": "aufg0333",
+      "id": "aufg0338",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{4}(1024)\\]",
       "loesung_schritte": [
@@ -4362,10 +4418,10 @@
         "\\[\\log_{4}(1024)=5\\]"
       ],
       "loesung_kurz": "\\[5\\]",
-      "nummer": 333
+      "nummer": 338
     },
     {
-      "id": "aufg0334",
+      "id": "aufg0339",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{5}(5)\\]",
       "loesung_schritte": [
@@ -4374,10 +4430,10 @@
         "\\[\\log_{5}(5)=1\\]"
       ],
       "loesung_kurz": "\\[1\\]",
-      "nummer": 334
+      "nummer": 339
     },
     {
-      "id": "aufg0335",
+      "id": "aufg0340",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{4}(256)\\]",
       "loesung_schritte": [
@@ -4386,10 +4442,10 @@
         "\\[\\log_{4}(256)=4\\]"
       ],
       "loesung_kurz": "\\[4\\]",
-      "nummer": 335
+      "nummer": 340
     },
     {
-      "id": "aufg0336",
+      "id": "aufg0341",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{10}(1000000)\\]",
       "loesung_schritte": [
@@ -4398,10 +4454,10 @@
         "\\[\\log_{10}(1000000)=6\\]"
       ],
       "loesung_kurz": "\\[6\\]",
-      "nummer": 336
+      "nummer": 341
     },
     {
-      "id": "aufg0337",
+      "id": "aufg0342",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{3}(1)\\]",
       "loesung_schritte": [
@@ -4410,10 +4466,10 @@
         "\\[\\log_{3}(1)=0\\]"
       ],
       "loesung_kurz": "\\[0\\]",
-      "nummer": 337
+      "nummer": 342
     },
     {
-      "id": "aufg0338",
+      "id": "aufg0343",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{3}(729)\\]",
       "loesung_schritte": [
@@ -4422,10 +4478,10 @@
         "\\[\\log_{3}(729)=6\\]"
       ],
       "loesung_kurz": "\\[6\\]",
-      "nummer": 338
+      "nummer": 343
     },
     {
-      "id": "aufg0339",
+      "id": "aufg0344",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{10}(100000)\\]",
       "loesung_schritte": [
@@ -4434,10 +4490,10 @@
         "\\[\\log_{10}(100000)=5\\]"
       ],
       "loesung_kurz": "\\[5\\]",
-      "nummer": 339
+      "nummer": 344
     },
     {
-      "id": "aufg0340",
+      "id": "aufg0345",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{2}(16)\\]",
       "loesung_schritte": [
@@ -4446,10 +4502,10 @@
         "\\[\\log_{2}(16)=4\\]"
       ],
       "loesung_kurz": "\\[4\\]",
-      "nummer": 340
+      "nummer": 345
     },
     {
-      "id": "aufg0341",
+      "id": "aufg0346",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{3}(243)\\]",
       "loesung_schritte": [
@@ -4458,10 +4514,10 @@
         "\\[\\log_{3}(243)=5\\]"
       ],
       "loesung_kurz": "\\[5\\]",
-      "nummer": 341
+      "nummer": 346
     },
     {
-      "id": "aufg0342",
+      "id": "aufg0347",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{3}(27)\\]",
       "loesung_schritte": [
@@ -4470,10 +4526,10 @@
         "\\[\\log_{3}(27)=3\\]"
       ],
       "loesung_kurz": "\\[3\\]",
-      "nummer": 342
+      "nummer": 347
     },
     {
-      "id": "aufg0343",
+      "id": "aufg0348",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{10}(1000)\\]",
       "loesung_schritte": [
@@ -4482,10 +4538,10 @@
         "\\[\\log_{10}(1000)=3\\]"
       ],
       "loesung_kurz": "\\[3\\]",
-      "nummer": 343
+      "nummer": 348
     },
     {
-      "id": "aufg0344",
+      "id": "aufg0349",
       "topic_id": "logarithmus",
       "aufgabe": "Berechne:\n\\[\\log_{10}(1)\\]",
       "loesung_schritte": [
@@ -4494,10 +4550,10 @@
         "\\[\\log_{10}(1)=0\\]"
       ],
       "loesung_kurz": "\\[0\\]",
-      "nummer": 344
+      "nummer": 349
     },
     {
-      "id": "aufg0345",
+      "id": "aufg0350",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(15\\%\\) von \\(120\\).",
       "loesung_schritte": [
@@ -4506,10 +4562,10 @@
         "\\[\\frac{15}{100}\\cdot 120=\\frac{15\\cdot 120}{100}=18\\]"
       ],
       "loesung_kurz": "\\[18\\]",
-      "nummer": 345
+      "nummer": 350
     },
     {
-      "id": "aufg0346",
+      "id": "aufg0351",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(75\\%\\) von \\(240\\).",
       "loesung_schritte": [
@@ -4518,10 +4574,10 @@
         "\\[\\frac{75}{100}\\cdot 240=\\frac{75\\cdot 240}{100}=180\\]"
       ],
       "loesung_kurz": "\\[180\\]",
-      "nummer": 346
+      "nummer": 351
     },
     {
-      "id": "aufg0347",
+      "id": "aufg0352",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(12\\%\\) von \\(350\\).",
       "loesung_schritte": [
@@ -4530,10 +4586,10 @@
         "\\[\\frac{12}{100}\\cdot 350=\\frac{12\\cdot 350}{100}=42\\]"
       ],
       "loesung_kurz": "\\[42\\]",
-      "nummer": 347
+      "nummer": 352
     },
     {
-      "id": "aufg0348",
+      "id": "aufg0353",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(15\\%\\) von \\(500\\).",
       "loesung_schritte": [
@@ -4542,10 +4598,10 @@
         "\\[\\frac{15}{100}\\cdot 500=\\frac{15\\cdot 500}{100}=75\\]"
       ],
       "loesung_kurz": "\\[75\\]",
-      "nummer": 348
+      "nummer": 353
     },
     {
-      "id": "aufg0349",
+      "id": "aufg0354",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(30\\%\\) von \\(100\\).",
       "loesung_schritte": [
@@ -4554,10 +4610,10 @@
         "\\[\\frac{30}{100}\\cdot 100=\\frac{30\\cdot 100}{100}=30\\]"
       ],
       "loesung_kurz": "\\[30\\]",
-      "nummer": 349
+      "nummer": 354
     },
     {
-      "id": "aufg0350",
+      "id": "aufg0355",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(10\\%\\) von \\(500\\).",
       "loesung_schritte": [
@@ -4566,10 +4622,10 @@
         "\\[\\frac{10}{100}\\cdot 500=\\frac{10\\cdot 500}{100}=50\\]"
       ],
       "loesung_kurz": "\\[50\\]",
-      "nummer": 350
+      "nummer": 355
     },
     {
-      "id": "aufg0351",
+      "id": "aufg0356",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(30\\%\\) von \\(50\\).",
       "loesung_schritte": [
@@ -4578,10 +4634,10 @@
         "\\[\\frac{30}{100}\\cdot 50=\\frac{30\\cdot 50}{100}=15\\]"
       ],
       "loesung_kurz": "\\[15\\]",
-      "nummer": 351
+      "nummer": 356
     },
     {
-      "id": "aufg0352",
+      "id": "aufg0357",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(60\\%\\) von \\(150\\).",
       "loesung_schritte": [
@@ -4590,10 +4646,10 @@
         "\\[\\frac{60}{100}\\cdot 150=\\frac{60\\cdot 150}{100}=90\\]"
       ],
       "loesung_kurz": "\\[90\\]",
-      "nummer": 352
+      "nummer": 357
     },
     {
-      "id": "aufg0353",
+      "id": "aufg0358",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(40\\%\\) von \\(300\\).",
       "loesung_schritte": [
@@ -4602,10 +4658,10 @@
         "\\[\\frac{40}{100}\\cdot 300=\\frac{40\\cdot 300}{100}=120\\]"
       ],
       "loesung_kurz": "\\[120\\]",
-      "nummer": 353
+      "nummer": 358
     },
     {
-      "id": "aufg0354",
+      "id": "aufg0359",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(75\\%\\) von \\(500\\).",
       "loesung_schritte": [
@@ -4614,10 +4670,10 @@
         "\\[\\frac{75}{100}\\cdot 500=\\frac{75\\cdot 500}{100}=375\\]"
       ],
       "loesung_kurz": "\\[375\\]",
-      "nummer": 354
+      "nummer": 359
     },
     {
-      "id": "aufg0355",
+      "id": "aufg0360",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(60\\%\\) von \\(80\\).",
       "loesung_schritte": [
@@ -4626,10 +4682,10 @@
         "\\[\\frac{60}{100}\\cdot 80=\\frac{60\\cdot 80}{100}=48\\]"
       ],
       "loesung_kurz": "\\[48\\]",
-      "nummer": 355
+      "nummer": 360
     },
     {
-      "id": "aufg0356",
+      "id": "aufg0361",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(20\\%\\) von \\(300\\).",
       "loesung_schritte": [
@@ -4638,10 +4694,10 @@
         "\\[\\frac{20}{100}\\cdot 300=\\frac{20\\cdot 300}{100}=60\\]"
       ],
       "loesung_kurz": "\\[60\\]",
-      "nummer": 356
+      "nummer": 361
     },
     {
-      "id": "aufg0357",
+      "id": "aufg0362",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(12\\%\\) von \\(50\\).",
       "loesung_schritte": [
@@ -4650,10 +4706,10 @@
         "\\[\\frac{12}{100}\\cdot 50=\\frac{12\\cdot 50}{100}=6\\]"
       ],
       "loesung_kurz": "\\[6\\]",
-      "nummer": 357
+      "nummer": 362
     },
     {
-      "id": "aufg0358",
+      "id": "aufg0363",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(40\\%\\) von \\(350\\).",
       "loesung_schritte": [
@@ -4662,10 +4718,10 @@
         "\\[\\frac{40}{100}\\cdot 350=\\frac{40\\cdot 350}{100}=140\\]"
       ],
       "loesung_kurz": "\\[140\\]",
-      "nummer": 358
+      "nummer": 363
     },
     {
-      "id": "aufg0359",
+      "id": "aufg0364",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(20\\%\\) von \\(240\\).",
       "loesung_schritte": [
@@ -4674,10 +4730,10 @@
         "\\[\\frac{20}{100}\\cdot 240=\\frac{20\\cdot 240}{100}=48\\]"
       ],
       "loesung_kurz": "\\[48\\]",
-      "nummer": 359
+      "nummer": 364
     },
     {
-      "id": "aufg0360",
+      "id": "aufg0365",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(40\\%\\) von \\(80\\).",
       "loesung_schritte": [
@@ -4686,10 +4742,10 @@
         "\\[\\frac{40}{100}\\cdot 80=\\frac{40\\cdot 80}{100}=32\\]"
       ],
       "loesung_kurz": "\\[32\\]",
-      "nummer": 360
+      "nummer": 365
     },
     {
-      "id": "aufg0361",
+      "id": "aufg0366",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(50\\%\\) von \\(50\\).",
       "loesung_schritte": [
@@ -4698,10 +4754,10 @@
         "\\[\\frac{50}{100}\\cdot 50=\\frac{50\\cdot 50}{100}=25\\]"
       ],
       "loesung_kurz": "\\[25\\]",
-      "nummer": 361
+      "nummer": 366
     },
     {
-      "id": "aufg0362",
+      "id": "aufg0367",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(25\\%\\) von \\(500\\).",
       "loesung_schritte": [
@@ -4710,10 +4766,10 @@
         "\\[\\frac{25}{100}\\cdot 500=\\frac{25\\cdot 500}{100}=125\\]"
       ],
       "loesung_kurz": "\\[125\\]",
-      "nummer": 362
+      "nummer": 367
     },
     {
-      "id": "aufg0363",
+      "id": "aufg0368",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(40\\%\\) von \\(200\\).",
       "loesung_schritte": [
@@ -4722,10 +4778,10 @@
         "\\[\\frac{40}{100}\\cdot 200=\\frac{40\\cdot 200}{100}=80\\]"
       ],
       "loesung_kurz": "\\[80\\]",
-      "nummer": 363
+      "nummer": 368
     },
     {
-      "id": "aufg0364",
+      "id": "aufg0369",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(20\\%\\) von \\(400\\).",
       "loesung_schritte": [
@@ -4734,10 +4790,10 @@
         "\\[\\frac{20}{100}\\cdot 400=\\frac{20\\cdot 400}{100}=80\\]"
       ],
       "loesung_kurz": "\\[80\\]",
-      "nummer": 364
+      "nummer": 369
     },
     {
-      "id": "aufg0365",
+      "id": "aufg0370",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(30\\%\\) von \\(400\\).",
       "loesung_schritte": [
@@ -4746,10 +4802,10 @@
         "\\[\\frac{30}{100}\\cdot 400=\\frac{30\\cdot 400}{100}=120\\]"
       ],
       "loesung_kurz": "\\[120\\]",
-      "nummer": 365
+      "nummer": 370
     },
     {
-      "id": "aufg0366",
+      "id": "aufg0371",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(40\\%\\) von \\(150\\).",
       "loesung_schritte": [
@@ -4758,10 +4814,10 @@
         "\\[\\frac{40}{100}\\cdot 150=\\frac{40\\cdot 150}{100}=60\\]"
       ],
       "loesung_kurz": "\\[60\\]",
-      "nummer": 366
+      "nummer": 371
     },
     {
-      "id": "aufg0367",
+      "id": "aufg0372",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(10\\%\\) von \\(300\\).",
       "loesung_schritte": [
@@ -4770,10 +4826,10 @@
         "\\[\\frac{10}{100}\\cdot 300=\\frac{10\\cdot 300}{100}=30\\]"
       ],
       "loesung_kurz": "\\[30\\]",
-      "nummer": 367
+      "nummer": 372
     },
     {
-      "id": "aufg0368",
+      "id": "aufg0373",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(60\\%\\) von \\(350\\).",
       "loesung_schritte": [
@@ -4782,10 +4838,10 @@
         "\\[\\frac{60}{100}\\cdot 350=\\frac{60\\cdot 350}{100}=210\\]"
       ],
       "loesung_kurz": "\\[210\\]",
-      "nummer": 368
+      "nummer": 373
     },
     {
-      "id": "aufg0369",
+      "id": "aufg0374",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(10\\%\\) von \\(80\\).",
       "loesung_schritte": [
@@ -4794,10 +4850,10 @@
         "\\[\\frac{10}{100}\\cdot 80=\\frac{10\\cdot 80}{100}=8\\]"
       ],
       "loesung_kurz": "\\[8\\]",
-      "nummer": 369
+      "nummer": 374
     },
     {
-      "id": "aufg0370",
+      "id": "aufg0375",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(25\\%\\) von \\(300\\).",
       "loesung_schritte": [
@@ -4806,10 +4862,10 @@
         "\\[\\frac{25}{100}\\cdot 300=\\frac{25\\cdot 300}{100}=75\\]"
       ],
       "loesung_kurz": "\\[75\\]",
-      "nummer": 370
+      "nummer": 375
     },
     {
-      "id": "aufg0371",
+      "id": "aufg0376",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(15\\%\\) von \\(80\\).",
       "loesung_schritte": [
@@ -4818,10 +4874,10 @@
         "\\[\\frac{15}{100}\\cdot 80=\\frac{15\\cdot 80}{100}=12\\]"
       ],
       "loesung_kurz": "\\[12\\]",
-      "nummer": 371
+      "nummer": 376
     },
     {
-      "id": "aufg0372",
+      "id": "aufg0377",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(10\\%\\) von \\(150\\).",
       "loesung_schritte": [
@@ -4830,10 +4886,10 @@
         "\\[\\frac{10}{100}\\cdot 150=\\frac{10\\cdot 150}{100}=15\\]"
       ],
       "loesung_kurz": "\\[15\\]",
-      "nummer": 372
+      "nummer": 377
     },
     {
-      "id": "aufg0373",
+      "id": "aufg0378",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(75\\%\\) von \\(100\\).",
       "loesung_schritte": [
@@ -4842,10 +4898,10 @@
         "\\[\\frac{75}{100}\\cdot 100=\\frac{75\\cdot 100}{100}=75\\]"
       ],
       "loesung_kurz": "\\[75\\]",
-      "nummer": 373
+      "nummer": 378
     },
     {
-      "id": "aufg0374",
+      "id": "aufg0379",
       "topic_id": "prozent",
       "aufgabe": "Berechne \\(15\\%\\) von \\(100\\).",
       "loesung_schritte": [
@@ -4854,10 +4910,10 @@
         "\\[\\frac{15}{100}\\cdot 100=\\frac{15\\cdot 100}{100}=15\\]"
       ],
       "loesung_kurz": "\\[15\\]",
-      "nummer": 374
+      "nummer": 379
     },
     {
-      "id": "aufg0375",
+      "id": "aufg0380",
       "topic_id": "dreisatz",
       "aufgabe": "Für 4 Stunden Nachhilfe werden 56,00 Euro bezahlt. Wie viel Geld sind es für 3 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
@@ -4871,10 +4927,10 @@
         "Für 3 Stunden sind es 42,00 Euro."
       ],
       "loesung_kurz": "\\[42{,}00\\ \\text{Euro}\\]",
-      "nummer": 375
+      "nummer": 380
     },
     {
-      "id": "aufg0376",
+      "id": "aufg0381",
       "topic_id": "dreisatz",
       "aufgabe": "2 Kinokarten kosten zusammen 24,00 Euro. Wie viel kosten 8 Kinokarten zum selben Stückpreis?",
       "loesung_schritte": [
@@ -4888,10 +4944,10 @@
         "8 Kinokarten kosten 96,00 Euro."
       ],
       "loesung_kurz": "\\[96{,}00\\ \\text{Euro}\\]",
-      "nummer": 376
+      "nummer": 381
     },
     {
-      "id": "aufg0377",
+      "id": "aufg0382",
       "topic_id": "dreisatz",
       "aufgabe": "Auf dem Wochenmarkt kosten 3 kg Äpfel 4,50 Euro. Wie viel kosten 8 kg Äpfel zum selben Kilopreis?",
       "loesung_schritte": [
@@ -4905,10 +4961,10 @@
         "8 kg Äpfel kosten 12,00 Euro."
       ],
       "loesung_kurz": "\\[12{,}00\\ \\text{Euro}\\]",
-      "nummer": 377
+      "nummer": 382
     },
     {
-      "id": "aufg0378",
+      "id": "aufg0383",
       "topic_id": "dreisatz",
       "aufgabe": "Für 3 Stunden Korrektur von Übungsblättern werden 60,00 Euro bezahlt. Wie viel Geld sind es für 8 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
@@ -4922,10 +4978,10 @@
         "Für 8 Stunden sind es 160,00 Euro."
       ],
       "loesung_kurz": "\\[160{,}00\\ \\text{Euro}\\]",
-      "nummer": 378
+      "nummer": 383
     },
     {
-      "id": "aufg0379",
+      "id": "aufg0384",
       "topic_id": "dreisatz",
       "aufgabe": "Für 2 Portionen Kakao braucht man 240 ml Milch. Wie viel Milch braucht man für 4 Portionen?",
       "loesung_schritte": [
@@ -4939,10 +4995,10 @@
         "Für 4 Portionen braucht man 480 ml Milch."
       ],
       "loesung_kurz": "\\[480\\ \\text{ml}\\]",
-      "nummer": 379
+      "nummer": 384
     },
     {
-      "id": "aufg0380",
+      "id": "aufg0385",
       "topic_id": "dreisatz",
       "aufgabe": "Auf einer Landkarte entsprechen 4 cm einer Strecke von 16 km. Welcher Strecke entsprechen 3 cm im selben Maßstab?",
       "loesung_schritte": [
@@ -4956,10 +5012,10 @@
         "3 cm entsprechen 12 km."
       ],
       "loesung_kurz": "\\[12\\ \\text{km}\\]",
-      "nummer": 380
+      "nummer": 385
     },
     {
-      "id": "aufg0381",
+      "id": "aufg0386",
       "topic_id": "dreisatz",
       "aufgabe": "Für 2 Portionen Kakao braucht man 80 ml Milch. Wie viel Milch braucht man für 8 Portionen?",
       "loesung_schritte": [
@@ -4973,10 +5029,10 @@
         "Für 8 Portionen braucht man 320 ml Milch."
       ],
       "loesung_kurz": "\\[320\\ \\text{ml}\\]",
-      "nummer": 381
+      "nummer": 386
     },
     {
-      "id": "aufg0382",
+      "id": "aufg0387",
       "topic_id": "dreisatz",
       "aufgabe": "4 Museumstickets kosten zusammen 26,00 Euro. Wie viel kosten 8 Museumstickets zum selben Stückpreis?",
       "loesung_schritte": [
@@ -4990,10 +5046,10 @@
         "8 Museumstickets kosten 52,00 Euro."
       ],
       "loesung_kurz": "\\[52{,}00\\ \\text{Euro}\\]",
-      "nummer": 382
+      "nummer": 387
     },
     {
-      "id": "aufg0383",
+      "id": "aufg0388",
       "topic_id": "dreisatz",
       "aufgabe": "Für 2 Stunden Aushilfe im Labor werden 36,00 Euro bezahlt. Wie viel Geld sind es für 7 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
@@ -5007,10 +5063,10 @@
         "Für 7 Stunden sind es 126,00 Euro."
       ],
       "loesung_kurz": "\\[126{,}00\\ \\text{Euro}\\]",
-      "nummer": 383
+      "nummer": 388
     },
     {
-      "id": "aufg0384",
+      "id": "aufg0389",
       "topic_id": "dreisatz",
       "aufgabe": "Für 4 Regalbretter braucht man 200 ml Holzlasur. Wie viel Holzlasur braucht man für 2 Regalbretter?",
       "loesung_schritte": [
@@ -5024,10 +5080,10 @@
         "Für 2 Regalbretter braucht man 100 ml Holzlasur."
       ],
       "loesung_kurz": "\\[100\\ \\text{ml}\\]",
-      "nummer": 384
+      "nummer": 389
     },
     {
-      "id": "aufg0385",
+      "id": "aufg0390",
       "topic_id": "dreisatz",
       "aufgabe": "Auf dem Wochenmarkt kosten 4 kg Bio-Kartoffeln 4,80 Euro. Wie viel kosten 3 kg Bio-Kartoffeln zum selben Kilopreis?",
       "loesung_schritte": [
@@ -5041,10 +5097,10 @@
         "3 kg Bio-Kartoffeln kosten 3,60 Euro."
       ],
       "loesung_kurz": "\\[3{,}60\\ \\text{Euro}\\]",
-      "nummer": 385
+      "nummer": 390
     },
     {
-      "id": "aufg0386",
+      "id": "aufg0391",
       "topic_id": "dreisatz",
       "aufgabe": "Für 4 Beete braucht man 20 Liter Mulch. Wie viel Mulch braucht man für 6 Beete?",
       "loesung_schritte": [
@@ -5058,10 +5114,10 @@
         "Für 6 Beete braucht man 30 Liter Mulch."
       ],
       "loesung_kurz": "\\[30\\ \\text{Liter}\\]",
-      "nummer": 386
+      "nummer": 391
     },
     {
-      "id": "aufg0387",
+      "id": "aufg0392",
       "topic_id": "dreisatz",
       "aufgabe": "3 Museumstickets kosten zusammen 45,00 Euro. Wie viel kosten 6 Museumstickets zum selben Stückpreis?",
       "loesung_schritte": [
@@ -5075,10 +5131,10 @@
         "6 Museumstickets kosten 90,00 Euro."
       ],
       "loesung_kurz": "\\[90{,}00\\ \\text{Euro}\\]",
-      "nummer": 387
+      "nummer": 392
     },
     {
-      "id": "aufg0388",
+      "id": "aufg0393",
       "topic_id": "dreisatz",
       "aufgabe": "Auf einer Landkarte entsprechen 2 cm einer Strecke von 6 km. Welcher Strecke entsprechen 10 cm im selben Maßstab?",
       "loesung_schritte": [
@@ -5092,10 +5148,10 @@
         "10 cm entsprechen 30 km."
       ],
       "loesung_kurz": "\\[30\\ \\text{km}\\]",
-      "nummer": 388
+      "nummer": 393
     },
     {
-      "id": "aufg0389",
+      "id": "aufg0394",
       "topic_id": "dreisatz",
       "aufgabe": "Auf einer Landkarte entsprechen 3 cm einer Strecke von 15 km. Welcher Strecke entsprechen 8 cm im selben Maßstab?",
       "loesung_schritte": [
@@ -5109,10 +5165,10 @@
         "8 cm entsprechen 40 km."
       ],
       "loesung_kurz": "\\[40\\ \\text{km}\\]",
-      "nummer": 389
+      "nummer": 394
     },
     {
-      "id": "aufg0390",
+      "id": "aufg0395",
       "topic_id": "dreisatz",
       "aufgabe": "Für 4 Portionen Tomatensoße braucht man 480 g passierte Tomaten. Wie viel passierte Tomaten braucht man für 2 Portionen?",
       "loesung_schritte": [
@@ -5126,10 +5182,10 @@
         "Für 2 Portionen braucht man 240 g passierte Tomaten."
       ],
       "loesung_kurz": "\\[240\\ \\text{g}\\]",
-      "nummer": 390
+      "nummer": 395
     },
     {
-      "id": "aufg0391",
+      "id": "aufg0396",
       "topic_id": "dreisatz",
       "aufgabe": "Für 4 Portionen Pfannkuchen braucht man 300 g Mehl. Wie viel Mehl braucht man für 5 Portionen?",
       "loesung_schritte": [
@@ -5143,10 +5199,10 @@
         "Für 5 Portionen braucht man 375 g Mehl."
       ],
       "loesung_kurz": "\\[375\\ \\text{g}\\]",
-      "nummer": 391
+      "nummer": 396
     },
     {
-      "id": "aufg0392",
+      "id": "aufg0397",
       "topic_id": "dreisatz",
       "aufgabe": "4 Schwimmbadkarten kosten zusammen 30,00 Euro. Wie viel kosten 8 Schwimmbadkarten zum selben Stückpreis?",
       "loesung_schritte": [
@@ -5160,10 +5216,10 @@
         "8 Schwimmbadkarten kosten 60,00 Euro."
       ],
       "loesung_kurz": "\\[60{,}00\\ \\text{Euro}\\]",
-      "nummer": 392
+      "nummer": 397
     },
     {
-      "id": "aufg0393",
+      "id": "aufg0398",
       "topic_id": "dreisatz",
       "aufgabe": "Ein Linienbus fährt in 5 Stunden 75 km, bei gleichbleibendem Tempo. Wie viele Kilometer sind es in 4 Stunden?",
       "loesung_schritte": [
@@ -5177,10 +5233,10 @@
         "In 4 Stunden sind es 60 km."
       ],
       "loesung_kurz": "\\[60\\ \\text{km}\\]",
-      "nummer": 393
+      "nummer": 398
     },
     {
-      "id": "aufg0394",
+      "id": "aufg0399",
       "topic_id": "dreisatz",
       "aufgabe": "4 Schwimmbadkarten kosten zusammen 60,00 Euro. Wie viel kosten 8 Schwimmbadkarten zum selben Stückpreis?",
       "loesung_schritte": [
@@ -5194,10 +5250,10 @@
         "8 Schwimmbadkarten kosten 120,00 Euro."
       ],
       "loesung_kurz": "\\[120{,}00\\ \\text{Euro}\\]",
-      "nummer": 394
+      "nummer": 399
     },
     {
-      "id": "aufg0395",
+      "id": "aufg0400",
       "topic_id": "dreisatz",
       "aufgabe": "6 Studierende brauchen gemeinsam 4 Stunden für ein Versuchsprotokoll, wenn alle gleich schnell arbeiten. Wie viele Stunden brauchen 3 Studierende?",
       "loesung_schritte": [
@@ -5209,10 +5265,10 @@
         "3 Studierende brauchen 8 Stunden."
       ],
       "loesung_kurz": "\\[8\\ \\text{Stunden}\\]",
-      "nummer": 395
+      "nummer": 400
     },
     {
-      "id": "aufg0396",
+      "id": "aufg0401",
       "topic_id": "dreisatz",
       "aufgabe": "Ein Drucker schafft in 2 Minuten 16 Seiten. Wie viele Seiten sind es in 4 Minuten bei gleichem Tempo?",
       "loesung_schritte": [
@@ -5226,10 +5282,10 @@
         "In 4 Minuten sind es 32 Seiten."
       ],
       "loesung_kurz": "\\[32\\ \\text{Seiten}\\]",
-      "nummer": 396
+      "nummer": 401
     },
     {
-      "id": "aufg0397",
+      "id": "aufg0402",
       "topic_id": "dreisatz",
       "aufgabe": "Für 5 Stunden Korrektur von Übungsblättern werden 90,00 Euro bezahlt. Wie viel Geld sind es für 2 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
@@ -5243,10 +5299,10 @@
         "Für 2 Stunden sind es 36,00 Euro."
       ],
       "loesung_kurz": "\\[36{,}00\\ \\text{Euro}\\]",
-      "nummer": 397
+      "nummer": 402
     },
     {
-      "id": "aufg0398",
+      "id": "aufg0403",
       "topic_id": "dreisatz",
       "aufgabe": "Ein Linienbus fährt in 5 Stunden 120 km, bei gleichbleibendem Tempo. Wie viele Kilometer sind es in 4 Stunden?",
       "loesung_schritte": [
@@ -5260,10 +5316,10 @@
         "In 4 Stunden sind es 96 km."
       ],
       "loesung_kurz": "\\[96\\ \\text{km}\\]",
-      "nummer": 398
+      "nummer": 403
     },
     {
-      "id": "aufg0399",
+      "id": "aufg0404",
       "topic_id": "dreisatz",
       "aufgabe": "Für 2 Beete braucht man 8 Liter Mulch. Wie viel Mulch braucht man für 10 Beete?",
       "loesung_schritte": [
@@ -5277,10 +5333,10 @@
         "Für 10 Beete braucht man 40 Liter Mulch."
       ],
       "loesung_kurz": "\\[40\\ \\text{Liter}\\]",
-      "nummer": 399
+      "nummer": 404
     },
     {
-      "id": "aufg0400",
+      "id": "aufg0405",
       "topic_id": "dreisatz",
       "aufgabe": "4 Kinokarten kosten zusammen 48,00 Euro. Wie viel kosten 3 Kinokarten zum selben Stückpreis?",
       "loesung_schritte": [
@@ -5294,10 +5350,10 @@
         "3 Kinokarten kosten 36,00 Euro."
       ],
       "loesung_kurz": "\\[36{,}00\\ \\text{Euro}\\]",
-      "nummer": 400
+      "nummer": 405
     },
     {
-      "id": "aufg0401",
+      "id": "aufg0406",
       "topic_id": "dreisatz",
       "aufgabe": "Ein Drucker schafft in 4 Minuten 100 Seiten. Wie viele Seiten sind es in 12 Minuten bei gleichem Tempo?",
       "loesung_schritte": [
@@ -5311,10 +5367,10 @@
         "In 12 Minuten sind es 300 Seiten."
       ],
       "loesung_kurz": "\\[300\\ \\text{Seiten}\\]",
-      "nummer": 401
+      "nummer": 406
     },
     {
-      "id": "aufg0402",
+      "id": "aufg0407",
       "topic_id": "dreisatz",
       "aufgabe": "Für 4 Stunden Nachhilfe werden 56,00 Euro bezahlt. Wie viel Geld sind es für 8 Stunden zum selben Stundenlohn?",
       "loesung_schritte": [
@@ -5328,10 +5384,10 @@
         "Für 8 Stunden sind es 112,00 Euro."
       ],
       "loesung_kurz": "\\[112{,}00\\ \\text{Euro}\\]",
-      "nummer": 402
+      "nummer": 407
     },
     {
-      "id": "aufg0403",
+      "id": "aufg0408",
       "topic_id": "dreisatz",
       "aufgabe": "Ein Drucker schafft in 4 Minuten 48 Seiten. Wie viele Seiten sind es in 3 Minuten bei gleichem Tempo?",
       "loesung_schritte": [
@@ -5345,10 +5401,10 @@
         "In 3 Minuten sind es 36 Seiten."
       ],
       "loesung_kurz": "\\[36\\ \\text{Seiten}\\]",
-      "nummer": 403
+      "nummer": 408
     },
     {
-      "id": "aufg0404",
+      "id": "aufg0409",
       "topic_id": "dreisatz",
       "aufgabe": "Auf dem Wochenmarkt kosten 2 kg Weizenmehl 2,40 Euro. Wie viel kosten 6 kg Weizenmehl zum selben Kilopreis?",
       "loesung_schritte": [
@@ -5362,10 +5418,10 @@
         "6 kg Weizenmehl kosten 7,20 Euro."
       ],
       "loesung_kurz": "\\[7{,}20\\ \\text{Euro}\\]",
-      "nummer": 404
+      "nummer": 409
     },
     {
-      "id": "aufg0405",
+      "id": "aufg0410",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[7x-7=-7\\]",
       "loesung_schritte": [
@@ -5375,10 +5431,10 @@
         "\\[x=\\frac{0}{7}=0\\]"
       ],
       "loesung_kurz": "\\[x=0\\]",
-      "nummer": 405
+      "nummer": 410
     },
     {
-      "id": "aufg0406",
+      "id": "aufg0411",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[9x-16=20\\]",
       "loesung_schritte": [
@@ -5388,10 +5444,10 @@
         "\\[x=\\frac{36}{9}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 406
+      "nummer": 411
     },
     {
-      "id": "aufg0407",
+      "id": "aufg0412",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2x-3=11\\]",
       "loesung_schritte": [
@@ -5401,10 +5457,10 @@
         "\\[x=\\frac{14}{2}=7\\]"
       ],
       "loesung_kurz": "\\[x=7\\]",
-      "nummer": 407
+      "nummer": 412
     },
     {
-      "id": "aufg0408",
+      "id": "aufg0413",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[5x+7=37\\]",
       "loesung_schritte": [
@@ -5414,10 +5470,10 @@
         "\\[x=\\frac{30}{5}=6\\]"
       ],
       "loesung_kurz": "\\[x=6\\]",
-      "nummer": 408
+      "nummer": 413
     },
     {
-      "id": "aufg0409",
+      "id": "aufg0414",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2x-10=10\\]",
       "loesung_schritte": [
@@ -5427,10 +5483,10 @@
         "\\[x=\\frac{20}{2}=10\\]"
       ],
       "loesung_kurz": "\\[x=10\\]",
-      "nummer": 409
+      "nummer": 414
     },
     {
-      "id": "aufg0410",
+      "id": "aufg0415",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[6x+18=-12\\]",
       "loesung_schritte": [
@@ -5440,10 +5496,10 @@
         "\\[x=-\\frac{30}{6}=-5\\]"
       ],
       "loesung_kurz": "\\[x=-5\\]",
-      "nummer": 410
+      "nummer": 415
     },
     {
-      "id": "aufg0411",
+      "id": "aufg0416",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[8x-5=19\\]",
       "loesung_schritte": [
@@ -5453,10 +5509,10 @@
         "\\[x=\\frac{24}{8}=3\\]"
       ],
       "loesung_kurz": "\\[x=3\\]",
-      "nummer": 411
+      "nummer": 416
     },
     {
-      "id": "aufg0412",
+      "id": "aufg0417",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[8x-12=-44\\]",
       "loesung_schritte": [
@@ -5466,10 +5522,10 @@
         "\\[x=-\\frac{32}{8}=-4\\]"
       ],
       "loesung_kurz": "\\[x=-4\\]",
-      "nummer": 412
+      "nummer": 417
     },
     {
-      "id": "aufg0413",
+      "id": "aufg0418",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2x-19=-17\\]",
       "loesung_schritte": [
@@ -5479,10 +5535,10 @@
         "\\[x=\\frac{2}{2}=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 413
+      "nummer": 418
     },
     {
-      "id": "aufg0414",
+      "id": "aufg0419",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[6x-3=39\\]",
       "loesung_schritte": [
@@ -5492,10 +5548,10 @@
         "\\[x=\\frac{42}{6}=7\\]"
       ],
       "loesung_kurz": "\\[x=7\\]",
-      "nummer": 414
+      "nummer": 419
     },
     {
-      "id": "aufg0415",
+      "id": "aufg0420",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[6x+20=8\\]",
       "loesung_schritte": [
@@ -5505,10 +5561,10 @@
         "\\[x=-\\frac{12}{6}=-2\\]"
       ],
       "loesung_kurz": "\\[x=-2\\]",
-      "nummer": 415
+      "nummer": 420
     },
     {
-      "id": "aufg0416",
+      "id": "aufg0421",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3x-13=5\\]",
       "loesung_schritte": [
@@ -5518,10 +5574,10 @@
         "\\[x=\\frac{18}{3}=6\\]"
       ],
       "loesung_kurz": "\\[x=6\\]",
-      "nummer": 416
+      "nummer": 421
     },
     {
-      "id": "aufg0417",
+      "id": "aufg0422",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[7x-5=2\\]",
       "loesung_schritte": [
@@ -5531,10 +5587,10 @@
         "\\[x=\\frac{7}{7}=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 417
+      "nummer": 422
     },
     {
-      "id": "aufg0418",
+      "id": "aufg0423",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2x+2=-6\\]",
       "loesung_schritte": [
@@ -5544,10 +5600,10 @@
         "\\[x=-\\frac{8}{2}=-4\\]"
       ],
       "loesung_kurz": "\\[x=-4\\]",
-      "nummer": 418
+      "nummer": 423
     },
     {
-      "id": "aufg0419",
+      "id": "aufg0424",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[7x+16=79\\]",
       "loesung_schritte": [
@@ -5557,10 +5613,10 @@
         "\\[x=\\frac{63}{7}=9\\]"
       ],
       "loesung_kurz": "\\[x=9\\]",
-      "nummer": 419
+      "nummer": 424
     },
     {
-      "id": "aufg0420",
+      "id": "aufg0425",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4x+11=31\\]",
       "loesung_schritte": [
@@ -5570,10 +5626,10 @@
         "\\[x=\\frac{20}{4}=5\\]"
       ],
       "loesung_kurz": "\\[x=5\\]",
-      "nummer": 420
+      "nummer": 425
     },
     {
-      "id": "aufg0421",
+      "id": "aufg0426",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[8x-20=12\\]",
       "loesung_schritte": [
@@ -5583,10 +5639,10 @@
         "\\[x=\\frac{32}{8}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 421
+      "nummer": 426
     },
     {
-      "id": "aufg0422",
+      "id": "aufg0427",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[9x-19=17\\]",
       "loesung_schritte": [
@@ -5596,10 +5652,10 @@
         "\\[x=\\frac{36}{9}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 422
+      "nummer": 427
     },
     {
-      "id": "aufg0423",
+      "id": "aufg0428",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2x+12=22\\]",
       "loesung_schritte": [
@@ -5609,10 +5665,10 @@
         "\\[x=\\frac{10}{2}=5\\]"
       ],
       "loesung_kurz": "\\[x=5\\]",
-      "nummer": 423
+      "nummer": 428
     },
     {
-      "id": "aufg0424",
+      "id": "aufg0429",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[8x+19=51\\]",
       "loesung_schritte": [
@@ -5622,10 +5678,10 @@
         "\\[x=\\frac{32}{8}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 424
+      "nummer": 429
     },
     {
-      "id": "aufg0425",
+      "id": "aufg0430",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[9x+9=27\\]",
       "loesung_schritte": [
@@ -5635,10 +5691,10 @@
         "\\[x=\\frac{18}{9}=2\\]"
       ],
       "loesung_kurz": "\\[x=2\\]",
-      "nummer": 425
+      "nummer": 430
     },
     {
-      "id": "aufg0426",
+      "id": "aufg0431",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[9x+6=69\\]",
       "loesung_schritte": [
@@ -5648,10 +5704,10 @@
         "\\[x=\\frac{63}{9}=7\\]"
       ],
       "loesung_kurz": "\\[x=7\\]",
-      "nummer": 426
+      "nummer": 431
     },
     {
-      "id": "aufg0427",
+      "id": "aufg0432",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[5x+2=-8\\]",
       "loesung_schritte": [
@@ -5661,10 +5717,10 @@
         "\\[x=-\\frac{10}{5}=-2\\]"
       ],
       "loesung_kurz": "\\[x=-2\\]",
-      "nummer": 427
+      "nummer": 432
     },
     {
-      "id": "aufg0428",
+      "id": "aufg0433",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2x-15=-5\\]",
       "loesung_schritte": [
@@ -5674,10 +5730,10 @@
         "\\[x=\\frac{10}{2}=5\\]"
       ],
       "loesung_kurz": "\\[x=5\\]",
-      "nummer": 428
+      "nummer": 433
     },
     {
-      "id": "aufg0429",
+      "id": "aufg0434",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4x-14=-10\\]",
       "loesung_schritte": [
@@ -5687,10 +5743,10 @@
         "\\[x=\\frac{4}{4}=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 429
+      "nummer": 434
     },
     {
-      "id": "aufg0430",
+      "id": "aufg0435",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[9x+2=-7\\]",
       "loesung_schritte": [
@@ -5700,10 +5756,10 @@
         "\\[x=-\\frac{9}{9}=-1\\]"
       ],
       "loesung_kurz": "\\[x=-1\\]",
-      "nummer": 430
+      "nummer": 435
     },
     {
-      "id": "aufg0431",
+      "id": "aufg0436",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[7x-16=33\\]",
       "loesung_schritte": [
@@ -5713,10 +5769,10 @@
         "\\[x=\\frac{49}{7}=7\\]"
       ],
       "loesung_kurz": "\\[x=7\\]",
-      "nummer": 431
+      "nummer": 436
     },
     {
-      "id": "aufg0432",
+      "id": "aufg0437",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4x-15=5\\]",
       "loesung_schritte": [
@@ -5726,10 +5782,10 @@
         "\\[x=\\frac{20}{4}=5\\]"
       ],
       "loesung_kurz": "\\[x=5\\]",
-      "nummer": 432
+      "nummer": 437
     },
     {
-      "id": "aufg0433",
+      "id": "aufg0438",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[6x+20=80\\]",
       "loesung_schritte": [
@@ -5739,10 +5795,10 @@
         "\\[x=\\frac{60}{6}=10\\]"
       ],
       "loesung_kurz": "\\[x=10\\]",
-      "nummer": 433
+      "nummer": 438
     },
     {
-      "id": "aufg0434",
+      "id": "aufg0439",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[5x+9=29\\]",
       "loesung_schritte": [
@@ -5752,10 +5808,10 @@
         "\\[x=\\frac{20}{5}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 434
+      "nummer": 439
     },
     {
-      "id": "aufg0435",
+      "id": "aufg0440",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4^{2x}=16777216\\]",
       "loesung_schritte": [
@@ -5767,10 +5823,10 @@
         "\\[x=\\frac{12}{2}=6\\]"
       ],
       "loesung_kurz": "\\[x=6\\]",
-      "nummer": 435
+      "nummer": 440
     },
     {
-      "id": "aufg0436",
+      "id": "aufg0441",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3^{3x}=387420489\\]",
       "loesung_schritte": [
@@ -5782,10 +5838,10 @@
         "\\[x=\\frac{18}{3}=6\\]"
       ],
       "loesung_kurz": "\\[x=6\\]",
-      "nummer": 436
+      "nummer": 441
     },
     {
-      "id": "aufg0437",
+      "id": "aufg0442",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[5^{2x}=390625\\]",
       "loesung_schritte": [
@@ -5797,10 +5853,10 @@
         "\\[x=\\frac{8}{2}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 437
+      "nummer": 442
     },
     {
-      "id": "aufg0438",
+      "id": "aufg0443",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=68719476736\\]",
       "loesung_schritte": [
@@ -5812,10 +5868,10 @@
         "\\[x=\\frac{18}{3}=6\\]"
       ],
       "loesung_kurz": "\\[x=6\\]",
-      "nummer": 438
+      "nummer": 443
     },
     {
-      "id": "aufg0439",
+      "id": "aufg0444",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4^{2x}=16\\]",
       "loesung_schritte": [
@@ -5827,10 +5883,10 @@
         "\\[x=\\frac{2}{2}=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 439
+      "nummer": 444
     },
     {
-      "id": "aufg0440",
+      "id": "aufg0445",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[5^{2x}=15625\\]",
       "loesung_schritte": [
@@ -5842,10 +5898,10 @@
         "\\[x=\\frac{6}{2}=3\\]"
       ],
       "loesung_kurz": "\\[x=3\\]",
-      "nummer": 440
+      "nummer": 445
     },
     {
-      "id": "aufg0441",
+      "id": "aufg0446",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3^{2x}=9\\]",
       "loesung_schritte": [
@@ -5857,10 +5913,10 @@
         "\\[x=\\frac{2}{2}=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 441
+      "nummer": 446
     },
     {
-      "id": "aufg0442",
+      "id": "aufg0447",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=64\\]",
       "loesung_schritte": [
@@ -5872,10 +5928,10 @@
         "\\[x=\\frac{3}{3}=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 442
+      "nummer": 447
     },
     {
-      "id": "aufg0443",
+      "id": "aufg0448",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4^{3x}=16777216\\]",
       "loesung_schritte": [
@@ -5887,10 +5943,10 @@
         "\\[x=\\frac{12}{3}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 443
+      "nummer": 448
     },
     {
-      "id": "aufg0444",
+      "id": "aufg0449",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3^{x}=243\\]",
       "loesung_schritte": [
@@ -5901,10 +5957,10 @@
         "\\[x=5\\]"
       ],
       "loesung_kurz": "\\[x=5\\]",
-      "nummer": 444
+      "nummer": 449
     },
     {
-      "id": "aufg0445",
+      "id": "aufg0450",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4^{x}=4\\]",
       "loesung_schritte": [
@@ -5915,10 +5971,10 @@
         "\\[x=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 445
+      "nummer": 450
     },
     {
-      "id": "aufg0446",
+      "id": "aufg0451",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3^{x}=3\\]",
       "loesung_schritte": [
@@ -5929,10 +5985,10 @@
         "\\[x=1\\]"
       ],
       "loesung_kurz": "\\[x=1\\]",
-      "nummer": 446
+      "nummer": 451
     },
     {
-      "id": "aufg0447",
+      "id": "aufg0452",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[3^{3x}=729\\]",
       "loesung_schritte": [
@@ -5944,10 +6000,10 @@
         "\\[x=\\frac{6}{3}=2\\]"
       ],
       "loesung_kurz": "\\[x=2\\]",
-      "nummer": 447
+      "nummer": 452
     },
     {
-      "id": "aufg0448",
+      "id": "aufg0453",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2^{x}=16\\]",
       "loesung_schritte": [
@@ -5958,10 +6014,10 @@
         "\\[x=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 448
+      "nummer": 453
     },
     {
-      "id": "aufg0449",
+      "id": "aufg0454",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[2^{3x}=64\\]",
       "loesung_schritte": [
@@ -5973,10 +6029,10 @@
         "\\[x=\\frac{6}{3}=2\\]"
       ],
       "loesung_kurz": "\\[x=2\\]",
-      "nummer": 449
+      "nummer": 454
     },
     {
-      "id": "aufg0450",
+      "id": "aufg0455",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[5^{3x}=244140625\\]",
       "loesung_schritte": [
@@ -5988,10 +6044,10 @@
         "\\[x=\\frac{12}{3}=4\\]"
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 450
+      "nummer": 455
     },
     {
-      "id": "aufg0451",
+      "id": "aufg0456",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[5^{3x}=15625\\]",
       "loesung_schritte": [
@@ -6003,10 +6059,10 @@
         "\\[x=\\frac{6}{3}=2\\]"
       ],
       "loesung_kurz": "\\[x=2\\]",
-      "nummer": 451
+      "nummer": 456
     },
     {
-      "id": "aufg0452",
+      "id": "aufg0457",
       "topic_id": "gleichungen",
       "aufgabe": "Löse nach \\(x\\):\n\\[4^{2x}=4096\\]",
       "loesung_schritte": [
@@ -6018,10 +6074,10 @@
         "\\[x=\\frac{6}{2}=3\\]"
       ],
       "loesung_kurz": "\\[x=3\\]",
-      "nummer": 452
+      "nummer": 457
     },
     {
-      "id": "aufg0453",
+      "id": "aufg0458",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+1=4\\]",
       "loesung_schritte": [
@@ -6032,10 +6088,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{9}+1=3+1=4\\)."
       ],
       "loesung_kurz": "\\[x=9\\]",
-      "nummer": 453
+      "nummer": 458
     },
     {
-      "id": "aufg0454",
+      "id": "aufg0459",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+4=6\\]",
       "loesung_schritte": [
@@ -6046,10 +6102,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{4}+4=2+4=6\\)."
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 454
+      "nummer": 459
     },
     {
-      "id": "aufg0455",
+      "id": "aufg0460",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=8\\]",
       "loesung_schritte": [
@@ -6059,10 +6115,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{64}=8\\). Die Lösung passt."
       ],
       "loesung_kurz": "\\[x=64\\]",
-      "nummer": 455
+      "nummer": 460
     },
     {
-      "id": "aufg0456",
+      "id": "aufg0461",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=2\\]",
       "loesung_schritte": [
@@ -6072,10 +6128,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{4}=2\\). Die Lösung passt."
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 456
+      "nummer": 461
     },
     {
-      "id": "aufg0457",
+      "id": "aufg0462",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+8}=4\\]",
       "loesung_schritte": [
@@ -6087,10 +6143,10 @@
         "Probe: \\(\\sqrt{8+8}=\\sqrt{16}=4\\)."
       ],
       "loesung_kurz": "\\[x=8\\]",
-      "nummer": 457
+      "nummer": 462
     },
     {
-      "id": "aufg0458",
+      "id": "aufg0463",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+5=7\\]",
       "loesung_schritte": [
@@ -6101,10 +6157,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{4}+5=2+5=7\\)."
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 458
+      "nummer": 463
     },
     {
-      "id": "aufg0459",
+      "id": "aufg0464",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=6\\]",
       "loesung_schritte": [
@@ -6114,10 +6170,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{36}=6\\). Die Lösung passt."
       ],
       "loesung_kurz": "\\[x=36\\]",
-      "nummer": 459
+      "nummer": 464
     },
     {
-      "id": "aufg0460",
+      "id": "aufg0465",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+2=9\\]",
       "loesung_schritte": [
@@ -6128,10 +6184,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{49}+2=7+2=9\\)."
       ],
       "loesung_kurz": "\\[x=49\\]",
-      "nummer": 460
+      "nummer": 465
     },
     {
-      "id": "aufg0461",
+      "id": "aufg0466",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+8}=10\\]",
       "loesung_schritte": [
@@ -6143,10 +6199,10 @@
         "Probe: \\(\\sqrt{92+8}=\\sqrt{100}=10\\)."
       ],
       "loesung_kurz": "\\[x=92\\]",
-      "nummer": 461
+      "nummer": 466
     },
     {
-      "id": "aufg0462",
+      "id": "aufg0467",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+8=12\\]",
       "loesung_schritte": [
@@ -6157,10 +6213,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{16}+8=4+8=12\\)."
       ],
       "loesung_kurz": "\\[x=16\\]",
-      "nummer": 462
+      "nummer": 467
     },
     {
-      "id": "aufg0463",
+      "id": "aufg0468",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+8=14\\]",
       "loesung_schritte": [
@@ -6171,10 +6227,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{36}+8=6+8=14\\)."
       ],
       "loesung_kurz": "\\[x=36\\]",
-      "nummer": 463
+      "nummer": 468
     },
     {
-      "id": "aufg0464",
+      "id": "aufg0469",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=3\\]",
       "loesung_schritte": [
@@ -6184,10 +6240,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{9}=3\\). Die Lösung passt."
       ],
       "loesung_kurz": "\\[x=9\\]",
-      "nummer": 464
+      "nummer": 469
     },
     {
-      "id": "aufg0465",
+      "id": "aufg0470",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+3}=9\\]",
       "loesung_schritte": [
@@ -6199,10 +6255,10 @@
         "Probe: \\(\\sqrt{78+3}=\\sqrt{81}=9\\)."
       ],
       "loesung_kurz": "\\[x=78\\]",
-      "nummer": 465
+      "nummer": 470
     },
     {
-      "id": "aufg0466",
+      "id": "aufg0471",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+5=9\\]",
       "loesung_schritte": [
@@ -6213,10 +6269,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{16}+5=4+5=9\\)."
       ],
       "loesung_kurz": "\\[x=16\\]",
-      "nummer": 466
+      "nummer": 471
     },
     {
-      "id": "aufg0467",
+      "id": "aufg0472",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}=7\\]",
       "loesung_schritte": [
@@ -6226,10 +6282,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{49}=7\\). Die Lösung passt."
       ],
       "loesung_kurz": "\\[x=49\\]",
-      "nummer": 467
+      "nummer": 472
     },
     {
-      "id": "aufg0468",
+      "id": "aufg0473",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x+4}=4\\]",
       "loesung_schritte": [
@@ -6241,10 +6297,10 @@
         "Probe: \\(\\sqrt{12+4}=\\sqrt{16}=4\\)."
       ],
       "loesung_kurz": "\\[x=12\\]",
-      "nummer": 468
+      "nummer": 473
     },
     {
-      "id": "aufg0469",
+      "id": "aufg0474",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Wurzelgleichung:\n\\[\\sqrt{x}+7=15\\]",
       "loesung_schritte": [
@@ -6255,10 +6311,10 @@
         "Probe in der Ausgangsgleichung: \\(\\sqrt{64}+7=8+7=15\\)."
       ],
       "loesung_kurz": "\\[x=64\\]",
-      "nummer": 469
+      "nummer": 474
     },
     {
-      "id": "aufg0470",
+      "id": "aufg0475",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{3}+5=32\\]",
       "loesung_schritte": [
@@ -6269,10 +6325,10 @@
         "Probe: \\(3^{3}=27\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=3\\]",
-      "nummer": 470
+      "nummer": 475
     },
     {
-      "id": "aufg0471",
+      "id": "aufg0476",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{2}+7=23\\]",
       "loesung_schritte": [
@@ -6283,10 +6339,10 @@
         "Probe für beide Lösungen: \\(4^{2}=16\\) und \\((-4)^{2}=16\\)."
       ],
       "loesung_kurz": "\\[x=4\\quad\\text{oder}\\quad x=-4\\]",
-      "nummer": 471
+      "nummer": 476
     },
     {
-      "id": "aufg0472",
+      "id": "aufg0477",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{3}-2=25\\]",
       "loesung_schritte": [
@@ -6297,10 +6353,10 @@
         "Probe: \\(3^{3}=27\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=3\\]",
-      "nummer": 472
+      "nummer": 477
     },
     {
-      "id": "aufg0473",
+      "id": "aufg0478",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{4}=16\\]",
       "loesung_schritte": [
@@ -6311,10 +6367,10 @@
         "Probe für beide Lösungen: \\(2^{4}=16\\) und \\((-2)^{4}=16\\)."
       ],
       "loesung_kurz": "\\[x=2\\quad\\text{oder}\\quad x=-2\\]",
-      "nummer": 473
+      "nummer": 478
     },
     {
-      "id": "aufg0474",
+      "id": "aufg0479",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{3}+1=28\\]",
       "loesung_schritte": [
@@ -6325,10 +6381,10 @@
         "Probe: \\(3^{3}=27\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=3\\]",
-      "nummer": 474
+      "nummer": 479
     },
     {
-      "id": "aufg0475",
+      "id": "aufg0480",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{2}-5=11\\]",
       "loesung_schritte": [
@@ -6339,10 +6395,10 @@
         "Probe für beide Lösungen: \\(4^{2}=16\\) und \\((-4)^{2}=16\\)."
       ],
       "loesung_kurz": "\\[x=4\\quad\\text{oder}\\quad x=-4\\]",
-      "nummer": 475
+      "nummer": 480
     },
     {
-      "id": "aufg0476",
+      "id": "aufg0481",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{3}=-27\\]",
       "loesung_schritte": [
@@ -6353,10 +6409,10 @@
         "Probe: \\((-3)^{3}=-27\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=-3\\]",
-      "nummer": 476
+      "nummer": 481
     },
     {
-      "id": "aufg0477",
+      "id": "aufg0482",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{5}+3=35\\]",
       "loesung_schritte": [
@@ -6367,10 +6423,10 @@
         "Probe: \\(2^{5}=32\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=2\\]",
-      "nummer": 477
+      "nummer": 482
     },
     {
-      "id": "aufg0478",
+      "id": "aufg0483",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{4}+2=83\\]",
       "loesung_schritte": [
@@ -6381,10 +6437,10 @@
         "Probe für beide Lösungen: \\(3^{4}=81\\) und \\((-3)^{4}=81\\)."
       ],
       "loesung_kurz": "\\[x=3\\quad\\text{oder}\\quad x=-3\\]",
-      "nummer": 478
+      "nummer": 483
     },
     {
-      "id": "aufg0479",
+      "id": "aufg0484",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{3}-10=54\\]",
       "loesung_schritte": [
@@ -6395,10 +6451,10 @@
         "Probe: \\(4^{3}=64\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=4\\]",
-      "nummer": 479
+      "nummer": 484
     },
     {
-      "id": "aufg0480",
+      "id": "aufg0485",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{2}+9=34\\]",
       "loesung_schritte": [
@@ -6409,10 +6465,10 @@
         "Probe für beide Lösungen: \\(5^{2}=25\\) und \\((-5)^{2}=25\\)."
       ],
       "loesung_kurz": "\\[x=5\\quad\\text{oder}\\quad x=-5\\]",
-      "nummer": 480
+      "nummer": 485
     },
     {
-      "id": "aufg0481",
+      "id": "aufg0486",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{3}+8=0\\]",
       "loesung_schritte": [
@@ -6423,10 +6479,10 @@
         "Probe: \\((-2)^{3}=-8\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=-2\\]",
-      "nummer": 481
+      "nummer": 486
     },
     {
-      "id": "aufg0482",
+      "id": "aufg0487",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{4}-1=15\\]",
       "loesung_schritte": [
@@ -6437,10 +6493,10 @@
         "Probe für beide Lösungen: \\(2^{4}=16\\) und \\((-2)^{4}=16\\)."
       ],
       "loesung_kurz": "\\[x=2\\quad\\text{oder}\\quad x=-2\\]",
-      "nummer": 482
+      "nummer": 487
     },
     {
-      "id": "aufg0483",
+      "id": "aufg0488",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{3}-4=-12\\]",
       "loesung_schritte": [
@@ -6451,10 +6507,10 @@
         "Probe: \\((-2)^{3}=-8\\), eingesetzt passt die Ausgangsgleichung."
       ],
       "loesung_kurz": "\\[x=-2\\]",
-      "nummer": 483
+      "nummer": 488
     },
     {
-      "id": "aufg0484",
+      "id": "aufg0489",
       "topic_id": "gleichungen",
       "aufgabe": "Löse die Potenzgleichung:\n\\[x^{2}-3=46\\]",
       "loesung_schritte": [
@@ -6465,10 +6521,10 @@
         "Probe für beide Lösungen: \\(7^{2}=49\\) und \\((-7)^{2}=49\\)."
       ],
       "loesung_kurz": "\\[x=7\\quad\\text{oder}\\quad x=-7\\]",
-      "nummer": 484
+      "nummer": 489
     },
     {
-      "id": "aufg0485",
+      "id": "aufg0490",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-7x>-10\\]",
       "loesung_schritte": [
@@ -6480,10 +6536,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{10}{7}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{10}{7}\\]",
-      "nummer": 485
+      "nummer": 490
     },
     {
-      "id": "aufg0486",
+      "id": "aufg0491",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-9x>-2\\]",
       "loesung_schritte": [
@@ -6495,10 +6551,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{2}{9}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{2}{9}\\]",
-      "nummer": 486
+      "nummer": 491
     },
     {
-      "id": "aufg0487",
+      "id": "aufg0492",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-8x+5<22\\]",
       "loesung_schritte": [
@@ -6510,10 +6566,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{17}{8}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{17}{8}\\]",
-      "nummer": 487
+      "nummer": 492
     },
     {
-      "id": "aufg0488",
+      "id": "aufg0493",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-2x-4<-12\\]",
       "loesung_schritte": [
@@ -6525,10 +6581,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(4\\) sind."
       ],
       "loesung_kurz": "\\[x>4\\]",
-      "nummer": 488
+      "nummer": 493
     },
     {
-      "id": "aufg0489",
+      "id": "aufg0494",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-3x+11>17\\]",
       "loesung_schritte": [
@@ -6540,10 +6596,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-2\\) sind."
       ],
       "loesung_kurz": "\\[x<-2\\]",
-      "nummer": 489
+      "nummer": 494
     },
     {
-      "id": "aufg0490",
+      "id": "aufg0495",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[6x+10<-1\\]",
       "loesung_schritte": [
@@ -6555,10 +6611,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{11}{6}\\) sind."
       ],
       "loesung_kurz": "\\[x<-\\frac{11}{6}\\]",
-      "nummer": 490
+      "nummer": 495
     },
     {
-      "id": "aufg0491",
+      "id": "aufg0496",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[5x<12\\]",
       "loesung_schritte": [
@@ -6570,10 +6626,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{12}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{12}{5}\\]",
-      "nummer": 491
+      "nummer": 496
     },
     {
-      "id": "aufg0492",
+      "id": "aufg0497",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-7x-11<-2\\]",
       "loesung_schritte": [
@@ -6585,10 +6641,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{9}{7}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{9}{7}\\]",
-      "nummer": 492
+      "nummer": 497
     },
     {
-      "id": "aufg0493",
+      "id": "aufg0498",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[5x-8>18\\]",
       "loesung_schritte": [
@@ -6600,10 +6656,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{26}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{26}{5}\\]",
-      "nummer": 493
+      "nummer": 498
     },
     {
-      "id": "aufg0494",
+      "id": "aufg0499",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-7x>18\\]",
       "loesung_schritte": [
@@ -6615,10 +6671,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{18}{7}\\) sind."
       ],
       "loesung_kurz": "\\[x<-\\frac{18}{7}\\]",
-      "nummer": 494
+      "nummer": 499
     },
     {
-      "id": "aufg0495",
+      "id": "aufg0500",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[5x>3\\]",
       "loesung_schritte": [
@@ -6630,10 +6686,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{3}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{3}{5}\\]",
-      "nummer": 495
+      "nummer": 500
     },
     {
-      "id": "aufg0496",
+      "id": "aufg0501",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-9x-10>16\\]",
       "loesung_schritte": [
@@ -6645,10 +6701,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{26}{9}\\) sind."
       ],
       "loesung_kurz": "\\[x<-\\frac{26}{9}\\]",
-      "nummer": 496
+      "nummer": 501
     },
     {
-      "id": "aufg0497",
+      "id": "aufg0502",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[3x<12\\]",
       "loesung_schritte": [
@@ -6660,10 +6716,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(4\\) sind."
       ],
       "loesung_kurz": "\\[x<4\\]",
-      "nummer": 497
+      "nummer": 502
     },
     {
-      "id": "aufg0498",
+      "id": "aufg0503",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[4x-1<20\\]",
       "loesung_schritte": [
@@ -6675,10 +6731,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{21}{4}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{21}{4}\\]",
-      "nummer": 498
+      "nummer": 503
     },
     {
-      "id": "aufg0499",
+      "id": "aufg0504",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[9x-1<10\\]",
       "loesung_schritte": [
@@ -6690,10 +6746,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{11}{9}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{11}{9}\\]",
-      "nummer": 499
+      "nummer": 504
     },
     {
-      "id": "aufg0500",
+      "id": "aufg0505",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[6x-2>-13\\]",
       "loesung_schritte": [
@@ -6705,10 +6761,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{11}{6}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{11}{6}\\]",
-      "nummer": 500
+      "nummer": 505
     },
     {
-      "id": "aufg0501",
+      "id": "aufg0506",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-8x-1>-11\\]",
       "loesung_schritte": [
@@ -6720,10 +6776,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{5}{4}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{5}{4}\\]",
-      "nummer": 501
+      "nummer": 506
     },
     {
-      "id": "aufg0502",
+      "id": "aufg0507",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-9x<-10\\]",
       "loesung_schritte": [
@@ -6735,10 +6791,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{10}{9}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{10}{9}\\]",
-      "nummer": 502
+      "nummer": 507
     },
     {
-      "id": "aufg0503",
+      "id": "aufg0508",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-8x+7<9\\]",
       "loesung_schritte": [
@@ -6750,10 +6806,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{1}{4}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{1}{4}\\]",
-      "nummer": 503
+      "nummer": 508
     },
     {
-      "id": "aufg0504",
+      "id": "aufg0509",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[3x-6>-8\\]",
       "loesung_schritte": [
@@ -6765,10 +6821,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{2}{3}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{2}{3}\\]",
-      "nummer": 504
+      "nummer": 509
     },
     {
-      "id": "aufg0505",
+      "id": "aufg0510",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[4x-3<-1\\]",
       "loesung_schritte": [
@@ -6780,10 +6836,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{1}{2}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{1}{2}\\]",
-      "nummer": 505
+      "nummer": 510
     },
     {
-      "id": "aufg0506",
+      "id": "aufg0511",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[2x+11<19\\]",
       "loesung_schritte": [
@@ -6795,10 +6851,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(4\\) sind."
       ],
       "loesung_kurz": "\\[x<4\\]",
-      "nummer": 506
+      "nummer": 511
     },
     {
-      "id": "aufg0507",
+      "id": "aufg0512",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[8x>12\\]",
       "loesung_schritte": [
@@ -6810,10 +6866,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{3}{2}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{3}{2}\\]",
-      "nummer": 507
+      "nummer": 512
     },
     {
-      "id": "aufg0508",
+      "id": "aufg0513",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-7x-2>-13\\]",
       "loesung_schritte": [
@@ -6825,10 +6881,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{11}{7}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{11}{7}\\]",
-      "nummer": 508
+      "nummer": 513
     },
     {
-      "id": "aufg0509",
+      "id": "aufg0514",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[8x>-5\\]",
       "loesung_schritte": [
@@ -6840,10 +6896,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{5}{8}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{5}{8}\\]",
-      "nummer": 509
+      "nummer": 514
     },
     {
-      "id": "aufg0510",
+      "id": "aufg0515",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-3x+10>-12\\]",
       "loesung_schritte": [
@@ -6855,10 +6911,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{22}{3}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{22}{3}\\]",
-      "nummer": 510
+      "nummer": 515
     },
     {
-      "id": "aufg0511",
+      "id": "aufg0516",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[5x+4<19\\]",
       "loesung_schritte": [
@@ -6870,10 +6926,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(3\\) sind."
       ],
       "loesung_kurz": "\\[x<3\\]",
-      "nummer": 511
+      "nummer": 516
     },
     {
-      "id": "aufg0512",
+      "id": "aufg0517",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[5x>15\\]",
       "loesung_schritte": [
@@ -6885,10 +6941,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(3\\) sind."
       ],
       "loesung_kurz": "\\[x>3\\]",
-      "nummer": 512
+      "nummer": 517
     },
     {
-      "id": "aufg0513",
+      "id": "aufg0518",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-6x-10<5\\]",
       "loesung_schritte": [
@@ -6900,10 +6956,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{5}{2}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{5}{2}\\]",
-      "nummer": 513
+      "nummer": 518
     },
     {
-      "id": "aufg0514",
+      "id": "aufg0519",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-5x-9>-1\\]",
       "loesung_schritte": [
@@ -6915,10 +6971,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{8}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x<-\\frac{8}{5}\\]",
-      "nummer": 514
+      "nummer": 519
     },
     {
-      "id": "aufg0515",
+      "id": "aufg0520",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-8x-10>-4\\]",
       "loesung_schritte": [
@@ -6930,10 +6986,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{3}{4}\\) sind."
       ],
       "loesung_kurz": "\\[x<-\\frac{3}{4}\\]",
-      "nummer": 515
+      "nummer": 520
     },
     {
-      "id": "aufg0516",
+      "id": "aufg0521",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[8x+11>9\\]",
       "loesung_schritte": [
@@ -6945,10 +7001,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{1}{4}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{1}{4}\\]",
-      "nummer": 516
+      "nummer": 521
     },
     {
-      "id": "aufg0517",
+      "id": "aufg0522",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[7x<2\\]",
       "loesung_schritte": [
@@ -6960,10 +7016,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{2}{7}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{2}{7}\\]",
-      "nummer": 517
+      "nummer": 522
     },
     {
-      "id": "aufg0518",
+      "id": "aufg0523",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-8x<-4\\]",
       "loesung_schritte": [
@@ -6975,10 +7031,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{1}{2}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{1}{2}\\]",
-      "nummer": 518
+      "nummer": 523
     },
     {
-      "id": "aufg0519",
+      "id": "aufg0524",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[6x+1>20\\]",
       "loesung_schritte": [
@@ -6990,10 +7046,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{19}{6}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{19}{6}\\]",
-      "nummer": 519
+      "nummer": 524
     },
     {
-      "id": "aufg0520",
+      "id": "aufg0525",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[8x+4>1\\]",
       "loesung_schritte": [
@@ -7005,10 +7061,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{3}{8}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{3}{8}\\]",
-      "nummer": 520
+      "nummer": 525
     },
     {
-      "id": "aufg0521",
+      "id": "aufg0526",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-5x+6>-10\\]",
       "loesung_schritte": [
@@ -7020,10 +7076,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{16}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{16}{5}\\]",
-      "nummer": 521
+      "nummer": 526
     },
     {
-      "id": "aufg0522",
+      "id": "aufg0527",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-5x-10<23\\]",
       "loesung_schritte": [
@@ -7035,10 +7091,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{33}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{33}{5}\\]",
-      "nummer": 522
+      "nummer": 527
     },
     {
-      "id": "aufg0523",
+      "id": "aufg0528",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[2x-12>20\\]",
       "loesung_schritte": [
@@ -7050,10 +7106,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(16\\) sind."
       ],
       "loesung_kurz": "\\[x>16\\]",
-      "nummer": 523
+      "nummer": 528
     },
     {
-      "id": "aufg0524",
+      "id": "aufg0529",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-5x+1<-2\\]",
       "loesung_schritte": [
@@ -7065,10 +7121,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{3}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{3}{5}\\]",
-      "nummer": 524
+      "nummer": 529
     },
     {
-      "id": "aufg0525",
+      "id": "aufg0530",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[5x-8>0\\]",
       "loesung_schritte": [
@@ -7080,10 +7136,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(\\frac{8}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x>\\frac{8}{5}\\]",
-      "nummer": 525
+      "nummer": 530
     },
     {
-      "id": "aufg0526",
+      "id": "aufg0531",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-5x-6>3\\]",
       "loesung_schritte": [
@@ -7095,10 +7151,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(-\\frac{9}{5}\\) sind."
       ],
       "loesung_kurz": "\\[x<-\\frac{9}{5}\\]",
-      "nummer": 526
+      "nummer": 531
     },
     {
-      "id": "aufg0527",
+      "id": "aufg0532",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-8x+5<8\\]",
       "loesung_schritte": [
@@ -7110,10 +7166,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{3}{8}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{3}{8}\\]",
-      "nummer": 527
+      "nummer": 532
     },
     {
-      "id": "aufg0528",
+      "id": "aufg0533",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-9x+4<8\\]",
       "loesung_schritte": [
@@ -7125,10 +7181,10 @@
         "Die Lösung sind alle Zahlen \\(x\\), die größer als \\(-\\frac{4}{9}\\) sind."
       ],
       "loesung_kurz": "\\[x>-\\frac{4}{9}\\]",
-      "nummer": 528
+      "nummer": 533
     },
     {
-      "id": "aufg0529",
+      "id": "aufg0534",
       "topic_id": "ungleichungen",
       "aufgabe": "Löse die Ungleichung:\n\\[-7x-3>-14\\]",
       "loesung_schritte": [
@@ -7140,7 +7196,7 @@
         "Die Lösung sind alle Zahlen \\(x\\), die kleiner als \\(\\frac{11}{7}\\) sind."
       ],
       "loesung_kurz": "\\[x<\\frac{11}{7}\\]",
-      "nummer": 529
+      "nummer": 534
     }
   ]
 }
