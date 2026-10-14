@@ -44,7 +44,7 @@ def aligned_equation(
     for column, (coefficient, variable) in enumerate(zip(row[:n], VARIABLES[:n])):
         if column > 0:
             if coefficient != 0 and seen_term:
-                cells.append("{}+{}" if coefficient > 0 else "{}-{}")
+                cells.append("+" if coefficient > 0 else "-")
             else:
                 cells.append("")
         if coefficient == 0:
